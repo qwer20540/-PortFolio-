@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700" rel="stylesheet" />
+	<!-- standard meta -->
+	<meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../images/icon/favicon.ico" />
+    <!-- site properities -->
+	<title>회원가입 :: UUU몰</title>
+    <meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="UUU" />
+	<meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta name="format-detection" content="telephone=no, address=no, email=no" />
+    <link rel="canonical" href="http://" />
+	<!-- facebook meta-->
+	<meta property="og:url" content="" />
+	<meta property="og:title" content="" />
+	<meta property="og:description" content="" />
+    <meta property="og:image" content="https://img.tenping.kr/Content/Upload/Images/icon-opengraph_uuu.png" />
+    <!-- icon meta -->
+	<link rel="apple-touch-icon-precomposed" href="../../images/icon/touch-icon-iphone-retina.png" />
+	<link rel="apple-touch-icon" href="../../images/icon/touch-icon-iphone.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="../../images/icon/touch-icon-ipad.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="../../images/icon/touch-icon-iphone-retina.png" />
+	<link rel="apple-touch-icon" sizes="167x167" href="../../images/icon/touch-icon-ipad-retina.png" />
+	<!--// -->
+	<!--[if lte IE 9]>
+		<script src="../../Js.Library/html5shiv.js"></script>
+		<script src="../../Js.Library/jquery-1.10.2.js"></script>
+		<script src="../../Js.Library/placeholders.js"></script>
+	<![endif]-->
+	<!-- common css -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" />
+	<link rel="stylesheet" href="../../css/base.css" />
+	<link rel="stylesheet" href="../../css/layout.css" />
+	<link rel="stylesheet" href="../../css/common.css" />
+    <link rel="stylesheet" href="../../css/page-account.css" />
+	<link rel="stylesheet" href="../../css/animate.min.css" />
+    <!-- bootstrap core js -->
+	<script src="../../Js.Library/jquery-3.3.1.min.js"></script>
+	<script src="../../Js.Library/jquery-ui-1.12.1.min.js"></script>
+	<script src="../../Js.Library/popper.min.js"></script>
+	<script src="../../Js.Library/bootstrap.min.js"></script>
+</head>
+<body id="pageTop">
+	<div id="pageWrap" class="page-wrap page-signin">
+		<div class="wrapper">
+		    <!--### [MAIN] ###-->
+            <main id="mainWrap" class="main-wrap">
+                <!-- body -->
+                <div class="main-body">
+                    <form action method="post">
+                        <!-- segment -->
+                        <section class="segment-wrap">
+                            <header class="segment-header">
+                                <h2>
+                                    <a href="/" aria-label="UUU mall">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="114" height="40" viewBox="0 0 114 40" xml:space="preserve">
+                                            <g class="logo">
+                                                <path class="st2" d="M94,40H20C9,40,0,31,0,20v0C0,9,9,0,20,0h74c11,0,20,9,20,20v0C114,31,105,40,94,40z"/>
+                                                <g>
+                                                    <path class="st1" d="M28.6,9.7v12.2c0,0.5-0.1,1-0.2,1.4c-0.1,0.5-0.3,0.9-0.6,1.2c-0.3,0.4-0.6,0.6-1.1,0.9
+                                                        c-0.4,0.2-1,0.3-1.6,0.3s-1.2-0.1-1.6-0.3c-0.4-0.2-0.8-0.5-1.1-0.9c-0.3-0.4-0.5-0.8-0.6-1.2c-0.1-0.5-0.2-0.9-0.2-1.4V9.7h-5.1
+                                                        v12.5c0,1.2,0.2,2.3,0.6,3.3c0.4,1,1,1.8,1.7,2.6c0.7,0.7,1.6,1.3,2.7,1.7c1.1,0.4,2.3,0.6,3.6,0.6c1.3,0,2.5-0.2,3.6-0.6
+                                                        c1.1-0.4,2-1,2.7-1.7c0.8-0.7,1.3-1.6,1.7-2.6c0.4-1,0.6-2.1,0.6-3.3V9.7H28.6z"/>
+
+                                                    <path class="st1" d="M49.2,9.7v12.2c0,0.5-0.1,1-0.2,1.4c-0.1,0.5-0.3,0.9-0.6,1.2c-0.3,0.4-0.6,0.6-1.1,0.9
+                                                        c-0.4,0.2-1,0.3-1.6,0.3c-0.6,0-1.2-0.1-1.6-0.3c-0.4-0.2-0.8-0.5-1.1-0.9c-0.3-0.4-0.5-0.8-0.6-1.2c-0.1-0.5-0.2-0.9-0.2-1.4
+                                                        V9.7h-5.1v12.5c0,1.2,0.2,2.3,0.6,3.3c0.4,1,1,1.8,1.7,2.6c0.7,0.7,1.6,1.3,2.7,1.7c1.1,0.4,2.3,0.6,3.6,0.6
+                                                        c1.3,0,2.5-0.2,3.6-0.6c1.1-0.4,2-1,2.7-1.7c0.8-0.7,1.3-1.6,1.7-2.6c0.4-1,0.6-2.1,0.6-3.3V9.7H49.2z"/>
+
+                                                    <path class="st1" d="M69.8,9.7v12.2c0,0.5-0.1,1-0.2,1.4c-0.1,0.5-0.3,0.9-0.6,1.2c-0.3,0.4-0.6,0.6-1.1,0.9
+                                                        c-0.4,0.2-1,0.3-1.6,0.3c-0.6,0-1.2-0.1-1.6-0.3c-0.4-0.2-0.8-0.5-1.1-0.9c-0.3-0.4-0.5-0.8-0.6-1.2c-0.1-0.5-0.2-0.9-0.2-1.4
+                                                        V9.7h-5.1v12.5c0,1.2,0.2,2.3,0.6,3.3c0.4,1,1,1.8,1.7,2.6c0.7,0.7,1.6,1.3,2.7,1.7c1.1,0.4,2.3,0.6,3.6,0.6
+                                                        c1.3,0,2.5-0.2,3.6-0.6c1.1-0.4,2-1,2.7-1.7c0.8-0.7,1.3-1.6,1.7-2.6c0.4-1,0.6-2.1,0.6-3.3V9.7H69.8z"/>
+                                                    <path class="st1" d="M78.6,20.1v-2.5H87V16h-5.2V8.3h13.2V16h-5.1v1.7h8.4v2.5H78.6z M81.7,30.6v-5.8h10.5v-1.1H81.7v-2.3H95v5.8
+                                                        H84.6v1.1h11v2.3H81.7z M92.1,10.6h-7.4v3h7.4V10.6z"/>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </a>
+                                </h2>
+                                <p class="lead">'연회원은 반값 UUU몰'에서 다양한 혜택을 경험해보세요.</p>
+                            </header>
+                            <div class="segment-body">
+                                <!-- panel -->
+                                <div class="panel-wrap">
+                                    <div class="panel-body">
+                                        <fieldset class="label-hide">
+                                            <legend>회원가입 입력폼</legend>
+                                            <div class="row">
+                                                <!-- grid -->
+                                                <div class="grid-col">
+                                                    <!-- form-group -->
+                                                    <div class="form-group form-text-group">
+                                                        <p><a href="https://uuumall.kr/Policy/Terms" target="_blank">이용약관</a> 및 <a href="https://uuumall.kr/Policy/Privacy" target="_blank">개인정보처리방침</a>에 동의하시면 휴대폰 인증하기를 진행해주세요.</p>
+                                                    </div>
+                                                    <!-- form-group -->
+                                                    <div class="form-group">
+                                                        <label for="txtDestination" class="form-label">휴대폰 번호</label>
+                                                        <div class="controls input-group">
+                                                            <!-- Error 발생할 경우 class="form-control"에 클래스 is-invalid 추가 -->
+                                                            <input type="text" id="txtDestination" name="" class="form-control" value="" placeholder="휴대폰 번호" />
+                                                            <div class="input-group-append"><button type="button" class="btn btn-primary btn-append" data-toggle="modal" data-target="#modalCertifyAlert">인증번호 받기</button></div>
+                                                            <small class="form-text text-navy" style="display:none;">휴대폰 인증이 완료되었습니다.</small>
+                                                            <div class="invalid-tooltip">에러 메시지</div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- form-group -->
+                                                    <div class="form-group">
+                                                        <label for="txtCertificationNumber" class="form-label">인증번호</label>
+                                                        <div class="controls">
+                                                            <input type="text" id="txtCertificationNumber" name="" class="form-control" value="" placeholder="인증번호" />
+                                                            <div class="invalid-tooltip">에러 메시지</div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- form-group -->
+                                                    <div class="form-group">
+                                                        <button type="button" class="btn btn-primary btn-signin" data-toggle="modal" data-target="#modalSignupConfirm">인증 후 UUU몰 혜택 이용하기</button>
+                                                    </div>
+                                                    <!--// form-group -->
+                                                </div>
+                                                <!--// grid -->
+                                            </div>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                                <!--// panel -->
+                            </div>
+                        </section>
+                        <!--// segment -->
+                    </form>
+                </div>
+                <!-- footer -->
+                <div class="main-footer">© 2019 Tenping. ALL RIGHTS RESERVED.</div>
+                <!--// -->
+            </main>
+            <!--// ### [MAIN] ###-->
+	    </div>
+    
+        <!--### [MODAL] ###-->
+        <!-- modal signup confirm -->
+        <div id="modalSignupConfirm" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalSignupConfirmLabel" aria-hidden="true" data-keyboard="false">
+            <div class="modal-dialog modal-dialog-centered modal-alert" role="document">
+                <!-- content -->
+                <div class="modal-content">
+                    <div class="modal-body modal-body-centered">
+                        <h6>회원가입이 완료되었습니다.</h6>
+                        <p>UUU의 다양한 상품을 만나보세요.</p>
+                    </div>
+                    <div class="modal-footer modal-footer-centered">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">확인</button>
+                    </div>
+                </div>
+                <!--// -->
+            </div>
+        </div>
+        <!-- modal certify alert -->
+        <div id="modalCertifyAlert" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalCertifyAlertLabel" aria-hidden="true" data-keyboard="false">
+            <div class="modal-dialog modal-dialog-centered modal-alert" role="document">
+                <!-- content -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 id="modalZipcodeLabel" class="modal-title sr-only">휴대폰 번호 중복 안내</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="tencon-close"></i></span></button>
+                    </div>
+                    <div class="modal-body modal-body-centered">
+                        <h6>이미 가입된 휴대폰 번호입니다.</h6>
+                        <p>로그인 페이지로 이동하시겠습니까?</p>
+                        <div class="form-group justify-content-center">
+                            <div class="form-btn-group" role="group" aria-label="First Group">
+                                <button type="button" class="btn btn-outline btn-primary" data-dismiss="modal">취소</button>
+                                <button type="button" class="btn btn-primary">로그인 페이지로 이동</button>
+                            </div>
+                        </div>
+                        <div class="alert alert-angular alert-icon alert-warning" role="alert">
+                            <i class="tencon-exclamation-circle-filled"></i>
+                            <div class="alert-body">
+                                <h4 class="alert-heading">UUU몰에 가입하신 적이 없으신가요?</h4>
+                                <p>입력하신 휴대폰 번호를 고객님께서 사용하시기 이전에 다른 고객님께서 본 휴대폰 번호로 회원가입을 했다면 이와 같은 상황이 발생할 수 있습니다.<br />
+                                    현재 고객님 소유의 휴대폰 번호가 맞는다면 인증을 통해 회원가입을 진행하실 수 있습니다.</p>
+                                <div class="form-group">
+                                    <button type="button" class="btn btn-primary">회원가입을 위한 인증번호 받기</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--// -->
+            </div>
+        </div>
+        <!--// ### [MODAL] ###-->
+    </div>
+    <!-- password show/hide js -->
+    <script>
+        $(".toggle-password").click(function() {
+            $(".toggle-password i").toggleClass("tencon-eye-hide tencon-eye-view");
+            var input = $($(this).attr("toggle"));
+            if (input.attr("type") == "password") {
+                input.attr("type", "text");
+            } else {
+                input.attr("type", "password");
+            }
+        });
+    </script>
+</body>
+</html>

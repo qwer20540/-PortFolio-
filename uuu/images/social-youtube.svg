@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FD0016;}
+	.st1{fill:#FFFFFF;}
+</style>
+<rect class="st0" width="300" height="300"/>
+<path id="Triangle" class="st0" d="M135.1,168.7l38.9-20.2l-38.9-20.3L135.1,168.7z"/>
+<path class="st1" d="M220.6,121.2c0,0-1.4-9.9-5.7-14.3c-5.5-5.7-11.6-5.8-14.4-6.1c-20.2-1.5-50.4-1.5-50.4-1.5H150
+	c0,0-30.2,0-50.4,1.5c-2.8,0.3-9,0.4-14.4,6.1c-4.3,4.4-5.7,14.3-5.7,14.3S78,132.9,78,144.5v10.9c0,11.7,1.4,23.3,1.4,23.3
+	s1.4,9.9,5.7,14.3c5.5,5.7,12.7,5.6,15.9,6.2c11.5,1.1,49,1.4,49,1.4s30.3,0,50.4-1.5c2.8-0.3,9-0.4,14.4-6.1
+	c4.3-4.4,5.7-14.3,5.7-14.3s1.4-11.7,1.4-23.3v-10.9C222,132.9,220.6,121.2,220.6,121.2z"/>
+<g id="Lozenge">
+	<polygon class="st0" points="135.1,128.2 135.1,168.7 174,148.5 	"/>
+</g>
+</svg>

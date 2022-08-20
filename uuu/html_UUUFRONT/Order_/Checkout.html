@@ -1,0 +1,2198 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700" rel="stylesheet" />
+	<!-- standard meta -->
+	<meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../images/icon/favicon.ico" />
+    <!-- site properities -->
+	<title>주문 결제 :: UUU몰</title>
+    <meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="UUU" />
+	<meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta name="format-detection" content="telephone=no, address=no, email=no" />
+    <link rel="canonical" href="http://uuumall.kr" />
+	<!-- facebook meta-->
+	<meta property="og:url" content="http://uuumall.kr" />
+	<meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="https://img.tenping.kr/Content/Upload/Images/icon-opengraph_uuu.png" />
+    <!-- icon meta -->
+	<link rel="apple-touch-icon-precomposed" href="../../images/icon/touch-icon-iphone-retina.png" />
+	<link rel="apple-touch-icon" href="../../images/icon/touch-icon-iphone.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="../../images/icon/touch-icon-ipad.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="../../images/icon/touch-icon-iphone-retina.png" />
+	<link rel="apple-touch-icon" sizes="167x167" href="../../images/icon/touch-icon-ipad-retina.png" />
+	<!--// -->
+	<!--[if lte IE 9]>
+		<script src="../../Js.Library/html5shiv.js"></script>
+		<script src="../../Js.Library/jquery-1.10.2.js"></script>
+		<script src="../../Js.Library/placeholders.js"></script>
+	<![endif]-->
+	<!-- common css -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" />
+	<link rel="stylesheet" href="../../css/base.css" />
+	<link rel="stylesheet" href="../../css/layout.css" />
+	<link rel="stylesheet" href="../../css/common.css" />
+    <link rel="stylesheet" href="../../css/page-common.css" />
+    <link rel="stylesheet" href="../../css/page-order.css" />
+	<link rel="stylesheet" href="../../css/animate.min.css" />
+    <!-- bootstrap core js -->
+	<script src="../../Js.Library/jquery-3.3.1.min.js"></script>
+	<script src="../../Js.Library/jquery-ui-1.12.1.min.js"></script>
+	<script src="../../Js.Library/popper.min.js"></script>
+	<script src="../../Js.Library/bootstrap.min.js"></script>
+	<!-- common plugin js -->
+    <script src="../../Js.Library/scrollreveal.min.js"></script>
+	<script src="../../Js.Library/jquery.easing.min.js"></script>
+	<script src="../../Js.Library/jquery.simpler-sidebar.js"></script> 
+	<script src="../../Js.Library/SmoothScroll.min.js"></script>
+    <script src="../../Js.Library/simplebar.min.js"></script>
+	<script src="../../Js.Library/clipboard.min.js"></script>
+    <!-- custom js -->
+    <script src="../../Js.Library/swiper.min.js"></script>
+</head>
+<body id="pageTop" class="sub">
+	<div id="pageWrap" class="page-wrap page-order">
+		<div class="wrapper">
+            <!--### [SIDE BAR] ###-->
+            <div id="sidebarWrap" class="sidebar">
+                <nav id="navWrap" class="nav-wrap nav-toggle-type" aria-label="Main Navigation">
+                    <div class="nav-header">
+                        <h1>
+                            <a href="/" aria-label="UUU mall">
+                                <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="91" height="32" viewBox="0 0 114 40" xml:space="preserve">
+                                    <g class="logo">
+                                        <path class="st2" d="M94,40H20C9,40,0,31,0,20v0C0,9,9,0,20,0h74c11,0,20,9,20,20v0C114,31,105,40,94,40z"/>
+                                        <g>
+                                            <path class="st1" d="M28.6,9.7v12.2c0,0.5-0.1,1-0.2,1.4c-0.1,0.5-0.3,0.9-0.6,1.2c-0.3,0.4-0.6,0.6-1.1,0.9
+                                                c-0.4,0.2-1,0.3-1.6,0.3s-1.2-0.1-1.6-0.3c-0.4-0.2-0.8-0.5-1.1-0.9c-0.3-0.4-0.5-0.8-0.6-1.2c-0.1-0.5-0.2-0.9-0.2-1.4V9.7h-5.1
+                                                v12.5c0,1.2,0.2,2.3,0.6,3.3c0.4,1,1,1.8,1.7,2.6c0.7,0.7,1.6,1.3,2.7,1.7c1.1,0.4,2.3,0.6,3.6,0.6c1.3,0,2.5-0.2,3.6-0.6
+                                                c1.1-0.4,2-1,2.7-1.7c0.8-0.7,1.3-1.6,1.7-2.6c0.4-1,0.6-2.1,0.6-3.3V9.7H28.6z"/>
+                                            <path class="st1" d="M49.2,9.7v12.2c0,0.5-0.1,1-0.2,1.4c-0.1,0.5-0.3,0.9-0.6,1.2c-0.3,0.4-0.6,0.6-1.1,0.9
+                                                c-0.4,0.2-1,0.3-1.6,0.3c-0.6,0-1.2-0.1-1.6-0.3c-0.4-0.2-0.8-0.5-1.1-0.9c-0.3-0.4-0.5-0.8-0.6-1.2c-0.1-0.5-0.2-0.9-0.2-1.4
+                                                V9.7h-5.1v12.5c0,1.2,0.2,2.3,0.6,3.3c0.4,1,1,1.8,1.7,2.6c0.7,0.7,1.6,1.3,2.7,1.7c1.1,0.4,2.3,0.6,3.6,0.6
+                                                c1.3,0,2.5-0.2,3.6-0.6c1.1-0.4,2-1,2.7-1.7c0.8-0.7,1.3-1.6,1.7-2.6c0.4-1,0.6-2.1,0.6-3.3V9.7H49.2z"/>
+                                            <path class="st1" d="M69.8,9.7v12.2c0,0.5-0.1,1-0.2,1.4c-0.1,0.5-0.3,0.9-0.6,1.2c-0.3,0.4-0.6,0.6-1.1,0.9
+                                                c-0.4,0.2-1,0.3-1.6,0.3c-0.6,0-1.2-0.1-1.6-0.3c-0.4-0.2-0.8-0.5-1.1-0.9c-0.3-0.4-0.5-0.8-0.6-1.2c-0.1-0.5-0.2-0.9-0.2-1.4
+                                                V9.7h-5.1v12.5c0,1.2,0.2,2.3,0.6,3.3c0.4,1,1,1.8,1.7,2.6c0.7,0.7,1.6,1.3,2.7,1.7c1.1,0.4,2.3,0.6,3.6,0.6
+                                                c1.3,0,2.5-0.2,3.6-0.6c1.1-0.4,2-1,2.7-1.7c0.8-0.7,1.3-1.6,1.7-2.6c0.4-1,0.6-2.1,0.6-3.3V9.7H69.8z"/>
+                                            <path class="st1" d="M78.6,20.1v-2.5H87V16h-5.2V8.3h13.2V16h-5.1v1.7h8.4v2.5H78.6z M81.7,30.6v-5.8h10.5v-1.1H81.7v-2.3H95v5.8
+                                                H84.6v1.1h11v2.3H81.7z M92.1,10.6h-7.4v3h7.4V10.6z"/>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </a>
+                        </h1>
+                        <div class="nav-inner">
+                            <a href="#none" class="btn btn-icon btn-transparent btn-close navbar-toggler" aria-label="Toggle navigation"><i class="icon-close"></i></a>
+                        </div>
+                    </div>
+                    <div class="nav-body">
+                        <!-- Product/List_v3.html 참조 -->
+                    </div>
+                </nav>
+            </div>
+            <div id="overlayWrap" class="overlay-wrap"></div>
+            <!--### [HEADER] ###-->
+            <header id="headerWrap" class="header-wrap">
+                <!-- top menu -->
+                <div class="top-navbar">
+                    <div class="container">
+                        <div class="navbar navbar-expand">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a href="#none" class="nav-link btn btn-icon btn-transparent tooltip-template-gray btn-mypage" title="마이페이지"><i class="icon-mypage"></i><span class="badge badge-orange animated bounceIn">N</span></a></li>
+                                <li class="nav-item"><a href="#none" class="nav-link btn btn-icon btn-transparent tooltip-template-gray btn-cart" title="장바구니"><i class="icon-cart"></i><span class="badge badge-orange animated bounceIn">9</span></a></li>
+                                <li class="nav-item"><a href="#none" class="nav-link btn btn-icon btn-transparent tooltip-template-gray btn-login" title="로그인"><i class="icon-login"></i></a></li>
+                                <li class="nav-item"><a href="#none" class="nav-link btn btn-icon btn-transparent tooltip-template-gray btn-signup" title="회원가입"><i class="icon-signup"></i></a></li>
+                                <!-- <li class="nav-item"><a href="#none" class="nav-link btn btn-icon btn-transparent tooltip-template-gray btn-logout" title="로그아웃" role="button"><i class="icon-logout"></i></a></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- navbar -->
+                <div class="container">
+                    <div class="navbar brand-expand">
+                        <!-- brand -->
+                        <div class="navbar-brand">
+                            <h1>
+                                <a href="/" aria-label="UUU mall">
+                                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="114" height="40" viewBox="0 0 114 40" xml:space="preserve">
+                                        <g class="logo">
+                                            <path class="st2" d="M94,40H20C9,40,0,31,0,20v0C0,9,9,0,20,0h74c11,0,20,9,20,20v0C114,31,105,40,94,40z"/>
+                                            <g>
+                                                <path class="st1" d="M28.6,9.7v12.2c0,0.5-0.1,1-0.2,1.4c-0.1,0.5-0.3,0.9-0.6,1.2c-0.3,0.4-0.6,0.6-1.1,0.9
+                                                    c-0.4,0.2-1,0.3-1.6,0.3s-1.2-0.1-1.6-0.3c-0.4-0.2-0.8-0.5-1.1-0.9c-0.3-0.4-0.5-0.8-0.6-1.2c-0.1-0.5-0.2-0.9-0.2-1.4V9.7h-5.1
+                                                    v12.5c0,1.2,0.2,2.3,0.6,3.3c0.4,1,1,1.8,1.7,2.6c0.7,0.7,1.6,1.3,2.7,1.7c1.1,0.4,2.3,0.6,3.6,0.6c1.3,0,2.5-0.2,3.6-0.6
+                                                    c1.1-0.4,2-1,2.7-1.7c0.8-0.7,1.3-1.6,1.7-2.6c0.4-1,0.6-2.1,0.6-3.3V9.7H28.6z"/>
+                                                <path class="st1" d="M49.2,9.7v12.2c0,0.5-0.1,1-0.2,1.4c-0.1,0.5-0.3,0.9-0.6,1.2c-0.3,0.4-0.6,0.6-1.1,0.9
+                                                    c-0.4,0.2-1,0.3-1.6,0.3c-0.6,0-1.2-0.1-1.6-0.3c-0.4-0.2-0.8-0.5-1.1-0.9c-0.3-0.4-0.5-0.8-0.6-1.2c-0.1-0.5-0.2-0.9-0.2-1.4
+                                                    V9.7h-5.1v12.5c0,1.2,0.2,2.3,0.6,3.3c0.4,1,1,1.8,1.7,2.6c0.7,0.7,1.6,1.3,2.7,1.7c1.1,0.4,2.3,0.6,3.6,0.6
+                                                    c1.3,0,2.5-0.2,3.6-0.6c1.1-0.4,2-1,2.7-1.7c0.8-0.7,1.3-1.6,1.7-2.6c0.4-1,0.6-2.1,0.6-3.3V9.7H49.2z"/>
+                                                <path class="st1" d="M69.8,9.7v12.2c0,0.5-0.1,1-0.2,1.4c-0.1,0.5-0.3,0.9-0.6,1.2c-0.3,0.4-0.6,0.6-1.1,0.9
+                                                    c-0.4,0.2-1,0.3-1.6,0.3c-0.6,0-1.2-0.1-1.6-0.3c-0.4-0.2-0.8-0.5-1.1-0.9c-0.3-0.4-0.5-0.8-0.6-1.2c-0.1-0.5-0.2-0.9-0.2-1.4
+                                                    V9.7h-5.1v12.5c0,1.2,0.2,2.3,0.6,3.3c0.4,1,1,1.8,1.7,2.6c0.7,0.7,1.6,1.3,2.7,1.7c1.1,0.4,2.3,0.6,3.6,0.6
+                                                    c1.3,0,2.5-0.2,3.6-0.6c1.1-0.4,2-1,2.7-1.7c0.8-0.7,1.3-1.6,1.7-2.6c0.4-1,0.6-2.1,0.6-3.3V9.7H69.8z"/>
+                                                <path class="st1" d="M78.6,20.1v-2.5H87V16h-5.2V8.3h13.2V16h-5.1v1.7h8.4v2.5H78.6z M81.7,30.6v-5.8h10.5v-1.1H81.7v-2.3H95v5.8
+                                                    H84.6v1.1h11v2.3H81.7z M92.1,10.6h-7.4v3h7.4V10.6z"/>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </a>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <!--// navbar -->
+			</header>
+		    <!--### [MAIN] ###-->
+            <main id="mainWrap" class="main-wrap" role="main">
+                <!-- body -->
+                <div class="main-body">
+                    <form action="" method="post">
+                        <div class="container">
+                        <div class="row">
+                            <div class="col order-column">
+                                <!-- segment : order form -->
+                                <section class="segment-wrap order-segment">
+                                    <div class="segment-body">
+                                        <!-- 비회원 / 로그아웃 구매 시 -->
+                                        <!-- panel -->
+                                        <!-- 전화 주문 안내 -->
+										<section class="panel-wrap tel-group mb-0">
+                                            <div class="panel-body">																
+												<!-- tel banner pc -->
+												<div class="alert alert-icon item-d" role="alert">
+													<div class="alert-body">
+														<p>인터넷 주문이 어렵다면, 홈쇼핑처럼 간편하게 전화로 주문하세요.<i class="tencon-phone-circle"></i><span>02-6243-0555</span></p>
+													</div>
+												</div>
+												<!-- tel banner mobile -->
+                                                <a href="02-6243-0555">
+                                                    <div class="alert alert-icon item-m" role="alert">
+                                                        <div class="alert-body">
+                                                            <p>인터넷 주문이 어렵다면, 홈쇼핑처럼 간편하게 전화로 주문하세요. <span class="wrap-tel anchor-link"><span class="btn btn-icon btn-white btn-tel"><i class="tencon-phone-filled"></i></span><span>02-6243-0555</span></span></p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+											</div>
+                                        </section>
+                                        <!-- 20190805 class 추가 -->
+                                        <section class="panel-wrap mb-0">
+                                            <div class="panel-body">
+                                                <!-- alert -->
+                                                <div class="alert alert-info" role="alert">
+													<p>UUU몰 회원이시면 로그인해주세요. <a href="#none" class="alert-link anchor-link" data-toggle="modal" data-target="#modalLogin" role="button">로그인</a></p>
+												</div>
+                                                <!--// alert -->
+                                            </div>
+                                        </section>
+                                        <!--// 비회원 / 로그아웃 구매 시 -->
+                                        <!-- panel -->
+                                        <section class="panel-wrap">
+                                            <header class="panel-header">
+                                                <h3>1. 구매자 정보</h3>
+                                                <!-- form-group -->
+                                                <div class="form-group">
+                                                    <a href="#none" class="btn btn-outline btn-sm btn-navy" target="_blank">회원 정보 수정</a>
+                                                </div>
+                                            </header>
+                                            <div class="panel-body">
+                                                <fieldset class="form-reg-type label-hide">
+                                                    <legend>주문자 정보 입력폼</legend>
+                                                    <!-- form grid -->
+                                                    <div class="form-layout-wrap simple-style">
+                                                        <div class="form-layout-group">
+                                                            <!-- row -->
+                                                            <div class="form-layout-row">
+                                                                <div class="form-layout-header">
+                                                                    <h4 class="form-layout-label">이름</h4>
+                                                                </div>
+                                                                <div class="form-layout-body">
+                                                                    <div class="row">
+                                                                        <!-- grid -->
+                                                                        <div class="col-12 col-lg-7">
+                                                                            <!-- form-group -->
+                                                                            <div class="form-group">
+                                                                                <label for="inputOrderName" class="form-label">이름</label>
+                                                                                <div class="controls">
+                                                                                    <input type="text" id="inputOrderName" name="" class="form-control" value="성춘향" placeholder="이름 입력" readonly="readonly" />
+                                                                                    <div class="invalid-tooltip">에러 메시지</div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!--// form-group -->
+                                                                        </div>
+                                                                        <!--// grid -->
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- row -->
+                                                            <div class="form-layout-row">
+                                                                <div class="form-layout-header">
+                                                                    <h4 class="form-layout-label">휴대폰 번호</h4>
+                                                                </div>
+                                                                <div class="form-layout-body">
+                                                                    <div class="row">
+                                                                        <!-- grid -->
+                                                                        <div class="col-12 col-lg-7">
+                                                                            <!-- form-group -->
+                                                                            <div class="form-group">
+                                                                                <label for="inputOrderPhone" class="form-label">휴대폰 번호</label>
+                                                                                <div class="controls">
+                                                                                    <input type="text" id="inputOrderPhone" name="" class="form-control" value="010-0000-0000" placeholder="휴대폰 번호 입력" readonly="readonly" />
+                                                                                    <div class="invalid-tooltip">에러 메시지</div>
+                                                                                    <small class="form-text text-azure">휴대폰 번호로 포인트가 자동 적립됩니다.</small>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!--// form-group -->
+                                                                        </div>
+                                                                        <!--// grid -->
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- row -->
+                                                            <div class="form-layout-row">
+                                                                <div class="form-layout-header">
+                                                                    <h4 class="form-layout-label">이메일</h4>
+                                                                </div>
+                                                                <div class="form-layout-body">
+                                                                    <div class="row">
+                                                                        <!-- grid -->
+                                                                        <div class="col-12 col-lg-7">
+                                                                            <!-- form-group -->
+                                                                            <div class="form-group">
+                                                                                <label for="inputOrderEmail" class="form-label">이메일</label>
+                                                                                <div class="controls">
+                                                                                    <input type="text" id="inputOrderEmail" name="" class="form-control" value="" placeholder="이메일 입력" />
+                                                                                    <div class="invalid-tooltip">에러 메시지</div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- form-group -->
+                                                                            <div class="form-group">
+                                                                                <div class="custom-control custom-checkbox">
+                                                                                    <input type="checkbox" id="checkMemberSave" class="custom-control-input" name="checkMemberSave" />
+                                                                                    <label for="checkMemberSave" class="custom-control-label">회원정보 수정</label>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!--// form-group -->
+                                                                        </div>
+                                                                        <!--// grid -->
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!--// row -->
+                                                        </div>
+                                                    </div>
+                                                    <!--// form grid -->
+                                                </fieldset>
+                                            </div>
+                                        </section>
+                                        <!-- panel -->
+                                        <section class="panel-wrap">
+                                            <header class="panel-header">
+                                                <h3>2. 배송지 정보</h3>
+                                                <!-- form-group -->
+                                                <div class="form-group">
+                                                    <button type="button" class="btn s2 btn-outline btn-sm btn-navy">기본 배송지</button>
+                                                    <button type="button" class="btn s2 btn-outline btn-sm btn-navy">새 배송지</button>
+													<button type="button" class="btn s2 btn-outline btn-sm btn-navy" data-toggle="modal" data-target="#modalShippingAddress">최근 배송지</button>
+                                                    <!-- 비회원 / 로그아웃 구매 시 -- >
+                                                    <button type="button" class="btn btn-outline btn-sm btn-navy">새로 작성</button>
+                                                    <!--// 비회원 / 로그아웃 구매 시 -->
+                                                    <span class="text-danger s2">※ 최근 주문 배송지를 불러왔습니다.</span>
+                                                </div>
+                                            </header>
+                                            <div class="panel-body">
+                                                <fieldset class="form-reg-type label-hide">
+                                                    <legend>배송지 정보 입력폼</legend>
+                                                    <!-- form grid -->
+                                                    <div class="form-layout-wrap simple-style">
+                                                        <div class="form-layout-group">
+                                                            <!-- row -->
+                                                            <div class="form-layout-row">
+                                                                <div class="form-layout-header">
+                                                                    <h4 class="form-layout-label">수취인</h4>
+                                                                </div>
+                                                                <div class="form-layout-body">
+                                                                    <div class="row">
+                                                                        <!-- grid -->
+                                                                        <div class="col-12 col-lg-7">
+                                                                            <!-- form-group -->
+                                                                            <div class="form-group">
+                                                                                <label for="inputShippingName" class="form-label">수취인</label>
+                                                                                <div class="controls">
+                                                                                    <input type="text" id="inputShippingName" name="" class="form-control" value="" placeholder="수취인 입력" />
+                                                                                    <div class="invalid-tooltip">에러 메시지</div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!--// form-group -->
+                                                                        </div>
+                                                                        <!--// grid -->
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- row -->
+                                                            <div class="form-layout-row">
+                                                                <div class="form-layout-header">
+                                                                    <h4 class="form-layout-label">연락처</h4>
+                                                                </div>
+                                                                <div class="form-layout-body">
+                                                                    <div class="row">
+                                                                        <!-- grid -->
+                                                                        <div class="col-12 col-lg-7">
+                                                                            <!-- form-group -->
+                                                                            <div class="form-group">
+                                                                                <label for="inputShippingPhone" class="form-label">연락처</label>
+                                                                                <div class="controls">
+                                                                                    <input type="text" id="inputShippingPhone" name="" class="form-control" value="" placeholder="휴대폰 번호 입력" />
+                                                                                    <div class="invalid-tooltip">에러 메시지</div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!--// form-group -->
+                                                                        </div>
+                                                                        <!--// grid -->
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- row -->
+                                                            <div class="form-layout-row">
+                                                                <div class="form-layout-header">
+                                                                    <h4 class="form-layout-label">배송 주소</h4>
+                                                                </div>
+                                                                <div class="form-layout-body">
+                                                                    <div class="row">
+                                                                        <!-- grid -->
+                                                                        <div class="col-12 col-lg-7">
+                                                                            <!-- form-group -->
+                                                                            <div class="form-group">
+                                                                                <label for="inputShippingAddress" class="form-label">우편번호</label>
+                                                                                <div class="controls input-group">
+                                                                                    <input type="text" id="formInputSuffixButton" name="" class="form-control" value="" placeholder="우편번호" readonly="readonly" />
+                                                                                    <div class="input-group-append"><button type="button" class="btn btn-primary btn-append" data-toggle="modal" data-target="#modalZipcode">우편번호 검색</button></div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!--// form-group -->
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row">
+                                                                        <!-- grid -->
+                                                                        <div class="col-12">
+                                                                            <!-- form-group -->
+                                                                            <div class="form-group">
+                                                                                <label for="inputShippingAddress" class="form-label">주소</label>
+                                                                                <div class="controls">
+                                                                                    <input type="text" id="inputShippingAddress1" name="" class="form-control" value="" placeholder="배송 주소 입력" readonly="readonly" />
+                                                                                    <div class="invalid-tooltip">에러 메시지</div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- form-group -->
+                                                                            <div class="form-group">
+                                                                                <label for="inputShippingAddress" class="form-label">상세 주소</label>
+                                                                                <div class="controls">
+                                                                                    <input type="text" id="inputShippingAddress2" name="" class="form-control" value="" placeholder="상세 주소 입력" />
+                                                                                    <div class="invalid-tooltip">에러 메시지</div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!--// form-group -->
+                                                                        </div>
+                                                                        <!--// grid -->
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- row -->
+                                                            <div class="form-layout-row">
+                                                                <div class="form-layout-header">
+                                                                    <h4 class="form-layout-label">배송 요청 사항</h4>
+                                                                </div>
+                                                                <div class="form-layout-body">
+                                                                    <div class="row">
+                                                                        <!-- grid -->
+                                                                        <div class="col-12">
+                                                                            <!-- form-group -->
+                                                                            <div class="form-group">
+                                                                                <label for="inputShippingMessage" class="form-label">배송 요청 사항</label>
+                                                                                <div class="controls">
+                                                                                    <input type="text" id="inputShippingMessage" name="" class="form-control" value="" placeholder="배송 요청 사항 입력" />
+                                                                                    <div class="invalid-tooltip">에러 메시지</div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!--// form-group -->
+																			<div class="form-group">
+																				<div class="custom-control custom-checkbox">
+																					<input type="checkbox" class="custom-control-input" id="" name="chkAddressSavechkAddressSave" checked="checked">
+																					<label for="chkAddressSave" class="custom-control-label">기본배송지로 설정</label>
+																				</div>
+																			</div>
+                                                                        </div>
+                                                                        <!--// grid -->
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!--// row -->
+                                                        </div>
+                                                    </div>
+                                                    <!--// form grid -->
+                                                </fieldset>
+                                            </div>
+                                        </section>
+                                        <!-- panel -->
+                                        <section class="panel-wrap">
+                                            <header class="panel-header">
+                                                <h3>결제 정보</h3>
+                                            </header>
+                                            <div class="panel-body">
+                                                <!-- alert -->
+                                                <div class="alert alert-angular alert-notice" role="alert">
+                                                    <div class="alert-body">
+                                                        <h4 class="alert-heading">회원 혜택</h4>
+                                                        <ul class="list-paragraph list-style-ref">
+                                                            <li>회원 가입 시 웰컴 포인트 지급: <strong><span class="format-num">1000</span>원</strong></li>
+                                                            <li>구매 시 적립 예정 포인트 : <strong><span class="format-num">500</span>원</strong></li>
+                                                            <li>사진/동영상 후기 작성 시 적립 예정 포인트 : <strong><span class="format-num">5000</span>원</strong>(텍스트 후기 작성 시 <strong><span class="format-num">1000</span>원</strong>)</li>
+                                                        </ul>
+                                                        
+                                                        <p class="mt-4 text-azure"><i class="tencon-info-circle-filled"></i> 지금 간단가입을 하시면 포인트 1,000원을 바로 이용하실 수 있습니다.</p>
+                                                        <fieldset class="simple-signup label-hide">
+                                                            <legend>회원가입 입력폼</legend>
+                                                            <!-- 20190805 class 수정 -->
+                                                            <div class="row colset-lg-2">
+                                                                <!-- grid -->
+                                                                <div class="grid-col">
+                                                                    <!-- form-group -->
+                                                                    <div class="form-group">
+                                                                        <label for="txtDestination" class="form-label">휴대폰 번호</label>
+                                                                        <div class="controls input-group">
+                                                                            <!-- Error 발생할 경우 class="form-control"에 클래스 is-invalid 추가 -->
+                                                                            <input type="text" id="txtDestination" name="" class="form-control" value="" placeholder="휴대폰 번호 입력" />
+                                                                            <div class="input-group-append"><button type="button" class="btn btn-primary btn-append">인증받기</button></div>
+                                                                            <small class="form-text" style="display:none;">인증번호가 발송되었습니다.</small>
+                                                                            <div class="invalid-tooltip">에러 메시지</div>
+                                                                            <div class="valid-feedback" style="display:block;">※ 인증이 완료되었습니다.</div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- form-group -->
+                                                                    <div class="form-group">
+                                                                        <label for="txtCertificationNumber" class="form-label">인증번호</label>
+                                                                        <div class="controls input-group input-group-light">
+                                                                            <input type="text" id="txtCertificationNumber" name="" class="form-control" value="" placeholder="인증번호 입력" />
+                                                                            <div class="input-group-append"><span class="input-group-text text-red"><i class="tencon-watch"></i> 00:00</span></div>
+                                                                            <div class="input-group-append"><button type="button" class="btn btn-primary btn-append">인증하기</button></div>
+                                                                            <div class="invalid-tooltip">에러 메시지</div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!--// form-group -->
+                                                                </div>
+                                                                <!-- grid -->
+                                                                <div class="grid-col">
+                                                                    <!-- form-group -->
+                                                                    <div class="form-group">
+                                                                        <label for="txtPW" class="form-label">비밀번호</label>
+                                                                        <div class="controls input-group input-group-light">
+                                                                            <input type="password" id="txtPW" name="" class="form-control" value="" placeholder="비밀번호 입력" />
+                                                                            <div class="input-group-append"><a href="#none" class="input-group-text toggle-password" toggle="#txtPW" role="button"><i class="tencon-eye-hide"></i></a></div>
+                                                                            <button type="button" class="btn btn-primary btn-signin">혜택받기</button>
+                                                                            <div class="invalid-tooltip">에러 메시지</div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!--// form-group -->
+                                                                </div>
+                                                            </div>
+                                                        </fieldset>
+                                                        <!-- 간단 가입 후 -->
+                                                        <p class="mt-4 text-azure"><i class="tencon-info-circle-filled"></i> 혜택받기 완료! <strong style="text-decoration:underline;">포인트 1,000원</strong>을 바로 이용하실 수 있습니다.</p>
+                                                        <p>입력하신 정보로 주문과 동시에 회원가입이 완료됩니다. <button type="button" class="btn btn-outline btn-sm btn-navy">간단 가입 취소</button></p>
+                                                        <!--// 간단 가입 후 -->
+                                                    </div>
+                                                </div>
+                                                <!--// alert -->
+                                                <fieldset class="form-reg-type label-hide">
+                                                    <legend>결제 정보 입력폼</legend>
+                                                    <!-- form grid -->
+                                                    <div class="form-layout-wrap simple-style">
+                                                        <div class="form-layout-group">
+                                                            <!-- row -->
+                                                            <div class="form-layout-row point-payment-row">
+                                                                <div class="form-layout-header">
+                                                                    <h4 class="form-layout-label">포인트 사용</h4>
+                                                                </div>
+                                                                <div class="form-layout-body">
+                                                                    <div class="row">
+                                                                        <!-- grid -->
+                                                                        <div class="col-12 col-lg-10">
+                                                                            <div class="form-group form-box-group">
+                                                                                <p>휴대폰 인증하면 포인트를 사용할 수 있습니다.</p>
+                                                                                <button type="button" class="btn btn-rounded btn-primary">인증하기 <i class="tencon-angle-right-next mr-0"></i></button>
+                                                                            </div>
+                                                                        </div>
+                                                                        <!-- grid -->
+                                                                        <div class="col-12">
+                                                                            <!-- form-group -->
+                                                                            <div class="form-group form-text-group mb-3">
+                                                                                <p><a href="https://uuumall.kr/Policy/Terms" target="_blank">이용약관</a> 및 <a href="https://uuumall.kr/Policy/Privacy" target="_blank">개인정보처리방침</a>에 동의하시면 휴대폰 인증하기를 진행해주세요.</p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-12 col-lg-7">
+                                                                            <!-- form-group -->
+                                                                            <div class="form-group">
+                                                                                <label for="txtDestination3" class="form-label">휴대폰 번호</label>
+                                                                                <div class="controls input-group">
+                                                                                    <!-- Error 발생할 경우 class="form-control"에 클래스 is-invalid 추가 -->
+                                                                                    <input type="text" id="txtDestination3" name="" class="form-control" value="01000000000" placeholder="휴대폰 번호" readonly="readonly" />
+                                                                                    <div class="input-group-append"><button type="button" class="btn btn-primary btn-append" data-toggle="modal" data-target="#modalCertifyAlert" style="width:110px;">인증번호 받기</button></div>
+                                                                                    <small class="form-text text-navy" style="display:none;">휴대폰 인증이 완료되었습니다.</small>
+                                                                                    <div class="invalid-tooltip">에러 메시지</div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- form-group -->
+                                                                            <div class="form-group">
+                                                                                <label for="txtCertificationNumber3" class="form-label">인증번호</label>
+                                                                                <div class="controls input-group input-group-light">
+                                                                                    <input type="text" id="inputCertificationNumber3" name="" class="form-control" value="" placeholder="인증번호 입력" />
+                                                                                    <div class="input-group-append"><button type="button" class="btn btn-primary btn-append" style="width:110px;">인증하기</button></div>
+                                                                                    <div class="invalid-tooltip">에러 메시지</div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!--// form-group -->
+                                                                        </div>
+                                                                        <!-- grid -->
+                                                                        <div class="col-12 col-lg-7">
+                                                                            <!-- form-group -->
+                                                                            <div class="form-group">
+                                                                                <label for="inputPaymentPoint" class="form-label">포인트 사용</label>
+                                                                                <div class="controls input-group">
+                                                                                    <input type="tel" id="inputShippingCostDiscount" name="" class="form-control" onkeyup="inputNumberForamt(this)" value="" placeholder="0" />
+                                                                                    <div class="input-group-append"><span class="input-group-text">원</span></div>
+                                                                                    <button type="button" class="btn btn-primary">최대 할인 적용</button>
+                                                                                    <div class="invalid-tooltip">에러 메시지</div>
+                                                                                    <!-- tooltip -->
+                                                                                    <!-- 클래스 collapse가 삭제되고 클래스 show가 추가되면 툴팁이 출력됨 -->
+                                                                                    <div class="popover popover-yellow popover-template fade show s2" role="tooltip">
+                                                                                    <!-- <div class="popover popover-yellow popover-template fade collapse" role="tooltip"> -->
+                                                                                        <div class="arrow"></div>
+                                                                                        <div class="popover-body">
+                                                                                            <!-- <p>포인트는 결제 금액의 50%까지 사용 가능합니다.</p> -->
+                                                                                            <p>사용할 수 있는 최대 포인트가 적용되었습니다.</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <!--// tooltip -->
+                                                                                </div>
+                                                                            </div>
+                                                                            <!--// form-group -->
+                                                                        </div>
+                                                                        <!-- grid -->
+                                                                        <div class="col-12">
+                                                                            <p class="text-option mb-0">사용 가능 포인트 : <span class="format-num">50000</span>원</p>
+                                                                            <ul class="list-paragraph list-style-ref">
+                                                                                <li>쇼핑포인트로 최대 25%까지 추가 할인 받을 수 있습니다.</li>
+                                                                                <li>특가 할인 구매 또는 100원 찬스 사용 시 포인트를 사용할 수 없습니다.</li>
+                                                                                <li>배송비에는 포인트를 사용할 수 없습니다.</li>
+                                                                                <!--
+                                                                                <li>100원 찬스를 사용하실 때는 제품별 포인트 사용 비율이 하향 조정됩니다. 이 점 양해 부탁드립니다.</li>
+                                                                                <li>제품별 원가, 물류비, 각종 수수료에 따라 포인트 사용 비율이 달라집니다. 최대 30%까지 포인트를 쓸 수 있습니다.</li>
+                                                                                <li>배송비에는 포인트를 사용할 수 없습니다.</li>
+                                                                                -->
+                                                                            </ul>
+                                                                            <!--
+                                                                            <small class="form-text text-orange mt-0">100원 찬스를 사용하실 때는 제품별 포인트 사용 비율이 하향 조정됩니다. 이 점 양해 부탁드립니다. <img src="../../images/icon-smile.png" alt="" /></small>
+                                                                            <!--
+                                                                            <small class="form-text text-orange mt-0">웰컴쿠폰을 사용하실 때는 제품별 포인트 사용 비율이 하향 조정됩니다. 양해 부탁드립니다. <img src="../../images/icon-smile.png" alt="" /></small>
+                                                                            -->
+                                                                        </div>
+                                                                        <!--// grid -->
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- row -- >
+                                                            <div class="form-layout-row coupon-payment-row">
+                                                                <div class="form-layout-header">
+                                                                    <h4 class="form-layout-label">할인쿠폰</h4>
+                                                                </div>
+                                                                <div class="form-layout-body">
+                                                                    <div class="row">
+                                                                        <!-- grid -- >
+                                                                        <div class="col-12">
+                                                                            <!-- form-group -- >
+                                                                            <div class="form-group">
+                                                                                <div class="controls">
+                                                                                    <div class="form-control form-control-txt"><span class="format-num">-1000</span>원</div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <small class="form-text text-danger mt-n2">※ 첫 구매 할인쿠폰은 20,000원 이상 주문 시 사용할 수 있습니다. <a href="#none" class="btn btn-orange btn-sm btn-goshopping">더 담기 <i class="tencon-angle-right-next"></i></a></small>
+                                                                            <!-- <small class="form-text text-orange mt-n2">※ 서*우님이 보낸 첫 구매 할인쿠폰이 적용되었습니다.</small> -- >               
+                                                                            <!-- form-group -- >
+                                                                            <div class="form-group">
+                                                                                <div class="controls">
+                                                                                    <div class="form-control form-control-txt"><span class="format-num">-10000</span>원 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalCouponList">쿠폰 적용</button></div>
+                                                                                    <!-- tooltip -- >
+                                                                                    <div class="popover popover-yellow popover-template show" role="tooltip">
+                                                                                        <div class="arrow"></div>
+                                                                                        <div class="popover-body">
+                                                                                            <p>홍*동(0101234****)님이 보낸 쿠폰할인이 적용되었습니다.</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <!--// tooltip -- >
+                                                                                </div>
+                                                                            </div>
+                                                                            <!--// form-group -- >
+                                                                        </div>
+                                                                        <!--// grid -- >
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- row -->
+                                                            <!-- 20190805 class 추가 -->
+                                                            <div class="form-layout-row sum-payment-row">
+                                                                <div class="form-layout-header">
+                                                                    <h4 class="form-layout-label sum-payment">최종 결제 금액</h4>
+                                                                </div>
+                                                                <div class="form-layout-body">
+                                                                    <div class="row">
+                                                                        <!-- grid -->
+                                                                        <div class="col-12">
+                                                                            <!-- form-group -->
+                                                                            <div class="form-group">
+                                                                                <div class="controls">
+                                                                                    <div class="form-control form-control-txt sum-payment"><span class="format-num">30300</span>원 <span class="text-danger">※ 상품 정보가 변경되었습니다.</span></div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!--// form-group -->
+                                                                        </div>
+                                                                        <!--// grid -->
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- row -->
+                                                            <div class="form-layout-row method-payment-row">
+                                                                <div class="form-layout-header">
+                                                                    <h4 class="form-layout-label">결제 방법 선택</h4>
+                                                                </div>
+                                                                <div class="form-layout-body">
+                                                                    <div class="row">
+                                                                        <!-- grid -->
+                                                                        <div class="col-12">
+                                                                            <!-- form-group -->
+                                                                            <div class="form-group">
+                                                                                <div class="custom-control custom-radio payment-transferwrap">
+                                                                                    <input type="radio" id="radioPaymentTransfer" class="custom-control-input" name="radioPaymentGroup" checked="checked" />
+                                                                                    <label for="radioPaymentTransfer" class="custom-control-label">직접 계좌이체</label>
+                                                                                    <!-- tooltip : 노출 시 style="display:block;" 처리 -->
+                                                                                    <div class="popover popover-yellow popover-template show" role="tooltip" style="display:none;">
+                                                                                        <div class="arrow"></div>
+                                                                                        <div class="popover-body">
+                                                                                            <p class="lead">직접 계좌이체 시 포인트 100원 적립</p>
+                                                                                            <p>토스 또는 카카오 송금을 이용하면 간편하게 이체할 수 있습니다.</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <!--// tooltip -->
+                                                                                    <span class="selcet-payment">
+                                                                                        <!-- form-group -->
+                                                                                        <div class="form-group">
+                                                                                            <div class="custom-control custom-checkbox">
+                                                                                                <input type="checkbox" id="checkboxSignup" name="checkboxSignup" class="custom-control-input" checked="checked" />
+                                                                                                <label class="custom-control-label" for="checkboxSignup">회원가입과 동시에 주문하고 포인트 받기</label>
+                                                                                                <span class="selcet-payment-sub">
+                                                                                                    <!-- form-group -->
+                                                                                                    <div class="form-group">
+                                                                                                        <label for="inputCertify" class="form-label">휴대폰 번호</label>
+                                                                                                        <div class="controls input-group">
+                                                                                                            <!-- Error 발생할 경우 class="form-control"에 클래스 is-invalid 추가 -->
+                                                                                                            <input type="text" id="inputCertify" name="" class="form-control" value="01000000000" placeholder="휴대폰 번호" readonly="readonly" />
+                                                                                                            <div class="input-group-append"><button type="button" class="btn btn-primary btn-append">인증번호 받기</button></div>
+                                                                                                            <small class="form-text text-navy" style="display:none;">휴대폰 인증이 완료되었습니다.</small>
+                                                                                                            <div class="invalid-tooltip">에러 메시지</div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <!-- form-group -->
+                                                                                                    <div class="form-group">
+                                                                                                        <label for="inputCertificationNumber" class="form-label">인증번호</label>
+                                                                                                        <div class="controls input-group input-group-light">
+                                                                                                            <input type="text" id="inputCertificationNumber" name="" class="form-control" value="" placeholder="인증번호 입력" />
+                                                                                                            <div class="input-group-append"><button type="button" class="btn btn-primary btn-append">인증하기</button></div>
+                                                                                                            <div class="invalid-tooltip">에러 메시지</div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <!-- form-group -->
+                                                                                                    <div class="form-group">
+                                                                                                        <label for="inputPW2" class="form-label">비밀번호</label>
+                                                                                                        <div class="controls input-group input-group-light">
+                                                                                                            <input type="password" id="inputPW2" name="" class="form-control" value="" placeholder="로그인 비밀번호 입력(영문,숫자 조합 8자 이상)" />
+                                                                                                            <div class="input-group-append"><a href="#none" class="input-group-text toggle-password" toggle="#inputPW2" role="button"><i class="tencon-eye-hide"></i></a></div>
+                                                                                                            <div class="invalid-tooltip">에러 메시지</div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <!--// form-group -->
+                                                                                                </span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <!--// form-group -->
+                                                                                    </span>
+                                                                                </div>
+                                                                                
+																				<!-- 신용카드 결제방법 선택 -->
+																				<div class="custom-control custom-radio payment-cardwrap">
+                                                                                    <input type="radio" id="radioPaymentCredit" class="custom-control-input" name="radioPaymentGroup"/>
+                                                                                    <label for="radioPaymentCredit" class="custom-control-label">신용카드</label>
+																					<!-- tooltip : 노출 시 style="display:block;" 처리 -->
+																					<div class="popover popover-yellow popover-template show s2 type2" role="tooltip" style="display:;">
+																						<div class="arrow"></div>
+																						<div class="popover-body">
+																							<p>이미 등록하신 카드로 쉽고 빠르게 구매 할 수 있습니다.</p>
+																						</div>
+																					</div>
+																					<!--// tooltip -->
+																					<span class="selcet-payment">
+																						<div class="boxed">
+																							<input type="radio" id="simplePayment" class="simplePaymentRadio" name="selectPaymentGroup" value="simplePayment" checked/>
+																							<label for="simplePayment" class="simplePayment">간편결제</label>
+																							<input type="radio" id="normalPayment" name="selectPaymentGroup" value="normalPayment" />
+																							<label for="normalPayment" class="normalPayment">일반결제</label>
+																							<span class="payment-cardbox">
+																								<!-- 카드 미등록 시 노출 -->
+																								<div class="payment-info" style="display:none">신용·체크 카드를 등록하여 빠르고 안전하게 결제할 수 있습니다.</div>
+																								<!-- 카드 등록 시 노출 -->
+																								<div class="payment-card" style="display:block">
+																									<!-- form-group -->
+																									<div class="form-group">
+																										<i class="tencon-check-large"></i>
+																										<div class="controls controls-select">
+																											<select id="" name="" class="form-control">
+																												<option value="">[신한] 1234-****-****-9876</option>
+																												<option value="">[삼성] 1234-****-****-9876</option>
+																												<option value="" disabled>[하나d 1234-****-****-9876</option>
+																											</select>
+																										</div>
+																										<!-- 할부 선택 -->
+																										<div class="controls controls-select">
+																											<select id="" name="" class="form-control">
+																												<option value="">일시불</option>
+																												<option value="">2개월 (무이자)</option>
+																												<option value="">3개월 (무이자)</option>
+																												<option value="">4개월 (무이자)</option>
+																												<option value="">5개월 (무이자)</option>
+																												<option value="">6개월</option>
+																												<option value="">7개월</option>
+																												<option value="">8개월</option>
+																												<option value="">9개월</option>
+																												<option value="">10개월</option>
+																												<option value="">11개월</option>
+																												<option value="">12개월</option>
+																											</select>
+																										</div>
+																									</div>
+																								</div>
+																								<div class="form-group">
+																									<button type="button" class="btn btn-orange" data-toggle="modal" data-target="#modalCard">
+																										<i class="tencon-add"></i>카드 추가하기
+																									</button>
+																								</div>
+																							</span>	
+																						</div>
+																					</span>
+                                                                                </div>
+                                                                                <!--
+                                                                                <div class="custom-control custom-radio">
+                                                                                    <input type="radio" id="radioPaymentCredit" class="custom-control-input" name="radioPaymentGroup" />
+                                                                                    <label for="radioPaymentCredit" class="custom-control-label">신용카드</label>
+                                                                                </div>
+                                                                                -->
+                                                                                <!--
+                                                                                <div class="custom-control custom-radio">
+                                                                                    <input type="radio" id="radioPaymentNaverpay" class="custom-control-input" name="radioPaymentGroup" />
+                                                                                    <label for="radioPaymentNaverpay" class="custom-control-label">신용카드 간편결제</label>
+                                                                                </div>
+                                                                                -->
+                                                                                <div class="custom-control custom-radio">
+                                                                                    <input type="radio" id="radioPaymentEscrow" class="custom-control-input" name="radioPaymentGroup" />
+                                                                                    <label for="radioPaymentEscrow" class="custom-control-label">가상계좌(에스크로)</label>
+                                                                                </div>
+                                                                                <div class="custom-control custom-radio">
+                                                                                    <input type="radio" id="radioPaymentPhone" class="custom-control-input" name="radioPaymentGroup" />
+                                                                                    <label for="radioPaymentPhone" class="custom-control-label">휴대폰</label>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- 가상계좌 선택 시 클래스 show 추가 -->
+                                                                            <small class="form-text text-danger collapse fade show">※ 가상계좌로 결제 시 부분취소 및 부분반품 불가합니다.</small>
+                                                                            <!--// -->
+                                                                            <!--// form-group -->
+                                                                        </div>
+                                                                        <!--// grid -->
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <!-- (주)유유유 계좌입금인 경우 -->
+                                                            <!-- row -->
+                                                            <div class="form-layout-row" id="divAccountHolder">
+                                                                <div class="form-layout-header">
+                                                                    <h4 class="form-layout-label">입금자명</h4>
+                                                                </div>
+                                                                <div class="form-layout-body">
+                                                                    <div class="row">
+                                                                        <!-- grid -->
+                                                                        <div class="col-12 col-lg-7">
+                                                                            <!-- form-group -->
+                                                                            <div class="form-group">
+                                                                                <label for="txtAccountHolder" class="form-label">입금자명</label>
+                                                                                <div class="controls">
+                                                                                    <input type="text" id="txtAccountHolder" name="txtAccountHolder" list="txtAccountName" class="form-control" value="" dataformat="hangul" placeholder="입금자명" maxlength="20" />
+                                                                                    <!-- 클래스 show가 추가되면 data-list가 나타남 -->
+                                                                                    <div class="datalist datalist-angular collapse fade show">
+                                                                                        <div class="data-option"><a href="#none">이몽룡</a></div>
+                                                                                        <div class="data-option"><a href="#none">성춘향</a></div>
+                                                                                        <div class="data-option"><a href="#none">변학도</a></div>
+                                                                                    </div>
+                                                                                    <div class="invalid-tooltip">올바른 입금자명을 입력해주세요.</div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!--// form-group -->
+                                                                        </div>
+                                                                        <!--// grid -->
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- row -->
+                                                            <div class="form-layout-row" id="divCashIssue">
+                                                                <div class="form-layout-header">
+                                                                    <h4 class="form-layout-label">현금영수증</h4>
+                                                                </div>
+                                                                <div class="form-layout-body">
+                                                                    <div class="row">
+                                                                        <!-- grid -->
+                                                                        <div class="col-12 col-lg-7">
+                                                                            <!-- form-group -->
+                                                                            <div class="form-group check-inline">
+                                                                                <div class="custom-control custom-checkbox">
+                                                                                    <input type="checkbox" id="chkIsCashIssue" class="custom-control-input" name="chkIsCashIssue" />
+                                                                                    <label for="chkIsCashIssue" class="custom-control-label">현금영수증 신청</label>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="form-group check-inline" name="divCashIssueSub" style="display:none">
+                                                                                <div class="custom-control custom-radio">
+                                                                                    <input type="radio" class="custom-control-input" name="rdoCashIssueType" id="rdoCashIssueType_61410" value="61410" checked="" />
+                                                                                    <label for="rdoCashIssueType_61410" class="custom-control-label">소득공제용</label>
+                                                                                </div>
+                                                                                <div class="custom-control custom-radio">
+                                                                                    <input type="radio" class="custom-control-input" name="rdoCashIssueType" id="rdoCashIssueType_61420" value="61420" />
+                                                                                    <label for="rdoCashIssueType_61420" class="custom-control-label">지출증빙용</label>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!--// form-group -->
+                                                                            <!-- form-group -->
+                                                                            <div class="form-group" name="divCashIssueSub" style="display:none">
+                                                                                <label for="inputReceiptNum" class="form-label">현금영수증</label>
+                                                                                <div class="controls input-group">
+                                                                                    <div class="input-group-prepend">
+                                                                                        <select name="selCashAuthType" id="selCashAuthType" class="form-control">
+                                                                                            <option value="65820" selected="">휴대폰번호</option>
+                                                                                            <option value="65840">현금영수증카드</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                    <input type="tel" id="txtCashAuthValue" name="txtCashAuthValue" class="form-control" value="" dataformat="numeric" placeholder="휴대폰 번호 입력" maxlength="15" />
+                                                                                    <div class="invalid-tooltip">올바른 번호를 입력해주세요.</div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!--// form-group -->
+                                                                        </div>
+                                                                        <!--// grid -->
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- (주)유유유 계좌입금인 경우 -->
+                                                            
+                                                            <!--// row -->
+                                                        </div>
+                                                    </div>
+                                                    <!--// form grid -->
+                                                </fieldset>
+                                            </div>
+                                        </section>
+                                        <!-- 회원 구매 시 -->
+                                        <!-- panel -->
+                                        <section class="panel-wrap">
+                                            <div class="panel-body">
+                                                <!-- alert -->
+                                                <div class="alert alert-angular alert-notice" role="alert">
+                                                    <div class="alert-body">
+                                                        <h4 class="alert-heading">구매 시 혜택</h4>
+                                                        <ul class="list-paragraph list-style-ref" style="display:none;">
+                                                            <li>구매 후기 작성 시 최대 적립 가능 마일리지 : <strong><span class="format-num">2000</span>점</strong></li>
+                                                        </ul>
+														
+														<!-- 내가 구매하면 -->
+														<div class="price-membership s1">
+															<span class="sum-price">
+																<strong>내가 구매하면</strong>
+																<div class="text-vip"><span class="icon-coin"></span><i>+</i>최대 <span class="format-num">74</span>원</div>
+															</span>
+														</div>
+														
+														<!-- 구매 후기 작성하면 -->
+														<div class="price-membership s2">
+															<span class="sum-price">
+																<strong>구매 후기 작성하면</strong>
+																<div class="text-vip s3"><span class="icon-coin"></span><i>+</i>최대 <span class="format-num">2,000</span>점</div>
+															</span>
+														</div>
+
+                                                    </div>
+                                                </div>
+                                                <!--// alert -->
+                                            </div>
+                                        </section>
+                                        <!--// 회원 구매 시 -->
+                                        <!--// panel -->
+                                    </div>
+                                    <footer class="segment-footer">
+                                        <!-- panel -->
+                                        <section class="panel-wrap">
+                                            <div class="panel-body">
+                                                <div class="row">
+                                                    <div class="grid-col">
+                                                        <!-- terms -->
+                                                        <div class="form-col-terms">
+                                                            <!-- <h3>회원 가입을 위해 아래 약관에 동의해주세요.</h3> -->
+                                                            <div class="form-checkbox-all">
+                                                                <div class="form-group">
+                                                                    <div class="custom-control custom-checkbox">
+                                                                        <input type="checkbox" id="checkboxTermsAll" name="checkboxTermsAll" class="custom-control-input">
+                                                                        <label class="custom-control-label" for="checkboxTermsAll">전체 동의</label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-checkbox-sub">
+                                                                <div class="form-group">
+                                                                    <div class="custom-control custom-checkbox">
+                                                                        <input type="checkbox" id="checkboxPrivacy" name="checkboxPrivacy" class="custom-control-input" required="" />
+                                                                        <label class="custom-control-label" for="checkboxPrivacy">이용약관(<a href="https://uuumall.kr/Policy/Terms" target="_blank">UUU몰</a>, <a href="http://tenping.kr/Common/Terms" target="_blank">텐핑</a>) 및 개인정보처리방침 (<a href="https://uuumall.kr/Policy/Privacy" target="_blank">UUU몰</a>, <a href="http://tenping.kr/Common/Privacy" target="_blank">텐핑</a>)에 동의합니다. <span class="required">[필수]</span></label>
+                                                                        <div class="invalid-tooltip">에러 메시지 노출</div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <div class="custom-control custom-checkbox">
+                                                                        <input type="checkbox" id="checkMarketing" name="checkMarketing" class="custom-control-input" required="" />
+                                                                        <label class="custom-control-label" for="checkMarketing">UUU몰의 신제품 출시 일정 및 유용한 마케팅 정보를 가장 먼저 받아보겠습니다. <span class="required">[선택]</span> <span class="text-red">(포인트 5,000원 적립)</span></label>
+                                                                        <div class="invalid-tooltip">에러 메시지 노출</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!--// -->
+                                                        </div>
+                                                    </div>
+                                                    <div class="grid-col">
+                                                        <!-- form-group -->
+                                                        <div class="form-group justify-content-center">
+                                                            <div class="form-btn-group" role="group" aria-label="First Group">
+                                                                <button type="button" class="btn btn-lg btn-primary btn-payment-confirm" data-toggle="modal" data-target="#modalPayConfirm"><span class="format-num">130300</span>원 결제하기</button>
+                                                            </div>
+                                                        </div>
+                                                        <!--// form-group -->
+                                                        <!-- 비회원 / 로그아웃 구매 시 -->
+                                                        <!-- form-group -->
+                                                        <div class="form-group form-text-notice">
+                                                            <small class="form-text" style="text-align:center;">위 구매조건 및 결제진행에 동의합니다.</small>
+                                                        </div>
+                                                        <!--// 비회원 / 로그아웃 구매 시 -->
+                                                    </div>
+                                                    <!--// grid -->
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <!--// panel -->
+                                    </footer>
+                                </section>
+                                <!--// segment -->
+                            </div>
+                            <div class="col purchase-column">
+                                <!-- segment : purchase list -->
+                                <section class="segment-wrap purchase-segment">
+                                    <div class="segment-body">
+                                        <!-- panel -->
+                                        <section class="panel-wrap">
+                                            <header class="panel-header">
+                                                <!-- <h3>주문 정보 <small><span class="text-truncate">UUU 단백질쉐이크 UUU 단백질쉐이크 UUU 단백질쉐이크 UUU 단백질쉐이크</span> 외 <strong>5</strong>건</small></h3>
+                                                <div class="form-group">
+                                                    <a class="btn btn-icon btn-transparent btn-hover" data-toggle="collapse" data-target="#purchasePanel" role="button" aria-expanded="false" aria-controls="purchasePanel"><i></i></a>
+                                                </div> -->
+                                                <h3>
+                                                    <a data-toggle="collapse" data-target="#purchasePanel" role="button" aria-expanded="false" aria-controls="purchasePanel">
+                                                        주문 정보 <small><span class="text-truncate">UUU 단백질쉐이크 UUU 단백질쉐이크 UUU 단백질쉐이크 UUU 단백질쉐이크</span> 외 <strong>5</strong>건</small>
+                                                    </a>
+                                                </h3>
+                                            </header>
+                                            <div id="purchasePanel" class="panel-body collapse">
+                                                <!-- order list wrap -->
+                                                <div class="order-list-wrap">
+                                                    <!-- list -->
+                                                    <div class="order-list-body">
+                                                        <div id="tbList">
+                                                            <div id="divtbody">
+                                                                <!-- UUU몰 VIP회원 가입비 -->
+																<div class="row">
+																	<!-- grid -->
+																	<div class="col">
+																		<!-- card -->
+																		<div class="card-wrap card-horizontal card">
+																			<div class="card-img-group">
+																				<figure><img src="../../images/img-product-list00.png" class="card-img" alt="..."></figure>
+																			</div>
+																			<!-- body -->
+																			<div class="card-body">
+																				<h5 class="card-title">UUU몰 VIP회원 가입비</h5>
+																				<div class="txt">가입 <strong>즉시 캐시 <span class="format-num">15000</span>원 </strong><span class="date">(~ 4월 30일까지)</span></div>
+																				<div class="time"></div>
+																				<dl class="dl-horizontal">
+																					<dt class="sr-only">금액</dt>
+																					<dd class="sum-price"><span class="format-num">10000</span>원</dd>
+																				</dl>
+																			</div>
+																		</div>
+																		<!--// card -->
+																	</div>
+																	<!--// grid -->
+																</div>
+																
+																<!-- order list -->
+                                                                <div class="row">
+                                                                    <!-- grid -->
+                                                                    <div class="col">
+                                                                        <!-- card -->
+                                                                        <div class="card-wrap card-horizontal card">
+                                                                            <div class="card-img-group">
+                                                                                <figure><img src="../../images/img-product-list01.jpg" class="card-img" alt="..." /></figure>
+                                                                            </div>
+                                                                            <!-- body -->
+                                                                            <div class="card-body">
+                                                                                <div class="product-wrap">
+                                                                                    <h5 class="card-title">산소살균 발포클리너 1박스 30정 유아용품 살균 텀블러 세척 세정 살균 텀블러 세척 세정</h5>               
+                                                                                </div>
+                                                                                <div class="option-wrap">
+                                                                                    <h5 class="card-title"><strong>01.</strong> 산소살균 발포클리너 1박스 30정 유아용품 살균 텀블러 세척 세정 살균 텀블러 세척 세정</h5>
+                                                                                    <!-- <div class="gift">+ 휴대용 살균클리너 1개 외 1종 증정</div> -->
+                                                                                    <dl class="dl-horizontal">
+                                                                                        <dt class="sr-only">개수</dt>
+                                                                                        <dd class="sum-condition"><span class="discount-rate">(일반할인) 20%</span> <span class="purchase"><span class="format-num">11200</span>원×5개</span></dd>
+                                                                                        <dt class="sr-only">금액</dt>
+                                                                                        <!-- 일반 접근 -- >
+                                                                                        <dd class="sum-price"><span class="format-num">13900</span>원</dd>
+                                                                                        <!-- 비밀 URL 접근 -->
+                                                                                        <dd class="sum-price"><span class="badge badge-red">연회원 근접가</span> <span class="format-num">13900</span>원</dd>
+                                                                                        <!--// -->
+                                                                                    </dl>
+                                                                                </div>
+                                                                                <div class="option-wrap">
+                                                                                    <h5 class="card-title"><strong>02.</strong> 산소살균 발포클리너 1박스 30정 유아용품 살균 텀블러 세척 세정 살균 텀블러 세척 세정</h5>
+                                                                                    <dl class="dl-horizontal">
+                                                                                        <dt class="sr-only">개수</dt>
+                                                                                        <dd class="sum-condition"><span class="discount-rate">(일반할인) 20%</span> <span class="purchase"><span class="format-num">11200</span>원×5개</span></dd>
+                                                                                        <dt class="sr-only">금액</dt>
+                                                                                        <dd class="sum-price"><span class="format-num">13900</span>원</dd>
+                                                                                    </dl>
+                                                                                </div>
+																				
+                                                                                <div class="gift-wrap">
+                                                                                    <div class="gift-list">
+																						<dd><span class="badge badge-pill badge-pink">사은품</span> <span class="txt">UUU 스피루리나 500mg 30일분 (1개)</span></dd>
+																					</div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <!--// card -->
+                                                                    </div>
+                                                                    <!--// grid -->
+                                                                </div>
+                                                                <!-- order list -->
+                                                                <div class="row">
+                                                                    <!-- grid -->
+                                                                    <div class="col">
+                                                                        <!-- card -->
+                                                                        <div class="card-wrap card-horizontal card">
+                                                                            <div class="card-img-group">
+                                                                                <figure><img src="../../images/img-product-list01.jpg" class="card-img" alt="..." /></figure>
+                                                                            </div>
+                                                                            <!-- body -->
+                                                                            <div class="card-body">
+                                                                                <div class="product-wrap">
+                                                                                    <h5 class="card-title"><strong>[추가 옵션]</strong> 투명 텀블러 500ml</h5>
+                                                                                    <dl class="dl-horizontal">
+                                                                                        <dt class="sr-only">개수</dt>
+                                                                                        <dd class="sum-condition"><!--<span class="discount-rate">(일반할인) 20%</span>--> <span class="purchase"><span class="format-num">11200</span>원×5개</span></dd>
+                                                                                        <dt class="sr-only">금액</dt>
+                                                                                        <dd class="sum-price"><span class="format-num">13900</span>원</dd>
+                                                                                    </dl>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <!--// card -->
+                                                                    </div>
+                                                                    <!--// grid -->
+                                                                </div>
+                                                                <!-- order list -->
+                                                                <div class="row">
+                                                                    <!-- grid -->
+                                                                    <div class="col">
+                                                                        <!-- card -->
+                                                                        <div class="card-wrap card-horizontal card">
+                                                                            <div class="card-img-group">
+                                                                                <figure><img src="../../images/img-product-list06.jpg" class="card-img" alt="..." /></figure>
+                                                                            </div>
+                                                                            <!-- body -->
+                                                                            <div class="card-body">
+                                                                                <div class="product-wrap">
+                                                                                    <h5 class="card-title">남성 폼클렌징 소프트 고마쥬 150ml</h5>
+                                                                                    <!-- <div class="gift">+ UUU 유근피 천연비누 100g 1개(추가 증정)</div> -->
+                                                                                    <dl class="dl-horizontal">
+                                                                                        <dt class="sr-only">개수</dt>
+                                                                                        <dd class="sum-condition"><span class="discount-rate">(일반할인) 20%</span> <span class="purchase"><span class="format-num">11200</span>원×5개</span></dd>
+                                                                                        <dt class="sr-only">금액</dt>
+                                                                                        <dd class="sum-price"><span class="format-num">13900</span>원</dd>
+                                                                                    </dl>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <!--// card -->
+                                                                    </div>
+                                                                    <!--// grid -->
+                                                                </div>
+                                                                <!-- order list -->
+                                                                <div class="row">
+                                                                    <!-- grid -->
+                                                                    <div class="col">
+                                                                        <!-- card -->
+                                                                        <div class="card-wrap card-horizontal card">
+                                                                            <div class="card-img-group">
+                                                                                <figure><img src="../../images/img-product-list06.jpg" class="card-img" alt="..." /></figure>
+                                                                            </div>
+                                                                            <!-- body -->
+                                                                            <div class="card-body">
+                                                                                <div class="product-wrap">
+                                                                                    <h5 class="card-title">남성 폼클렌징 소프트 고마쥬 150ml 1개 얼굴 각질제거 올인원 폼클렌저 얼굴 각질제거 올인원 폼클렌저 얼굴 각질제거 올인원 폼클렌저</h5>
+                                                                                    <dl class="dl-horizontal">
+                                                                                        <dt class="sr-only">개수</dt>
+                                                                                        <dd class="sum-condition"><span class="discount-rate">(일반할인) 20%</span> <span class="purchase"><span class="format-num">11200</span>원×5개</span></dd>
+                                                                                        <dt class="sr-only">금액</dt>
+                                                                                        <dd class="sum-price"><span class="format-num">13900</span>원</dd>
+                                                                                    </dl>
+                                                                                </div>
+                                                                                <div class="gift-wrap">
+                                                                                    <div class="gift"><span class="badge badge-orange">사은품</span> 휴대용 살균클리너 1개 외 1종 증정</div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <!--// card -->
+                                                                    </div>
+                                                                    <!--// grid -->
+                                                                </div>
+                                                                <!-- order list -->
+                                                                <div class="row">
+                                                                    <!-- grid -->
+                                                                    <div class="col">
+                                                                        <!-- card -->
+                                                                        <div class="card-wrap card-horizontal card">
+                                                                            <div class="card-img-group">
+                                                                                <figure><img src="../../images/img-product-list06.jpg" class="card-img" alt="..." /></figure>
+                                                                            </div>
+                                                                            <!-- body -->
+                                                                            <div class="card-body">
+                                                                                <div class="product-wrap">
+                                                                                    <h5 class="card-title">남성 폼클렌징 소프트 고마쥬 150ml 1개 얼굴 각질제거 올인원 폼클렌저 얼굴 각질제거 올인원 폼클렌저 얼굴 각질제거 올인원 폼클렌저</h5>
+                                                                                    <dl class="dl-horizontal">
+                                                                                        <dt class="sr-only">개수</dt>
+                                                                                        <dd class="sum-condition"><span class="discount-rate">(연회원 비밀할인) 20%</span> <span class="purchase"><span class="format-num">11200</span>원×5개</span></dd>
+                                                                                        <dt class="sr-only">금액</dt>
+                                                                                        <dd class="sum-price"><span class="format-num">13900</span>원</dd>
+                                                                                    </dl>
+                                                                                </div>
+                                                                                
+                                                                            </div>
+                                                                        </div>
+                                                                        <!--// card -->
+                                                                    </div>
+                                                                    <!--// grid -->
+                                                                </div>
+                                                                <!--// order list -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+													
+													<!-- n만원 이상 구매 시 사은품 지급 기능 -->
+													<div class="product-option s3">
+														<div class="header">
+															<h3>주문 금액별 사은품 증정</h3>
+														</div>
+														<div class="body">
+															<div class="row-list">
+																<div class="brand">UUU 브랜드 상품</div>
+																<a href="#none" data-toggle="modal" data-target="#targetBrand"><div class="icon-question"></div></a>
+																
+																<!-- 포인트 할인 UI 추가 -->
+																<div class="row">
+																	<div class="col">
+																		<div class="icon-checked"></div>
+																	</div>
+																	<div class="col">
+																		<div class="gift-list">
+																			
+																			<!-- 문구 토글 ON -->
+																			<dd style="display:none;">
+																				<span class="txt">50,000원 이상 구매 시</span><span class="txt s2">1만원 상당 사은품 증정</span>
+																			</dd>
+																			<!--//-->
+																			
+																			<!-- 문구 토글 OFF -->
+																			<dd style="display:;">
+																				<span class="txt">50,000원 이상 구매 시 혜택</span>
+																			</dd>
+																			<!--//-->
+																			
+																			<!-- 폰인트 사용 토글 ON -->
+																			<dd>
+																				<div class="custom-control custom-radio">
+																					<input type="radio" id="radioGift1" class="custom-control-input" name="radioGiftGroup" checked="checked" />
+																					<label for="radioGift1" class="custom-control-label">
+																						<span class="badge badge-pill badge-pink">사은품</span> <span class="txt">UUU 스피루리나 500mg 30일분 (1개)</span><br>
+																						<span class="badge badge-pill badge-pink">사은품</span> <span class="txt">UUU 스피루리나 500mg 30일분 (1개)</span><br>
+																					</label>
+																				</div>
+																			</dd>
+																			<dd>
+																				<div class="custom-control custom-radio">
+																					<input type="radio" id="radioGift2" class="custom-control-input" name="radioGiftGroup" />
+																					<label for="radioGift2" class="custom-control-label">
+																						<span class="badge badge-pill badge-pink">사은품</span> <span class="txt">UUU 스피루리나 500mg 30일분 (1개)</span>
+																					</label>
+																				</div>
+																			</dd>
+																			<dd>
+																				<div class="custom-control custom-radio">
+																					<input type="radio" id="radioGift3" class="custom-control-input" name="radioGiftGroup" />
+																					<label for="radioGift3" class="custom-control-label">
+																						<span class="txt s3">사은품 대신 포인트 추가 할인 받기</span>
+																						<div class="tooltip bs-tooltip-top fade show" role="tooltip" style="position:absolute; transform:translate3d(0px, -68px, 0px); top:0px; right:0px; will-change:transform;">
+																							<div class="arrow" style="left: 100px;"></div>
+																							<div class="tooltip-inner">결제 시 더 많은 포인트를 사용할 수 있습니다.<br>(네이버페이 주문 시 적용 불가)</div>
+																						</div>
+																					</label>
+																				</div>
+																			</dd>
+																			<!--//-->
+																			
+																			<!-- 폰인트 사용 토글 OFF : 
+																				1. class="custom-control custom-radio" 클래스 삭제
+																				2. <input..> 삭제 
+																				3. class="custom-control-label" 삭제
+																			-->
+																			<dd>
+																				<div class="">
+																					<!-- <input type="radio" id="radioGift4" class="custom-control-input" name="radioGiftGroup" /> -->
+																					<label for="radioGift4" class="">
+																						<span class="badge badge-pill badge-pink">사은품</span> <span class="txt">UUU 스피루리나 500mg 30일분 (1개)</span><br>
+																						<span class="badge badge-pill badge-pink">사은품</span> <span class="txt">UUU 스피루리나 500mg 30일분 (1개)</span><br>
+																					</label>
+																				</div>
+																			</dd>
+																			<!--//-->
+																			
+																		</div>
+																	</div>
+																</div>
+
+																<!-- 비활성 처리 시 disabled 클래스 추가 -->
+																<div class="row disabled">
+																	<div class="col">
+																		<div class="icon-checked"></div>
+																	</div>
+																	<div class="col">
+																		<div class="gift-list">
+																			<dd>
+																				<span class="txt">5,000원 이상 구매 시</span><span class="txt s2">1만원 상당 사은품 증정</span>
+																			</dd>
+																			
+																			<!-- 폰인트 사용 토글 OFF : 
+																				1. class="custom-control custom-radio" 클래스 삭제
+																				2. <input..> 삭제 
+																				3. class="custom-control-label" 삭제
+																			-->
+																			<dd>
+																				<div class="">
+																					<!-- <input type="radio" id="radioGift6" class="custom-control-input" name="radioGiftGroup" disabled /> -->
+																					<label for="radioGift6" class="">
+																						<span class="badge badge-pill badge-pink">사은품</span> <span class="txt">UUU 스피루리나 500mg 30일분 (1개)</span>
+																						<span class="badge badge-pill badge-pink">사은품</span> <span class="txt">UUU 스피루리나 500mg 30일분 (1개)</span>
+																					</label>
+																				</div>
+																			</dd>
+																			<dd>
+																				<div class="">
+																					<!-- <input type="radio" id="radioGift7" class="custom-control-input" name="radioGiftGroup" /> -->
+																					<label for="radioGift7" class="">
+																						<span class="badge badge-pill badge-pink">사은품</span> <span class="txt">UUU 스피루리나 500mg 30일분 (1개)</span>
+																					</label>
+																				</div>
+																			</dd>
+																			<dd>
+																				<div class="">
+																					<!-- <input type="radio" id="radioGift8" class="custom-control-input" name="radioGiftGroup" /> -->
+																					<label for="radioGift8" class="">
+																						<span class="txt s3">사은품 대신 포인트 추가 할인 받기</span>
+																					</label>
+																				</div>
+																			</dd>
+																		</div>
+																	</div>
+																</div>
+
+																<div class="row">
+																	<div class="col">
+																		<div class="icon-checked"></div>
+																	</div>
+																	<div class="col">
+																		<div class="gift-list">
+																			<dd><span class="txt">30,000원 이상 구매 시</span><span class="txt s2">8만원 상당 사은품 증정</span></dd>
+																			<dd class="disabled"><span class="badge badge-pill badge-pink">사은품</span> <span class="txt">UUU 칫솔 (1개)</span></dd>
+																			<dd><span class="badge badge-pill badge-pink">사은품</span> <span class="txt">UUU 프리미엄 치약 (1개)</span></dd>
+																		</div>
+																	</div>
+																</div>
+
+															</div>
+															<div class="row-list disabled">
+																<div class="brand">티스템 브랜드 상품</div>
+																<a href="#none" data-toggle="modal" data-target="#targetBrand"><div class="icon-question"></div></a>
+
+																<!-- 비활성 처리 시 disabled 클래스 추가 -->
+																<div class="row disabled">
+																	<div class="col">
+																	<div class="icon-checked"></div>
+																</div>
+																	<div class="col">
+																		<div class="gift-list">
+																			<dd><span class="txt">5,000원 이상 구매 시</span></dd>
+																			<dd><span class="badge badge-pill badge-pink">사은품</span> <span class="txt">UUU 칫솔 (1개)</span></dd>
+																		</div>
+																	</div>
+																</div>
+
+																<div class="row">
+																	<div class="col">
+																		<div class="icon-checked"></div>
+																	</div>
+																	<div class="col">
+																		<div class="gift-list">
+																			<dd><span class="txt">30,000원 이상 구매 시</span></dd>
+																			<dd><span class="badge badge-pill badge-pink">사은품</span> <span class="txt">UUU 칫솔 (1개)</span></dd>
+																			<dd><span class="badge badge-pill badge-pink">사은품</span> <span class="txt">UUU 프리미엄 치약 (1개)</span></dd>
+																		</div>
+																	</div>
+																</div>
+
+															</div>
+														</div>
+													</div>
+													
+                                                    <div class="order-list-footer">
+                                                        <dl class="dl-horizontal wd-160 dd-right">
+                                                            <dt>총 상품금액</dt>
+                                                            <dd><span class="format-num">27800</span>원</dd>
+                                                            <dt>배송비</dt>
+                                                            <dd><span class="format-num">2500</span>원</dd>
+                                                            <dt class="total">총 주문금액</dt>
+                                                            <dd class="total"><span class="format-num">30300</span>원</dd>
+                                                        </dl>
+                                                    </div>
+                                                    <!--// list -->
+                                                </div>
+                                                <!--// order list wrap -->
+                                            </div>
+                                        </section>
+                                        <!--// panel -->
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        </div>
+                    </form>
+                </div>
+                <!--// body -->
+            </main>
+            <!-- bottom navi segment -->
+            <section class="nav-segment">
+                <div class="form-group justify-content-center">
+                    <div class="form-btn-group" role="group" aria-label="First Group">
+                        <button type="button" class="btn btn-icon navbar-toggler" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-drawer">
+                                <span></span><span></span><span></span>
+                            </span> 전체메뉴
+                        </button>
+                        <!-- <a href="#none" class="btn btn-icon"><i class="icon-home"></i> 홈</a> -->
+                        <a href="#none" class="btn btn-icon tooltip-template-orange" data-placement="top" title="1년 내내 반값"><i class="icon-membership"></i> 연회원 혜택</a>
+                        <a href="#none" class="btn btn-icon"><i class="icon-cart"></i> 장바구니<span class="badge badge-red">9</span></a>
+                        <a href="#none" class="btn btn-icon"><i class="icon-shipping"></i> 주문배송</a>
+                        <a href="#none" class="btn btn-icon"><i class="icon-login"></i> 로그인</a>
+                        <!-- <a href="#none" class="btn btn-icon"><i class="icon-user"></i> 회원정보</a> -->
+                    </div>
+                </div>
+            </section>
+		    <!--### [FOOTER] ###-->
+            <footer id="footerWrap" class="footer-wrap mall-style nav-scrollspy">
+                <!-- body -->
+                <div class="footer-body container">
+                    <div class="row">
+                        <!-- grid -->
+                        <div class="grid-col">
+                            <ul class="footer-nav">
+                                <li class="nav-item"><a href="#none" class="nav-link">회사 소개</a></li>
+                                <li class="nav-item"><a href="#none" class="nav-link"><strong>개인정보처리방침</strong></a></li>
+                                <li class="nav-item"><a href="#none" class="nav-link">이용약관</a></li>
+                                <li class="nav-item"><a href="#none" class="nav-link">이용문의</a></li>
+                            </ul>
+                        </div>
+                        <!-- grid -->
+                        <div class="grid-col">
+                            <div class="cs-info">
+                                <p>고객감동센터 : 02-6243-0555 &nbsp;&nbsp; 평일 : 09:00~18:00 (점심시간 : 12:00~13:00) &nbsp;&nbsp; 토요일, 일요일, 공휴일 휴무 &nbsp;&nbsp; / &nbsp;&nbsp; IBK 기업은행 217-075740-01-141 &nbsp; 예금주 : 주식회사 텐핑</p>
+                            </div>
+                            <div class="author-info">
+                                <p>상호 : 주식회사 텐핑 &nbsp;&nbsp; 대표 : 고준성 &nbsp;&nbsp; 사업자등록번호 : 220-88-96563 &nbsp;&nbsp; 통신판매업신고번호 : 2017-서울서초-1187 <a href="http://www.ftc.go.kr/bizCommPop.do?wrkr_no=2208896563" title="사업자정보 확인 새창 열기" target="_blank">[사업자정보확인]</a></p>
+                                <p>전화 : 02-6243-0555 &nbsp;&nbsp; 이메일 : uuu@UUUmall.kr &nbsp;&nbsp; 주소 : 06620 서울 서초구 서초대로78길 5, 대각빌딩 6~7층(서초동) &nbsp;&nbsp; 개인정보 보호책임자 : 이인섭</p>
+                                <p>안전거래를 위해 결제 시 저희 쇼핑몰에서 가입한 한국정보통신(주)의 구매안전서비스를 이용하실 수 있습니다. <a href="https://office.easypay.co.kr/homepage/other_service/EscrowAuthAction.do?memb_id=05542346" title="서비스가입사실확인 새창 열기" target="_blank">[가입사실확인]</a></p>
+                            </div>
+                            <div class="copyright-info"><p>© 2019 Tenping. ALL RIGHTS RESERVED.</p></div>
+                        </div>
+                        <!--// grid -->
+                    </div>
+                    <!-- floating banner -->
+                    <div class="bnrFloating">
+                        <!-- to the top trigger -->
+                        <div class="btnScrolltop"><a href="#pageTop" class="js-scroll-trigger" role="button"><i class="tencon-angle-up"></i></a></div>
+                        <!--// -->
+                    </div>
+                    <!--// -->
+                </div>
+                <!--// copyright -->
+            </footer>
+            <!--// ### [FOOTER] ###-->
+        </div>
+        <!-- 로딩 활성화될 경우 클래스 show 추가 -->
+		<div class="modal-spinner fade collapse">
+            <div class="form-group">
+                <button type="button" class="btn btn-white">새로고침 <i class="tencon-refresh"></i></button>
+            </div>
+        </div>
+        <!--// -->
+        
+        <!--### [MODAL] ###-->
+		<!-- modal shipping address -->
+		<div id="modalShippingAddress" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalShippingAddressLabel" aria-hidden="true" data-keyboard="false">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+				<!-- content -->
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 id="modalShippingAddressLabel" class="modal-title">최근 배송지</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="tencon-close"></i></span></button>
+					</div>
+					<div class="modal-body">
+                        <form action="" method="post">
+                            <div class="address-wrap">
+                                <!-- list -->
+								<div class="row">
+									<div class="col-9 s2">
+										<a href="">
+											<div class="zipcode s2">(03737) 서울특별시 서대문구 경기대로 00-00 (충정로3가, OO아파트), 101동 2001호</div>
+										</a>
+									</div>
+									<div class="col-2 s2">
+										<a href="">
+											<div class="badge badge-primary">선택</div>
+										</a>
+									</div>
+									<div class="col-1 s2">
+										<a href="">
+											<div class="badge del">삭제</div>
+										</a>	
+									</div>
+								</div>
+                                <!--// list --> 
+                            </div>
+                        </form>
+					</div>
+				</div>
+				<!--// -->
+			</div>
+		</div>
+		<!-- modal zipcode -->
+		<div id="modalZipcode" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalZipcodeLabel" aria-hidden="true" data-keyboard="false">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+				<!-- content -->
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 id="modalZipcodeLabel" class="modal-title">우편번호 검색</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="tencon-close"></i></span></button>
+					</div>
+					<div class="modal-body">
+                        <form action="" method="post">
+                            <fieldset class="label-hide">
+                                <legend>우편번호 검색 입력</legend>
+                                <div class="row">
+                                    <div class="grid-col">
+                                        <!-- form group -->
+                                        <div class="form-group">
+                                            <label for="inputZipCodeSearch" class="form-label">우편번호</label>
+                                            <div class="controls input-group">
+                                                <input type="text" id="inputZipCodeSearch" name="inputZipCodeSearch" class="form-control" value="" placeholder="도로명, 번지, 건물명 입력" />
+                                                <div class="input-group-append"><button type="button" class="btn btn-outline btn-append"><i class="tencon-search"></i></button></div>
+                                                <div class="invalid-tooltip">에러 메시지</div>
+                                            </div>
+                                        </div>
+                                        <!--// form group -->
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <!-- zipcode list -->
+                            <div class="zipcode-wrap">
+                                <!-- initial -->
+                                <div class="list-empty">
+                                    <h5>우편번호 통합검색 Tip</h5>
+                                    <p>도로명 + 건물번호 (예: 서초대로78길 5)</p>
+                                    <p>동/읍/면/리 + 번지 (예: 서초동 1319-5)</p>
+                                    <p>건물명, 아파트명 (예: 대각빌딩}</p>
+                                </div>
+                                <!-- search list -->
+                                <!-- list -->
+                                <div class="row">
+                                    <!-- grid -->
+                                    <div class="col-2">
+                                        <div class="zipcode">00000</div>
+                                    </div>
+                                    <div class="col-9">
+                                        <div class="address">
+                                            <dl class="dl-horizontal wd-80">
+                                                <dt><span class="badge badge-primary">도로명</span></dt>
+                                                <dd><a href="#none">서울특별시 서초구 서초대로78길 5</a></dd>
+                                                <dt><span class="badge badge-primary">지번</span></dt>
+                                                <dd><a href="#none">서울특별시 서초구 서초동 1319-5 대각빌딩</a></dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- list -->
+                                <div class="row">
+                                    <!-- grid -->
+                                    <div class="col-2">
+                                        <div class="zipcode">00000</div>
+                                    </div>
+                                    <div class="col-9">
+                                        <div class="address">
+                                            <dl class="dl-horizontal wd-80">
+                                                <dt><span class="badge badge-primary">도로명</span></dt>
+                                                <dd><a href="#none">서울특별시 서초구 서초대로78길 5</a></dd>
+                                                <dt><span class="badge badge-primary">지번</span></dt>
+                                                <dd><a href="#none">서울특별시 서초구 서초대로78길 5, 대각빌딩 서울특별시 서초구 서초대로78길 5, 대각빌딩</a></dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--// list -->
+                                <!-- pagination -->
+                                <div class="pagination-wrap">
+                                    <nav aria-label="Page navigation">
+                                        <ul class="pagination justify-content-center">
+                                            <li class="page-item page-item-nav disabled"><a class="page-link" href="#" tabindex="-1" aria-label="First"><i class="tencon-angle-left-first" aria-hidden="true"></i><span class="sr-only">처음</span></a></li>
+                                            <li class="page-item page-item-nav disabled"><a class="page-link" href="#" tabindex="-1" aria-label="Previous"><i class="tencon-angle-left-previous" aria-hidden="true"></i><span class="sr-only">이전</span></a></li>
+                                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                            <li class="page-item active" aria-current="page"><span class="page-link">2<span class="sr-only">현재 페이지</span></span></li>
+                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                            <li class="page-item page-item-nav"><a class="page-link" href="#" aria-label="Next"><i class="tencon-angle-right-next" aria-hidden="true"></i><span class="sr-only">다음</span></a></li>
+                                            <li class="page-item page-item-nav"><a class="page-link" href="#" aria-label="Last"><i class="tencon-angle-right-last" aria-hidden="true"></i><span class="sr-only">마지막</span></a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <!--// -->
+                                <!--// 검색결과 목록 -->    
+                            </div>
+                            <!--// zipcode list -->
+                        </form>
+					</div>
+				</div>
+				<!--// -->
+			</div>
+		</div>
+        <!-- modal login -->
+        <div id="modalLogin" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalLoginLabel" aria-hidden="true" data-keyboard="false">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+				<!-- content -->
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 id="modalLoginLabel" class="modal-title">로그인</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="tencon-close"></i></span></button>
+					</div>
+					<div class="modal-body">
+                        <form action="" method="post">
+                            <fieldset class="label-hide">
+                                <legend>로그인 입력폼</legend>
+                                <div class="row">
+                                    <!-- grid -->
+                                    <div class="grid-col">
+                                        <!-- form-group -->
+                                        <div class="form-group">
+                                            <label for="inputID" class="form-label">휴대폰 번호</label>
+                                            <div class="controls">
+                                                <!-- Error 발생할 경우 class="form-control"에 클래스 is-invalid 추가 -->
+                                                <input type="text" id="inputID" name="" class="form-control" value="" placeholder="휴대폰 번호 입력" />
+                                                <div class="invalid-tooltip">에러 메시지</div>
+                                            </div>
+                                        </div>
+                                        <!-- form-group -->
+                                        <div class="form-group">
+                                            <label for="inputCertify" class="form-label">비밀번호</label>
+                                            <div class="controls">
+                                                <input type="password" id="inputPW" name="" class="form-control" value="" placeholder="비밀번호 입력" />
+                                                <div class="invalid-tooltip">에러 메시지</div>
+                                            </div>
+                                        </div>
+                                        <!-- form-group -->
+                                        <div class="form-group">
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" id="rememberAccount" class="custom-control-input" name="rememberAccount" />
+                                                <label for="rememberAccount" class="custom-control-label">로그인 상태 유지</label>
+                                            </div>
+                                        </div>
+                                        <!-- form-group -->
+                                        <div class="form-group">
+                                            <button type="button" class="btn btn-block btn-primary btn-signin">로그인</button>
+                                        </div>
+                                        <!-- form-group -->
+                                        <div class="form-group justify-content-center">
+                                            <ul class="form-btn-group list-inline separator-bar" aria-label="First Group">
+                                                <li class="list-inline-item"><a href="#none">간편 회원 가입</a></li>
+                                                <li class="list-inline-item"><a href="#none">비밀번호 찾기</a></li>
+                                            </ul>
+                                        </div>
+                                        <!--// form-group -->
+                                    </div>
+                                    <!--// grid -->
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- modal coupon list -->
+		<div id="modalCouponList" class="modal fade right" tabindex="-1" role="dialog" aria-labelledby="modalCouponListLabel" aria-hidden="true" data-keyboard="false">
+            <div class="modal-dialog modal-angular modal-frame modal-right" role="document">
+				<!-- content -->
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 id="modalCouponListLabel" class="modal-title">할인쿠폰</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="tencon-close-sm"></i></span></button>
+					</div>
+					<div class="modal-body modal-body-internallyscroll">
+                        <!-- segment : coupon list -->
+                        <section class="segment-wrap couponlist-segment">
+                            <!-- container -->
+                            <div>
+                                <div class="segment-body">
+                                    <!-- panel -->
+                                    <section class="panel-wrap">
+                                        <div class="panel-body">
+                                            <!-- coupon wrap -->
+                                            <div class="row">
+                                                <div class="grid-col">
+                                                    <div class="form-group">
+                                                        <div class="custom-control custom-checkbox custom-checkbox-blank">
+                                                            <input type="checkbox" id="checkboxCoupon01" class="custom-control-input" name="checkboxBlankGroup" />
+                                                            <label for="checkboxCoupon01" class="custom-control-label text-hide">선택</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="coupon">
+                                                        <div class="title"><strong class="text-orange">연회원</strong> 홍*동님이 보낸 쿠폰</div>
+                                                        <div class="img-coupon"><img src="../../images/img-coupon_fm5000.png" alt="" /></div>
+                                                        <div class="date">사용 기간 2020.03.24까지</div>
+                                                    </div>
+                                                </div>
+                                                <div class="grid-col">
+                                                    <div class="form-group">
+                                                        <div class="custom-control custom-checkbox custom-checkbox-blank">
+                                                            <input type="checkbox" id="checkboxCoupon02" class="custom-control-input" name="checkboxBlankGroup" />
+                                                            <label for="checkboxCoupon02" class="custom-control-label text-hide">선택</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="coupon">
+                                                        <div class="title">0100000****님이 보낸 쿠폰</div>
+                                                        <div class="img-coupon"><img src="../../images/img-coupon_f3000.png" alt="" /></div>
+                                                        <div class="date">사용 기간 2020.03.24까지</div>
+                                                    </div>
+                                                </div>
+                                                <!--// coupon wrap -->
+                                                <!-- data empty -- >
+                                                <div class="data-empty">
+                                                    <div class="data-empty-body">
+                                                        <span>등록된 쿠폰이 없습니다.</span>
+                                                    </div>
+                                                </div>
+                                                <!--// data empty -->
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <!--// panel -->
+                                </div>
+                            </div>
+                            <!--// container -->
+                        </section>
+                        <!--// segment -->
+					</div>
+                    <div class="modal-footer modal-footer-centered">
+                        <div class="form-group justify-content-center mb-0">
+                            <div class="form-btn-group w-100" role="group" aria-label="First Group">
+                                <button type="button" class="btn btn-orange w-100">적용하기</button>
+                            </div>
+                        </div>
+					</div>
+				</div>
+				<!--// -->
+			</div>
+		</div>
+        <!-- modal card -->
+        <div id="modalCard" class="modal fade modal-card" tabindex="-1" role="dialog" aria-labelledby="modalCardLabel" aria-hidden="true" data-keyboard="false">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <!-- content : step1 카드 추가하기 -->
+                <div class="modal-content" style="display:block;">
+					<div class="modal-header">
+						<h5 class="modal-title">
+							카드 추가하기
+							<small>
+								* UUU몰 간편결제는 한국정보통신㈜을 통해 안전하게 제공됩니다.<br />
+								* 최초 카드 등록 이후에는 별도 입력 없이 바로 주문할 수 있습니다.
+							</small>
+						</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="tencon-close"></i></span></button>
+					</div>
+                    <div class="modal-body">
+						<fieldset class="form-reg-type label-hide">
+							<legend>카드 추가하기</legend>
+							<!-- form grid -->
+							<div class="form-layout-wrap simple-style">
+								<div class="form-layout-group">
+									<!-- row -->
+									<div class="form-layout-row">
+										<div class="form-layout-header">
+											<h4 class="form-layout-label">카드번호</h4>
+										</div>
+										<div class="form-layout-body">
+											<div class="row">
+												<!-- grid -->
+												<div class="col-12">
+													<!-- form-group -->
+													<div class="form-group">
+														<label for="" class="form-label">카드번호</label>
+														<div class="controls cardNum">
+															<input type="text" id="" name="" maxlength="4" class="form-control" value="" placeholder="">
+															<input type="text" id="" name="" maxlength="4" class="form-control" value="" placeholder="">
+															<input type="text" id="" name="" maxlength="4" class="form-control" value="" placeholder="">
+															<input type="text" id="" name="" maxlength="4" class="form-control" value="" placeholder="">
+															<div class="invalid-tooltip">에러 메시지</div>
+														</div>
+													</div>
+													<!--// form-group -->
+												</div>
+												<!--// grid -->
+											</div>
+										</div>
+									</div>
+									<!-- row -->
+									<div class="form-layout-row">
+										<div class="form-layout-header">
+											<h4 class="form-layout-label">유효기간</h4>
+										</div>
+										<div class="form-layout-body">
+											<div class="row">
+												<!-- grid -->
+												<div class="col-12">
+													<!-- form-group -->
+													<div class="form-group">
+														<label for="" class="form-label">유효기간</label>
+														<div class="controls term">
+															<input type="text" id="" name="" maxlength="2" class="form-control" value="" placeholder="월">
+															<input type="text" id="" name="" maxlength="2" class="form-control" value="" placeholder="연도">
+															<div class="invalid-tooltip">에러 메시지</div>
+														</div>
+														
+													</div>
+													<!--// form-group -->
+												</div>
+												<!--// grid -->
+											</div>
+										</div>
+									</div>
+									<!-- row -->
+									<div class="form-layout-row">
+										<div class="form-layout-header">
+											<h4 class="form-layout-label">생년월일</h4>
+										</div>
+										<div class="form-layout-body">
+											<div class="row">
+												<!-- grid -->
+												<div class="col-12">
+													<!-- form-group -->
+													<div class="form-group">
+														<label for="" class="form-label">생년월일</label>
+														<div class="controls date">
+															<input type="text" id="" name="" maxlength="6" class="form-control" value="" placeholder="6자리 (901225)">
+															<div class="invalid-tooltip">에러 메시지</div>
+														</div>
+													</div>
+													<!--// form-group -->
+												</div>
+												<!--// grid -->
+											</div>
+										</div>
+									</div>
+									<!-- row -->
+									<div class="form-layout-row">
+										<div class="form-layout-header">
+											<h4 class="form-layout-label">비밀번호</h4>
+										</div>
+										<div class="form-layout-body">
+											<div class="row">
+												<!-- grid -->
+												<div class="col-12">
+													<!-- form-group -->
+													<div class="form-group">
+														<label for="" class="form-label">비밀번호</label>
+														<div class="controls pw">
+															<input type="password" id="" name="" maxlength="2" class="form-control" value="" placeholder="앞 2자리">
+															<div class="invalid-tooltip">에러 메시지</div>
+														</div>
+													</div>
+													<!--// form-group -->
+												</div>
+												<!--// grid -->
+											</div>
+										</div>
+									</div>
+									<!--// row -->
+								</div>
+							</div>
+							<!--// form grid -->
+						</fieldset>
+					
+					</div>
+                    <div class="modal-footer modal-footer-centered">
+                        <button type="button" class="btn btn-outline btn-primary" data-dismiss="modal">취소</button>
+                        <button type="button" class="btn btn-primary">다음</button>
+                    </div>
+                </div>
+                <!--// -->
+				
+				<!-- content : step2 결제 비밀번호 입력(등록) -->
+				<div class="modal-content pw" style="display:none;">
+					<div class="modal-body">
+						<p>주문 시 확인을 위한 비밀번호(숫자 6자리)를 입력해주세요</p>
+							<!-- form-group -->
+							<div class="form-group">
+								<div class="controls input-group input-group-light">
+									<input type="password" id="txtPW1" name="" maxlength="6" class="form-control" value="" placeholder="비밀번호 입력">
+									<div class="input-group-append"><a href="#none" class="input-group-text toggle-password" toggle="#txtPW1" role="button"><i class="tencon-eye-hide"></i></a></div>
+									<div class="invalid-tooltip">에러 메시지</div>
+								</div>
+							</div>
+							<!--// form-group -->
+					</div>
+					<div class="modal-footer modal-footer-centered">
+						<button type="button" class="btn btn-outline btn-primary" data-dismiss="modal">취소</button>
+						<button type="button" class="btn btn-primary">등록완료</button>
+					</div>
+				</div>
+				<!--// -->
+				
+				<!-- content : step3 간편결제 비밀번호 수정 -->
+                <div class="modal-content pw-modify" style="display:none;">
+					<div class="modal-header">
+						<h5 id="modalCardLabel" class="modal-title">
+							간편결제 비밀번호 수정
+							<small>
+								본인 여부 확인을 위해 휴대폰 인증 후 비밀번호 재설정 가능합니다.
+							</small>
+						</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="tencon-close"></i></span></button>
+					</div>
+                    <div class="modal-body">
+						<div class="grid-col">
+							<!-- form-group -->
+							<div class="form-group">
+								<label for="txtDestination2" class="form-label">휴대폰 번호</label>
+								<div class="controls input-group">
+									<!-- Error 발생할 경우 class="form-control"에 클래스 is-invalid 추가 -->
+									<input type="text" id="txtDestination2" name="" class="form-control" value="" placeholder="휴대폰 번호 입력" />
+									<div class="input-group-append"><button type="button" class="btn btn-primary btn-append">인증받기</button></div>
+									<small class="form-text" style="display:none;">인증번호가 발송되었습니다.</small>
+									<div class="invalid-tooltip">에러 메시지</div>
+									<div class="valid-feedback" style="display:block;">※ 인증이 완료되었습니다.</div>
+								</div>
+							</div>
+							<!-- form-group -->
+							<div class="form-group">
+								<label for="txtCertificationNumber2" class="form-label">인증번호</label>
+								<div class="controls input-group input-group-light">
+									<input type="text" id="txtCertificationNumber2" name="" class="form-control" value="" placeholder="인증번호 입력" />
+									<div class="input-group-append"><span class="input-group-text text-red"><i class="tencon-watch"></i> 00:00</span></div>
+									<div class="input-group-append"><button type="button" class="btn btn-primary btn-append">인증하기</button></div>
+									<div class="invalid-tooltip">에러 메시지</div>
+								</div>
+							</div>
+							<!--// form-group -->
+						</div>
+					</div>
+                </div>
+				<!--// -->
+				
+				<!-- content : step4 비밀번호 입력 -->
+				<div class="modal-content pw" style="display:none;">
+					<div class="modal-body">
+						<p>주문 시 확인을 위한 비밀번호(숫자 6자리)를 입력해주세요</p>
+							<!-- form-group -->
+							<div class="form-group">
+								<div class="controls input-group input-group-light">
+									<input type="password" id="txtPW2" name="" maxlength="6" class="form-control" value="" placeholder="비밀번호 입력">
+									<div class="input-group-append"><a href="#none" class="input-group-text toggle-password" toggle="#txtPW2" role="button"><i class="tencon-eye-hide"></i></a></div>
+									<div class="invalid-tooltip">에러 메시지</div>
+								</div>
+							</div>
+							<!--// form-group -->
+					</div>
+					<div class="modal-footer modal-footer-centered">
+						<button type="button" class="btn btn-outline btn-primary" data-dismiss="modal">취소</button>
+						<button type="button" class="btn btn-primary">등록완료</button>
+					</div>
+				</div>
+                <!--// -->
+            </div>
+        </div>
+		<!-- modal payConfirm -->
+        <div id="modalPayConfirm" class="modal fade modal-payconfirm" tabindex="-1" role="dialog" aria-labelledby="modalPayConfirmLabel" aria-hidden="true" data-keyboard="false" style="display:none ">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+				<!--// -->
+				<!-- content : 카드 결제하기 -->
+                <div class="modal-content pw" style="display:block;">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="tencon-close"></i></span></button>
+					</div>
+                    <div class="modal-body">
+						<p>간편결제 비밀번호(숫자 6자리)를 입력해주세요.</p>
+						<!-- form-group -->
+						<div class="form-group">
+							<div class="controls input-group input-group-light">
+								<input type="password" id="txtPW3" name="" maxlength="6" class="form-control" value="" placeholder="비밀번호 입력">
+								<div class="input-group-append"><a href="#none" class="input-group-text toggle-password" toggle="#txtPW3" role="button"><i class="tencon-eye-hide"></i></a></div>
+								<div class="invalid-tooltip">에러 메시지</div>
+							</div>
+						</div>
+						<!--// form-group -->
+						<a href="#" class="re-pw">간편결제 비밀번호 재설정</a>
+					</div>
+                    <div class="modal-footer modal-footer-centered">
+                        <button type="button" class="btn btn-outline btn-secondary" data-dismiss="modal">취소</button>
+                        <button type="button" class="btn btn-orange">결제하기</button>
+                    </div>
+                </div>
+                <!--// -->
+				
+            </div>
+        </div>
+		
+		<div id="modalEasypayCardPasswordCheck" class="modal fade modal-payconfirm" tabindex="-1" role="dialog" aria-labelledby="modalEasypayCardPasswordCheckLabel" aria-hidden="true" data-keyboard="false">
+            <div class="modal-dialog modal-dialog-centered modal-alert" role="document">
+                <!-- content -->
+                <div class="modal-content pw">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="fn_EasypayCardUseCancel();"><span aria-hidden="true"><i class="tencon-close"></i></span></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>간편결제 비밀번호(숫자 6자리)를 입력해주세요.</p>
+                        <!-- form-group -->
+                        <!--<div class="form-group">
+                            <div class="controls input-group input-group-light">
+                                <input type="password" id="txtEasypayCardPassword" name="txtEasypayCardPassword" maxlength="6" class="form-control" value="" placeholder="비밀번호 입력">
+                                <div class="input-group-append"><a href="#none" class="input-group-text toggle-password" toggle="#txtEasypayCardPassword" role="button"><i class="tencon-eye-hide"></i></a></div>
+                                <div class="invalid-tooltip">에러 메시지</div>
+                            </div>
+                        </div>-->
+                        <div class="form-group">
+                            <div class="controls input-group input-group-light">
+                                <input type="text" id="txtPW4" name="" maxlength="6" class="form-control" value="" placeholder="비밀번호 입력">
+                                <div class="input-group-append"><a href="#none" class="input-group-text toggle-password" toggle="#txtPW4" role="button"><i class="tencon-eye-view"></i></a></div>
+                                <div class="invalid-tooltip">에러 메시지</div>
+                            </div>
+                        </div>
+                        <!--// form-group -->
+                        <a href="#" class="re-pw" onclick="fn_DisableInput();fn_EasypayCardRegInit(2, 'show', $('#EP_card_seq').val(), 'modalEasypayCardPasswordCheck');">간편결제 비밀번호 재설정</a>
+                    </div>
+                    <div class="modal-footer modal-footer-centered">
+                        <button type="button" class="btn btn-outline btn-secondary" data-dismiss="modal" onclick="fn_EasypayCardUseCancel();">취소</button>
+                        <button type="button" class="btn btn-orange" onclick="fn_EasypayCardPasswordCheck();">결제하기</button>
+                    </div>
+                </div>
+                <!--// -->
+            </div>
+        </div>
+		
+		<!-- modal 사은품 증정 대상 브랜드 -->
+		<div id="targetBrand" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="targetBrandLabel" aria-hidden="true" data-keyboard="false" style="display:none">
+            <div class="modal-dialog modal-dialog-centered modal-targetbrand" role="document">
+				<!-- content -->
+				<div class="modal-content">
+                    <div class="modal-header">
+						<h5 id="targetBrandLabel" class="modal-title sr-only">신용카드 무이자 할부 혜택</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="tencon-close"></i></span></button>
+					</div>
+					<div class="modal-body modal-body-center">
+						<div class="brand-wrap">
+                        	<p>대상 브랜드</p>				
+							<div class="table-wrap" id="divTargetBrandText">
+								<div>UUU</div><div>고려홍삼중앙회</div><div>꿀건달</div><div>넛츠홀릭</div><div>니베아</div><div>디어프롬</div><div>또또맘</div><div>라엘</div><div>밀라이트</div><div>비브르</div><div>비온뒤첫소금</div><div>스마투스</div><div>스위트컵</div><div>에이올</div><div>오그래</div><div>왓스업</div><div>자임</div><div>청춘농장</div><div>티스템</div><div>파나소닉</div><div>한미</div><div>홀라이프</div>
+							</div>
+						</div>
+						<!-- 제외 브랜드 노출 시 disabled 클래스 추가 -->
+						<div class="brand-wrap disabled" id="divExceptBrand" style="/* display: none; */">
+							<p>제외 브랜드</p>
+							<div class="table-wrap" id="divExceptBrandText"></div>
+						</div>
+						<!--// -->
+					</div>
+					<div class="modal-footer modal-footer-centered">
+                        <div class="form-group justify-content-center mb-0">
+                            <div class="form-btn-group" data-dismiss="modal" aria-label="Close">
+                                <button type="button" class="btn btn-orange">확인</button>
+                            </div>
+                        </div>
+					</div>
+				</div>
+				<!--// -->
+			</div>
+		</div>
+        <!--### [MODAL] ###-->
+	</div>
+	
+	<!-- scrolling navigation js -->
+    <script src="../../Js.Library/scrolling-nav.js"></script>
+        
+    <!-- shrink-header js -- >
+	<script>
+		$(window).scroll(function() {
+			if ($(this).scrollTop() > 50) {
+				$('#headerWrap').addClass('navbar-shrink');
+			} else {
+				$('#headerWrap').removeClass('navbar-shrink');
+			}
+		});
+	</script>
+    
+    <!-- sidebar js -->
+    <script>
+        $(document).ready(function () {
+            $('.navbar-toggler').on('click', function () {
+                $('#pageTop').toggleClass('nav-toggle-open nav-toggle-collapsing');
+                setTimeout(function() {
+                    $("#pageTop").removeClass("nav-toggle-collapsing");
+                }, 120);
+            });
+        });
+    </script>
+    
+    <!-- password show/hide js -->
+    <script>
+        $(".toggle-password").click(function() {
+            $(".toggle-password i").toggleClass("tencon-eye-hide tencon-eye-view");
+            var input = $($(this).attr("toggle"));
+            if (input.attr("type") == "password") {
+                input.attr("type", "text");
+            } else {
+                input.attr("type", "password");
+            }
+        });
+    </script>
+    
+    <!-- add comma js -->
+	<script>
+        // 숫자 타입에서 쓸 수 있도록 format() 함수 추가
+        Number.prototype.format = function(){
+            if(this==0) return 0;
+
+            var reg = /(^[+-]?\d+)(\d{3})/;
+            var n = (this + '');
+
+            while (reg.test(n)) n = n.replace(reg, '$1' + ',' + '$2');
+
+            return n;
+        };
+
+        // 문자열 타입에서 쓸 수 있도록 format() 함수 추가
+        String.prototype.format = function(){
+            var num = parseFloat(this);
+            if( isNaN(num) ) return "0";
+
+            return num.format();
+        };
+        
+        jQuery('.format-num').text(function() {
+            jQuery(this).text(
+                jQuery(this).text().format()
+            );
+        });
+	</script>
+    
+    <!-- input add comma js -->
+    <script>
+		function inputNumberForamt(obj) { 
+			obj.value = comma(uncomma(obj.value)); 
+		}
+		function comma(x) {
+			return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ','); 
+		}
+		function uncomma(str) {
+			return str.toString().replace(/[^\d]+/g, ''); 
+		}
+	</script>
+
+    
+    <!-- tooltip/popover template js -- >
+    <script>
+        $(document).ready(function () {   
+            var popoverTemplate = ['<div class="popover popover-navy" role="tooltip">',
+                                   '<div class="arrow"></div>',
+                                   '<div class="popover-body">',                                    
+                                   '</div>',
+                                   '</div>'].join('');
+  
+            var content = ['<p class="lead">직접 계좌이체 시 포인트 100원 적립</p>',
+                           '<p>토스 또는 카카오 송금을 이용하면 간편하게 이체할 수 있습니다.</p>',].join('');
+
+            $('body').popover({
+                selector: '[rel=popover]',
+                trigger: 'click',
+                content : content,
+                template: popoverTemplate,
+                placement: "right",
+                html: true
+            });
+        });
+    </script>
+    
+	<!-- tooltip js -->
+	<script>
+		$(document).ready(function(){
+			$('[data-tooltip="tooltip"]').tooltip({
+				trigger: "hover"
+			});
+		});
+	</script>
+	<!--// -->
+</body>
+</html>

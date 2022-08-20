@@ -1,0 +1,1515 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700" rel="stylesheet" />
+	<!-- standard meta -->
+	<meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../images/icon/favicon.ico" />
+    <!-- site properities -->
+	<title>VIP회원 혜택 나누기</title>
+    <meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="UUU" />
+	<meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta name="format-detection" content="telephone=no, address=no, email=no" />
+    <link rel="canonical" href="http://uuumall.kr" />
+	<!-- facebook meta-->
+	<meta property="og:url" content="http://uuumall.kr" />
+	<meta property="og:title" content="" />
+	<meta property="og:description" content="" />
+    <meta property="og:image" content="https://img.tenping.kr/Content/Upload/Images/icon-opengraph_uuu.png" />
+    <!-- icon meta -->
+	<link rel="apple-touch-icon-precomposed" href="../../images/icon/touch-icon-iphone-retina.png" />
+	<link rel="apple-touch-icon" href="../../images/icon/touch-icon-iphone.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="../../images/icon/touch-icon-ipad.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="../../images/icon/touch-icon-iphone-retina.png" />
+	<link rel="apple-touch-icon" sizes="167x167" href="../../images/icon/touch-icon-ipad-retina.png" />
+	<!--// -->
+	<!--[if lte IE 9]>
+		<script src="../../Js.Library/html5shiv.js"></script>
+		<script src="../../Js.Library/jquery-1.10.2.js"></script>
+		<script src="../../Js.Library/placeholders.js"></script>
+	<![endif]-->
+	<!-- common css -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" />
+	<link rel="stylesheet" href="../../css/base.css" />
+	<link rel="stylesheet" href="../../css/layout.css" />
+	<link rel="stylesheet" href="../../css/common.css" />
+    <link rel="stylesheet" href="../../css/page-common.css" />
+    <link rel="stylesheet" href="../../css/page-order.css" />
+	<link rel="stylesheet" href="../../css/animate.min.css" />
+	<link rel="stylesheet" href="../../css/page-about.css" />
+    <!-- bootstrap core js -->
+	<script src="../../Js.Library/jquery-3.3.1.min.js"></script>
+	<script src="../../Js.Library/jquery-ui-1.12.1.min.js"></script>
+	<script src="../../Js.Library/popper.min.js"></script>
+	<script src="../../Js.Library/bootstrap.min.js"></script>
+	<!-- common plugin js -->
+    <script src="../../Js.Library/scrollreveal.min.js"></script>
+	<script src="../../Js.Library/jquery.easing.min.js"></script>
+	<script src="../../Js.Library/jquery.simpler-sidebar.js"></script> 
+	<script src="../../Js.Library/SmoothScroll.min.js"></script>
+    <script src="../../Js.Library/simplebar.min.js"></script>
+	<script src="../../Js.Library/clipboard.min.js"></script>
+    <!-- custom js -->
+    <script src="../../Js.Library/swiper.min.js"></script>
+</head>
+<body id="pageTop" class="sub">
+	<div id="pageWrap" class="page-wrap page-signin page-signin2">
+		<div class="wrapper">
+            <!--### [HEADER] ###-->
+            <header id="headerWrap" class="header-wrap">
+                <!-- top menu -->
+                <div class="top-navbar">
+                    <div class="container">
+                        <div class="navbar navbar-expand">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a href="#none" class="nav-link btn btn-icon btn-transparent tooltip-template-gray btn-mypage" title="마이페이지"><i class="icon-mypage"></i><span class="badge badge-orange animated bounceIn">N</span></a></li>
+                                <li class="nav-item"><a href="#none" class="nav-link btn btn-icon btn-transparent tooltip-template-gray btn-cart" title="장바구니"><i class="icon-cart"></i><span class="badge badge-orange animated bounceIn">9</span></a></li>
+                                <li class="nav-item"><a href="#none" class="nav-link btn btn-icon btn-transparent tooltip-template-gray btn-login" title="로그인"><i class="icon-login"></i></a></li>
+                                <li class="nav-item"><a href="#none" class="nav-link btn btn-icon btn-transparent tooltip-template-gray btn-signup" title="회원가입"><i class="icon-signup"></i></a></li>
+                                <!-- <li class="nav-item"><a href="#none" class="nav-link btn btn-icon btn-transparent tooltip-template-gray btn-logout" title="로그아웃" role="button"><i class="icon-logout"></i></a></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- navbar -->
+                <div class="container">
+                    <div class="navbar brand-expand">
+                        <!-- brand -->
+                        <div class="navbar-brand">
+                            <h1>
+                                <a href="/" aria-label="UUU mall">
+                                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="114" height="40" viewBox="0 0 114 40" xml:space="preserve">
+                                        <g class="logo">
+                                            <path class="st2" d="M94,40H20C9,40,0,31,0,20v0C0,9,9,0,20,0h74c11,0,20,9,20,20v0C114,31,105,40,94,40z"/>
+                                            <g>
+                                                <path class="st1" d="M28.6,9.7v12.2c0,0.5-0.1,1-0.2,1.4c-0.1,0.5-0.3,0.9-0.6,1.2c-0.3,0.4-0.6,0.6-1.1,0.9
+                                                    c-0.4,0.2-1,0.3-1.6,0.3s-1.2-0.1-1.6-0.3c-0.4-0.2-0.8-0.5-1.1-0.9c-0.3-0.4-0.5-0.8-0.6-1.2c-0.1-0.5-0.2-0.9-0.2-1.4V9.7h-5.1
+                                                    v12.5c0,1.2,0.2,2.3,0.6,3.3c0.4,1,1,1.8,1.7,2.6c0.7,0.7,1.6,1.3,2.7,1.7c1.1,0.4,2.3,0.6,3.6,0.6c1.3,0,2.5-0.2,3.6-0.6
+                                                    c1.1-0.4,2-1,2.7-1.7c0.8-0.7,1.3-1.6,1.7-2.6c0.4-1,0.6-2.1,0.6-3.3V9.7H28.6z"/>
+                                                <path class="st1" d="M49.2,9.7v12.2c0,0.5-0.1,1-0.2,1.4c-0.1,0.5-0.3,0.9-0.6,1.2c-0.3,0.4-0.6,0.6-1.1,0.9
+                                                    c-0.4,0.2-1,0.3-1.6,0.3c-0.6,0-1.2-0.1-1.6-0.3c-0.4-0.2-0.8-0.5-1.1-0.9c-0.3-0.4-0.5-0.8-0.6-1.2c-0.1-0.5-0.2-0.9-0.2-1.4
+                                                    V9.7h-5.1v12.5c0,1.2,0.2,2.3,0.6,3.3c0.4,1,1,1.8,1.7,2.6c0.7,0.7,1.6,1.3,2.7,1.7c1.1,0.4,2.3,0.6,3.6,0.6
+                                                    c1.3,0,2.5-0.2,3.6-0.6c1.1-0.4,2-1,2.7-1.7c0.8-0.7,1.3-1.6,1.7-2.6c0.4-1,0.6-2.1,0.6-3.3V9.7H49.2z"/>
+                                                <path class="st1" d="M69.8,9.7v12.2c0,0.5-0.1,1-0.2,1.4c-0.1,0.5-0.3,0.9-0.6,1.2c-0.3,0.4-0.6,0.6-1.1,0.9
+                                                    c-0.4,0.2-1,0.3-1.6,0.3c-0.6,0-1.2-0.1-1.6-0.3c-0.4-0.2-0.8-0.5-1.1-0.9c-0.3-0.4-0.5-0.8-0.6-1.2c-0.1-0.5-0.2-0.9-0.2-1.4
+                                                    V9.7h-5.1v12.5c0,1.2,0.2,2.3,0.6,3.3c0.4,1,1,1.8,1.7,2.6c0.7,0.7,1.6,1.3,2.7,1.7c1.1,0.4,2.3,0.6,3.6,0.6
+                                                    c1.3,0,2.5-0.2,3.6-0.6c1.1-0.4,2-1,2.7-1.7c0.8-0.7,1.3-1.6,1.7-2.6c0.4-1,0.6-2.1,0.6-3.3V9.7H69.8z"/>
+                                                <path class="st1" d="M78.6,20.1v-2.5H87V16h-5.2V8.3h13.2V16h-5.1v1.7h8.4v2.5H78.6z M81.7,30.6v-5.8h10.5v-1.1H81.7v-2.3H95v5.8
+                                                    H84.6v1.1h11v2.3H81.7z M92.1,10.6h-7.4v3h7.4V10.6z"/>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </a>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <!--// navbar -->
+			</header>
+		    <!--### [MAIN] ###-->
+            <main id="mainWrap" class="main-wrap" role="main">
+
+				<!-- body -->
+                <div class="main-body">
+					
+					<!-- segment : membership -->
+                    <section class="segment-wrap membership-segment family">
+						
+						<!-- 1. VIP회원 -->
+						<div class="segment-body" style="display:;">
+							<div class="member-info s2">VIP 혜택 나누기</div>
+							<!-- panel -->
+							<section class="panel-wrap">
+								<div class="panel-body">
+									
+									<!-- VIP 회원 -->
+									<div class="box-message">
+										<div class="member-info alert type2" style="display:;">
+											<strong>변*도</strong> 님은 UUU몰의 VIP회원입니다
+										</div>
+									</div>
+
+									<section class="segment-wrap" style="display:;">
+										<!-- container -->
+										<div class="container">
+											<div class="segment-body">
+												<div class="segment-header s2">
+													<h2>친구들에게 VIP 비밀할인 혜택 나눠 주고<br>자동으로 캐시 쌓으세요</h2>
+												</div>
+												<div class="share-vip">
+													<div class="modal-footer modal-footer-centered s3">
+														<div class="form-group justify-content-center">
+															<div class="form-btn-group" role="group" aria-label="First Group">
+																<button type="button" class="btn btn-icon btn-rounded btn-kakao btn-kakaotalk type3"><i class="tencon-kakaotalk"></i></button>
+																<button type="button" class="btn btn-icon btn-rounded btn-white btn-sms type3"><i class="tencon-sms2-filled"></i></button>
+																<button type="button" class="btn btn-icon btn-rounded btn-white btn-url type3" onclick="" data-original-title="링크를 복사했습니다">
+
+																	<!-- 로딩 시 노출 -->
+																	<div class="loader" style="display:none;">
+																		<div class="loading-spinner">
+																			<svg class="loading-spinner__circle-svg" viewBox="25 25 50 50">
+																				<circle class="loading-spinner__circle-stroke" cx="50" cy="50" r="18" fill="none" stroke-width="2" stroke-miterlimit="10"></circle>
+																			</svg>
+																		</div>
+																	</div>
+																	<i class="tencon-attachment" style="display:;"></i>
+
+																</button>
+															</div>
+														</div>
+													</div>
+												</div>	
+											</div>
+										</div>
+									</section>
+									
+									<section class="segment-wrap" style="display:;">
+										<!-- container -->
+										<div class="container">
+											
+											<div class="row">
+												<div class="grid-col s3">
+													<div class="add-content s3">
+														<div class="content-wrap">
+															
+															<!-- case1 -->
+															<div class="list" style="display:;">
+																<span class="main">친구에게 초대할 때 마다<br>친구에게 5천원, <strong>나는 무제한 캐시 5백원</strong></span>
+																<input class="toggle-box" id="sub1" type="checkbox" checked>
+																<label for="sub1"></label>
+																<div class="sub-wrap">
+																	<div class="icon-vip s1"></div>
+																	<span class="sub img1">나와 친구의 현금 구매액이 많을수록<br><strong>친구 초대 보상 캐시가 높아집니다.</strong></span>
+																	<div class="form-group type4">
+																		<a href="#none" data-toggle="modal" data-target="#infoReward" class="btn btn-lg btn-primary type5">친구 초대 보상기준<br>자세히 보기<i class="tencon-angle-right-next"></i></a>
+																	</div>
+																</div>
+															</div>
+															
+															<!-- case2 -->
+															<div class="list" style="display:none;">
+																<span class="main">친구에게 초대할 때 마다<br>친구에게 5천원</span>
+																<input class="toggle-box" id="sub1" type="checkbox" checked>
+																<label for="sub1"></label>
+																<div class="sub-wrap">
+																	<div class="icon-vip s1"></div>
+																	<span class="sub img1">나와 친구의 현금 구매액이 많을수록<br><strong>친구 초대 보상 캐시가 높아집니다.</strong></span>
+																</div>
+															</div>
+															
+															<div class="line"></div>
+															
+															<div class="list and">
+																<span class="main">친구들이 구매할 때마다<br><strong>나도 친구도 자동 캐시 적립</strong></span>
+																<input class="toggle-box" id="sub2" type="checkbox" checked>
+																<label for="sub2"></label>
+																<div class="sub-wrap">
+																	<div class="icon-vip s2"></div>
+																	<span class="sub img2">친구가 결제한 금액의<br><strong>최대 6% 캐시 적립</strong></span>
+																</div>	
+															</div>
+															
+															<div class="line"></div>
+															
+															<div class="list third">
+																<span class="main">친구가 첫 구매, VIP 가입하면<br><strong>나는 보너스 캐시 적립</strong></span>
+																<input class="toggle-box" id="sub3" type="checkbox" checked>
+																<label for="sub3"></label>
+																<div class="sub-wrap">
+																	<div class="icon-vip s3"></div>
+																	<div class="icon-vip s4"></div>
+																	<span class="sub img3">친구가 첫 결제한 금액의<br><strong>최대 13% 보너스 캐시 적립</strong></span>
+																</div>	
+															</div>
+															
+															<div class="line"></div>
+															
+															<div class="list fourth">
+																<span class="main">캐시는 현금처럼 쓰거나<br><strong>모아서 현금으로 인출 </strong></span>
+																<input class="toggle-box" id="sub4" type="checkbox" checked>
+																<label for="sub4"></label>
+																<div class="sub-wrap">
+																	<div class="icon-vip s5"></div>
+																	<div class="icon-vip s6"></div>
+																	<span class="sub img5">UUU몰에서 구매할 때<br><strong>현금처럼 100% 사용</strong></span>
+																	<span class="sub img6">캐시가 많이 쌓이면<br><strong>현금으로 인출</strong></span>
+																</div>	
+															</div>
+															
+															<div class="line"></div>
+															
+															<div class="notice">
+																<ul class="list-paragraph list-style-ref">
+																	<li>인원 수 제한없이 친구 초대 가능</li>
+																	<li>상품별 캐시 적립률 별도 적용</li>
+																	<li>사은품, 무료 배송, 100원 찬스 적용 시 캐시 적립률 변경</li>
+																</ul>
+															</div>
+															
+														</div>
+													</div>
+												</div>
+											</div>
+											
+										</div>	
+									</section>	
+									
+									<!-- 내가 초대한 친구 -->
+									<div class="modal-sendpoint">
+										<section class="segment-wrap s2">
+											<!-- container -->
+											<div class="container">
+												<div class="row">
+
+													<div class="modal-body">
+														<form action="" method="post">
+															<fieldset class="label-hide">
+																<div class="row">
+																	<!-- grid -->
+																	<div class="grid-col">
+																		
+																		<!-- VIP 혜택 멤버 -->
+																		<div class="form-group">
+																			<p>내가 초대한 친구 <span class="label-txt s3">(총 3명)</span></p>
+																			<!-- 클릭 시 공유 레이어 노출 -->
+																			<a href="#none">
+																				<div class="row-list" style="display:;">
+																					<div class="col">
+																						<div class="figure">
+																							<img src="../../images/img-share.png" alt="">
+																						</div>
+																						<span class="txt s3">
+																							친구들을 초대하고<br><span>자동으로 캐시 쌓으세요</span>
+																						</span>
+																					</div>
+																				</div>
+																			</a>	
+																			<!-- List -->
+																			<div class="row-list s2">
+																				<div class="col state-box">
+																					<span class="name">신*기</span>
+																					<span class="label s1">나</span>
+																					<div class="tel">010-1234-****</div>
+																				</div>
+																			</div>
+																			
+																			<div class="row-list s2">
+																				<div class="col state-box">
+																					<span class="name">신*기</span>
+																					<span class="label s2">VIP회원</span>
+																					<div class="tel">010-1234-****</div>
+																				</div>
+																			</div>
+																			
+																			<div class="row-list s2">
+																				<div class="col state-box">
+																					<span class="name">장*훈</span>
+																					<!-- VIP회원 혜택 : label s4 -->
+																					<span class="label s4">VIP회원 혜텍</span>
+																					<div class="tel">010-1234-****</div>
+																				</div>
+																			</div>
+																			
+																			<div class="row-list s2">
+																				<div class="col state-box">
+																					<span class="label s4">VIP회원 혜텍</span>
+																					<div class="tel">010-1234-****</div>
+																				</div>
+																			</div>
+																			
+																			<div class="row-list s2">
+																				<div class="col state-box">
+																					<div class="tel">010-1234-****</div>
+																				</div>
+																			</div>
+																		</div>
+																		<!--// VIP 혜택 멤버 -->
+																		
+																	</div>
+																	<!--// grid -->
+																</div>
+															</fieldset>
+														</form>
+													</div>
+
+												</div>
+											</div>
+										</section>
+									</div>
+									<!--// 내가 초대한 친구 -->
+									
+								</div>
+							</section>
+							<!--// panel -->
+						</div>
+						<!--// 1. VIP회원 -->
+						
+						
+						<!-- 2. VIP 혜택 회원 -->
+						<div class="segment-body" style="display:;">
+							<div class="member-info s2">VIP 혜택 나누기</div>
+							<!-- panel -->
+							<section class="panel-wrap">
+								<div class="panel-body">
+									
+									<!-- VIP 회원 -->
+									<div class="box-message">
+										<div class="member-info alert">
+											<strong>변*도</strong> 님은 지금 VIP 혜택을 받고 있습니다
+										</div>
+									</div>
+									
+									<section class="segment-wrap s2 type2" style="display:;">
+										<!-- container -->
+										<div class="container">
+											<div class="segment-body">
+												<div class="segment-header s2 type2">
+													<h2 class="type2">
+														<strong>정*숙 님에게 받은<br><span>VIP 혜택</span>을 확인하세요</strong>
+													</h2>
+												</div>
+												<!-- panel -->
+												<section class="panel-wrap">
+													<div class="panel-body">
+														<!-- img -->
+														<div class="figure-wrap">
+															<figure class="figure img-center type2">
+																<picture>
+																	<img src="../../images/img_vip_benefit.png" class="figure-img" alt="" />
+																	<!-- 비밀할인 예시 -->
+																	<a href="#none" class="link1"></a>
+																	
+																	<!-- 100원 찬스 자세히 보기 -->
+                                                    				<a href="#none" class="link2"></a>
+																</picture>
+															</figure>
+														</div>
+														<!--// -->
+													</div>
+												</section>
+												<!-- panel -->
+											</div>
+										</div>
+									</section>
+									
+									<section class="segment-wrap" style="display:;">
+										<!-- container -->
+										<div class="container">
+											<div class="segment-body">
+												<div class="segment-header s2 type2">
+													<h2 class="type2"><strong>직접 VIP회원 가입하고<br>캐시 더 받으세요</strong></h2>
+												</div>
+												<!-- panel -->
+												<section class="panel-wrap">
+													<div class="panel-body">
+														<!-- img -->
+														<div class="figure-wrap">
+															<figure class="figure img-center type3">
+																<picture>
+																	<img src="../../images/img_vip_benefit2.png" class="figure-img" alt="" />
+																</picture>
+															</figure>
+														</div>
+														<!--// -->
+													</div>
+												</section>
+												<!-- panel -->
+											</div>
+											<div class="form-group type3">
+												<a href="#" class="btn btn-lg btn-primary type4">VIP회원 가입하기</a>
+											</div>
+										</div>
+									</section>
+									
+									<!-- 화살표 추가 -->
+									<div class="arrow-wrap">
+										<div class="arrow-ani">
+											<span></span>
+											<span></span>
+										</div>
+									</div>
+									
+									<section class="segment-wrap" style="display:;">
+										<!-- container -->
+										<div class="container">
+											<div class="segment-body">
+												<div class="segment-header s2">
+													<h2 class="type2">
+														<strong><span>VIP회원</span>이 되면</strong><br>친구들을 초대할 수 있어요
+													</h2>
+												</div>
+											</div>
+										</div>
+									</section>
+									
+									<section class="segment-wrap" style="display:;">
+										<!-- container -->
+										<div class="container">
+											
+											<div class="row">
+												<div class="grid-col s3">
+													<div class="add-content s3">
+														<div class="content-wrap">
+															
+															<div class="list">
+																<span class="main">친구에게 초대할 때마다<br>친구에게 5천원, <strong>나는 무제한 캐시</strong></span>
+																<input class="toggle-box" id="sub11" type="checkbox">
+																<label for="sub11"></label>
+																<div class="sub-wrap">
+																	<div class="icon-vip s1"></div>
+																	<span class="sub img1">나와 동일하게<br><strong>친구도 VIP 비밀할인 혜택</strong></span>
+																</div>	
+															</div>
+															
+															<div class="line"></div>
+															
+															<div class="list and">
+																<span class="main">친구들이 구매할 때마다<br><strong>나도 친구도 자동 캐시 적립</strong></span>
+																<input class="toggle-box" id="sub22" type="checkbox">
+																<label for="sub22"></label>
+																<div class="sub-wrap">
+																	<div class="icon-vip s2"></div>
+																	<span class="sub img2">친구가 결제한 금액의<br><strong>최대 6% 캐시 적립</strong></span>
+																</div>	
+															</div>
+															
+															<div class="line"></div>
+															
+															<div class="list third">
+																<span class="main">친구가 첫 구매, VIP 가입하면<br><strong>나는 보너스 캐시 적립</strong></span>
+																<input class="toggle-box" id="sub33" type="checkbox">
+																<label for="sub33"></label>
+																<div class="sub-wrap">
+																	<div class="icon-vip s3"></div>
+																	<div class="icon-vip s4"></div>
+																	<span class="sub img3">친구가 첫 결제한 금액의<br><strong>최대 13% 보너스 캐시 적립</strong></span>
+																</div>	
+															</div>
+															
+															<div class="line"></div>
+															
+															<div class="list fourth">
+																<span class="main">캐시는 현금처럼 쓰거나<br><strong>모아서 현금으로 인출 </strong></span>
+																<input class="toggle-box" id="sub44" type="checkbox">
+																<label for="sub44"></label>
+																<div class="sub-wrap">
+																	<div class="icon-vip s5"></div>
+																	<div class="icon-vip s6"></div>
+																	<span class="sub img5">UUU몰에서 구매할 때<br><strong>현금처럼 100% 사용</strong></span>
+																	<span class="sub img6">캐시가 많이 쌓이면<br><strong>현금으로 인출</strong></span>
+																</div>	
+															</div>
+															
+															<div class="line"></div>
+															
+															<div class="notice">
+																<ul class="list-paragraph list-style-ref">
+																	<li>인원 수 제한없이 친구 초대 가능</li>
+																	<li>상품별 캐시 적립률 별도 적용</li>
+																	<li>사은품, 무료 배송, 100원 찬스 적용 시 캐시 적립률 변경</li>
+																</ul>
+															</div>
+															
+														</div>
+													</div>
+												</div>
+											</div>
+											
+										</div>	
+									</section>	
+									
+								</div>
+							</section>
+							<!--// panel -->
+						</div>
+						<!--// 2. VIP 혜택 회원 -->
+						
+						<!-- 3. 일반회원/준회원/VIP 철회 회원 -->
+						<div class="segment-body" style="display:;">
+							<div class="member-info s2">VIP 혜택 나누기</div>
+							<!-- panel -->
+							<section class="panel-wrap">
+								<div class="panel-body">
+									
+									<section class="segment-wrap" style="display:;">
+										<!-- container -->
+										<div class="container">
+											<div class="segment-body">
+												<div class="segment-header s2">
+													<h2 class="type2"><strong>VIP회원은 친구 초대하고<br>자동으로 캐시 쌓아요</strong></h2>
+												</div>
+											</div>
+											<div class="form-group type3">
+												<a href="#" class="btn btn-lg btn-primary type4">VIP 혜택 자세히 보기</a>
+											</div>
+										</div>
+									</section>
+									
+									<!-- 화살표 추가 -->
+									<div class="arrow-wrap">
+										<div class="arrow-ani">
+											<span></span>
+											<span></span>
+										</div>
+									</div>
+									
+									<section class="segment-wrap" style="display:;">
+										<!-- container -->
+										<div class="container">
+											<div class="segment-body">
+												<div class="segment-header s2">
+													<h2 class="type2">
+														<strong><span>VIP회원</span>이 되면</strong><br>나도 친구들을 초대할 수 있어요
+													</h2>
+												</div>
+											</div>
+										</div>
+									</section>
+									
+									<section class="segment-wrap" style="display:;">
+										<!-- container -->
+										<div class="container">
+											
+											<div class="row">
+												<div class="grid-col s3">
+													<div class="add-content s3">
+														<div class="content-wrap">
+															
+															<div class="list">
+																<span class="main">친구 초대하면<br><strong>친구는 캐시 5천 원</strong></span>
+																<input class="toggle-box" id="sub111" type="checkbox">
+																<label for="sub111"></label>
+																<div class="sub-wrap">
+																	<div class="icon-vip s1"></div>
+																	<span class="sub img1">나와 동일하게<br><strong>친구도 VIP 비밀할인 혜택</strong></span>
+																</div>	
+															</div>
+															
+															<div class="line"></div>
+															
+															<div class="list and">
+																<span class="main">친구들이 구매할 때마다<br><strong>나도 친구도 자동 캐시 적립</strong></span>
+																<input class="toggle-box" id="sub222" type="checkbox">
+																<label for="sub222"></label>
+																<div class="sub-wrap">
+																	<div class="icon-vip s2"></div>
+																	<span class="sub img2">친구가 결제한 금액의<br><strong>최대 6% 캐시 적립</strong></span>
+																</div>	
+															</div>
+															
+															<div class="line"></div>
+															
+															<div class="list third">
+																<span class="main">친구가 첫 구매, VIP 가입하면<br><strong>나는 보너스 캐시 적립</strong></span>
+																<input class="toggle-box" id="sub333" type="checkbox">
+																<label for="sub333"></label>
+																<div class="sub-wrap">
+																	<div class="icon-vip s3"></div>
+																	<div class="icon-vip s4"></div>
+																	<span class="sub img3">친구가 첫 결제한 금액의<br><strong>최대 13% 보너스 캐시 적립</strong></span>
+																</div>	
+															</div>
+															
+															<div class="line"></div>
+															
+															<div class="list fourth">
+																<span class="main">캐시는 현금처럼 쓰거나<br><strong>모아서 현금으로 인출 </strong></span>
+																<input class="toggle-box" id="sub444" type="checkbox">
+																<label for="sub444"></label>
+																<div class="sub-wrap">
+																	<div class="icon-vip s5"></div>
+																	<div class="icon-vip s6"></div>
+
+																	<span class="sub img5">UUU몰에서 구매할 때<br><strong>현금처럼 100% 사용</strong></span>
+																	<span class="sub img6">캐시가 많이 쌓이면<br><strong>현금으로 인출</strong></span>
+																</div>	
+															</div>
+															
+															<div class="line"></div>
+															
+															<div class="notice">
+																<ul class="list-paragraph list-style-ref">
+																	<li>인원 수 제한없이 친구 초대 가능</li>
+																	<li>상품별 캐시 적립률 별도 적용</li>
+																	<li>사은품, 무료 배송, 100원 찬스 적용 시 캐시 적립률 변경</li>
+																</ul>
+															</div>
+															
+														</div>
+													</div>
+												</div>
+											</div>
+											
+										</div>	
+									</section>
+									
+									<div class="modal-sendpoint">
+										<section class="segment-wrap s2 type3">
+											<!-- container -->
+											<div class="container">
+												<div class="row">
+
+													<div class="modal-body">
+														<form action="" method="post">
+															<fieldset class="label-hide">
+																<div class="row">
+																	<!-- grid -->
+																	<div class="grid-col">
+																		<div class="segment-header s4" style="display:;">
+																			<div class="club-title">아는 VIP회원 친구가 있나요?</div>
+																			<div class="form-group type3">
+																				<a href="#" class="btn btn-lg btn-primary type4">VIP 혜택 나눠 받기 <i class="tencon-angle-right-next"></i></a>
+																			</div>
+																		</div>
+																	</div>
+																	<!--// grid -->																	
+																</div>
+															</fieldset>
+														</form>
+													</div>
+
+												</div>
+											</div>
+										</section>
+									</div>
+									
+								</div>
+							</section>
+							<!--// panel -->
+						</div>
+						<!--// 3. 일반회원/준회원/VIP 철회 회원 -->
+						
+                    </section>
+                </div>
+                <!--// body -->
+            </main>
+			
+			<!-- VIP회원 가입 유도 하단 배너 -->
+			<section class="layer-popup-segment s6" style="display:none;">
+				<div class="modal-header">
+					<button type="button" class="close"><span aria-hidden="true"><i class="tencon-close"></i></span></button>
+				</div>
+                <div class="form-group justify-content-center">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">
+								직접 VIP회원 가입하고<br>
+								<span>가입 포인트 2배</span> 적립과 동시에<br>
+								<span>내 VIP회원 혜택</span>을 운영해보세요
+							</h5>
+						</div>
+						<div class="modal-footer modal-footer-centered">
+							<a href="https://uuumall.kr/VIP" class="btn btn-orange s2">VIP회원 가입하고 포인트 20,000원 받기 <i class="tencon-angle-right-next"></i></a>
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!--// -->
+			
+			<!-- VIP회원 혜택을 나눠 받았습니다 -->
+			<section class="layer-popup-segment" style="display:none;">
+				<div class="modal-header">
+				</div>
+                <div class="form-group justify-content-center">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">
+								VIP회원 혜택을 나눠 받았습니다
+							</h5>
+						</div>
+						<div class="modal-body">
+							<p class="s1">친구에게 나눠 받은 VIP회원 혜택으로<span class="line-break">UUU몰에서 VIP회원 비밀할인 받으세요</span></p>
+							<div class="row-list">
+								<div class="col">
+									<dd><span class="label-txt">혜택을 나눠 준 VIP회원 :</span> <span class="content-txt">명*용</span></dd>
+								</div>
+								<div class="col">
+									<dd><span class="label-txt">VIP회원 기간 :</span> <span class="content-txt">2020-01-01~2021-01-01</span></dd>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer modal-footer-centered s4">
+							<a href="#none" class="btn btn-orange type2">받은 혜택 보러가기</a>
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!--// -->
+			
+			<!-- 이미 VIP회원인 경우 -->
+			<section class="layer-popup-segment" style="display:none;">
+				<div class="modal-header">
+				</div>
+                <div class="form-group justify-content-center">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">
+								홍길동 님은 이미 VIP회원입니다
+							</h5>
+						</div>
+						<div class="modal-body">
+							<p class="s1">친구들에게 VIP회원 혜택을 나눠주고<span class="line-break">무료로 VIP회원 기간을 연장하세요</span></p>
+						</div>
+						<div class="modal-footer modal-footer-centered s4">
+							<a href="#none" class="btn btn-orange type2">받은 혜택 나눠 주기</a>
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!--// -->
+			
+			<!-- 이미 VIP회원 혜택을 받는 경우 -->
+			<section class="layer-popup-segment s6" style="display:none;">
+				<div class="modal-header">
+				</div>
+                <div class="form-group justify-content-center">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">
+								정*숙 님이 나눠 준<br>
+								<span>VIP회원 혜택</span>으로 변경하시겠습니까?
+								<div class="notice">※ 혜택을 변경할 경우 김*수 님에게 나눠 받은 혜택이 종료됩니다.</div>
+							</h5>
+						</div>
+						<div class="modal-footer modal-footer-centered">
+							<a href="#none" class="btn btn-outline btn-navy s2">취소하기</a>
+							<a href="#none" class="btn btn-orange s2">변경하기</a>
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!--// -->
+			
+			<!-- 이미 동일한 리더에게 혜택을 받고있는 경우 -->
+			<section class="layer-popup-segment" style="display:none;">
+				<div class="modal-header">
+				</div>
+                <div class="form-group justify-content-center">
+					<div class="modal-content">
+						<div class="modal-body">
+							<p class="s1">홍길동 님은 이미 리더이름 님에게 VIP회원 혜택을 받고있습니다.</p>
+						</div>
+						<div class="modal-footer modal-footer-centered s4">
+							<a href="#none" class="btn btn-orange type2">나눠 받은 혜택 보기</a>
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!--// -->
+			
+			<!-- 배경 블라인드 style="display:block;" 처리 : 공통 -->
+			<div class="modal-backdrop fade show s2" style="display:none;"></div>
+			<!--// -->
+			
+			<!-- 무료 VIP회원 혜택 레이어 : 혜택 나눠주고 UUU몰 상품 공유하기 링크로 쇼핑클럽 미가입자/비회원이 들어왔을 때 -->
+			<section class="layer-popup-segment s6 type2" style="display:none;">
+				<div class="modal-header">
+					<button type="button" class="close"><span aria-hidden="true"><i class="tencon-close"></i></span></button>
+				</div>
+                <div class="form-group justify-content-center">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">
+								정*숙 님이 나눠 준<br>
+								<span>무료 VIP회원 혜택</span>을 받고<br>
+								UUU몰에서 최저가로 구매해보세요
+							</h5>
+						</div>
+						<div class="modal-footer modal-footer-centered">
+							<a href="#none" class="btn btn-orange s2">VIP회원 혜택 나눠 받기</a>
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!--// -->
+			
+			<!-- VIP회원 혜택 나눠 받기 레이어 -->
+			<section class="layer-popup-segment s6 ani" style="display:none;">
+				<div class="modal-header">
+					<button type="button" class="close"><span aria-hidden="true"><i class="tencon-close"></i></span></button>
+				</div>
+                <div class="form-group justify-content-center">
+					<div class="modal-content">
+						<div class="modal-header">
+							<div class="img-cash">
+								<img src="../../images/img-cash.png" alt="">
+							</div>
+							<div class="time">
+								<dl class="dl-inline">
+									<dt>유효기간</dt>
+									<dd><time class="time" datetime="2022-01-31T00:00:00.000Z" title="2022년 01월 31일">2022-01-31</time></dd>
+								</dl>
+							</div>
+							<h5 class="modal-title">
+								정*숙 님이 나눠 준 VIP 비밀할인 혜택도 받았어요
+							</h5>
+						</div>
+						<div class="modal-footer modal-footer-centered">
+							<a href="#none" data-toggle="modal" data-target="#modalShoppingclubJoin" class="btn btn-orange s2">VIP 비밀할인 쇼핑하기</a>
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!--// -->
+			
+			<!-- 공유 아이콘 클릭 시 ani 클래스 추가 - class="layer-popup-segment s5 type3 modal-share ani" -->
+			<section class="layer-popup-segment s5 type3 other modal-share" style="display:;">
+				<div class="modal-header">
+					<!-- 클릭 시 해당 섹션 style="display:none;" -->
+					<button type="button" class="close"><span aria-hidden="true"><i class="tencon-close"></i></span></button>
+				</div>
+                <div class="modal-body modal-body-center">
+					<div class="form-group justify-content-center">
+						<div class="modal-content">
+							<div class="modal-body alert">
+								<h2><span>VIP 혜택 나눠 주고 캐시 받기</span></h2>
+								<p>친구들에게 VIP 혜택을 나눠 주고 UUU몰을 추천하세요<br>친구가 UUU몰에서 첫 구매하면 <span>캐시 1,000원</span>을 드려요</p>
+							</div>
+							<div class="modal-footer modal-footer-centered s3">
+								<div class="form-group justify-content-center">
+									<div class="form-btn-group" role="group" aria-label="First Group">
+										<button type="button" class="btn btn-icon btn-rounded btn-kakao btn-kakaotalk"><i class="tencon-kakaotalk"></i></button>
+										<button type="button" class="btn btn-icon btn-rounded btn-gray btn-sms"><i class="tencon-sms2-filled"></i></button>
+										<button type="button" class="btn btn-icon btn-rounded btn-gray btn-url" onclick="" data-original-title="링크가 복사되었습니다">
+											
+											<!-- 로딩 시 노출 -->
+											<div class="loader" style="display:;">
+												<div class="loading-spinner">
+													<svg class="loading-spinner__circle-svg" viewBox="25 25 50 50">
+														<circle class="loading-spinner__circle-stroke" cx="50" cy="50" r="18" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+													</svg>
+												</div>
+											</div>
+											<i class="tencon-attachment" style="display:none;"></i>
+										
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>	
+			</section>
+
+            <!-- bottom navi segment -->
+            <section class="nav-segment">
+                <div class="form-group justify-content-center">
+                    <div class="form-btn-group" role="group" aria-label="First Group">
+                        <button type="button" class="btn btn-icon navbar-toggler" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-drawer">
+                                <span></span><span></span><span></span>
+                            </span> 전체메뉴
+                        </button>
+                        <!-- <a href="#none" class="btn btn-icon"><i class="icon-home"></i> 홈</a> -->
+                        <a href="#none" class="btn btn-icon tooltip-template-orange" data-placement="top" title="1년 내내 반값"><i class="icon-membership"></i> VIP회원 혜택</a>
+                        <a href="#none" class="btn btn-icon"><i class="icon-cart"></i> 장바구니<span class="badge badge-red">9</span></a>
+                        <a href="#none" class="btn btn-icon"><i class="icon-shipping"></i> 주문배송</a>
+                        <a href="#none" class="btn btn-icon"><i class="icon-login"></i> 로그인</a>
+                        <!-- <a href="#none" class="btn btn-icon"><i class="icon-user"></i> 회원정보</a> -->
+                    </div>
+                </div>
+            </section>
+		    <!--### [FOOTER] ###-->
+            <footer id="footerWrap" class="footer-wrap mall-style nav-scrollspy">
+                <!-- body -->
+                <div class="footer-body container">
+                    <div class="row">
+                        <!-- grid -->
+                        <div class="grid-col">
+                            <ul class="footer-nav">
+                                <li class="nav-item"><a href="#none" class="nav-link">회사 소개</a></li>
+                                <li class="nav-item"><a href="#none" class="nav-link"><strong>개인정보처리방침</strong></a></li>
+                                <li class="nav-item"><a href="#none" class="nav-link">이용약관</a></li>
+                                <li class="nav-item"><a href="#none" class="nav-link">이용문의</a></li>
+                            </ul>
+                        </div>
+                        <!-- grid -->
+                        <div class="grid-col">
+                            <div class="cs-info">
+                                <p>고객감동센터 : 02-6243-0555 &nbsp;&nbsp; 평일 : 09:00~18:00 (점심시간 : 12:00~13:00) &nbsp;&nbsp; 토요일, 일요일, 공휴일 휴무 &nbsp;&nbsp; / &nbsp;&nbsp; IBK 기업은행 217-075740-01-141 &nbsp; 예금주 : 주식회사 텐핑</p>
+                            </div>
+                            <div class="author-info">
+                                <p>상호 : 주식회사 텐핑 &nbsp;&nbsp; 대표 : 고준성 &nbsp;&nbsp; 사업자등록번호 : 220-88-96563 &nbsp;&nbsp; 통신판매업신고번호 : 2017-서울서초-1187 <a href="http://www.ftc.go.kr/bizCommPop.do?wrkr_no=2208896563" title="사업자정보 확인 새창 열기" target="_blank">[사업자정보확인]</a></p>
+                                <p>전화 : 02-6243-0555 &nbsp;&nbsp; 이메일 : uuu@UUUmall.kr &nbsp;&nbsp; 주소 : 06620 서울 서초구 서초대로78길 5, 대각빌딩 6~7층(서초동) &nbsp;&nbsp; 개인정보 보호책임자 : 이인섭</p>
+                                <p>안전거래를 위해 결제 시 저희 쇼핑몰에서 가입한 한국정보통신(주)의 구매안전서비스를 이용하실 수 있습니다. <a href="https://office.easypay.co.kr/homepage/other_service/EscrowAuthAction.do?memb_id=05542346" title="서비스가입사실확인 새창 열기" target="_blank">[가입사실확인]</a></p>
+                            </div>
+                            <div class="copyright-info"><p>© 2019 Tenping. ALL RIGHTS RESERVED.</p></div>
+                        </div>
+                        <!--// grid -->
+                    </div>
+					<!-- floating banner : 비로그인 경우 s2 클래스 추가 class="bnrFloating type2 s2" : iOS에만 노출 -->
+					<div class="bnrFloating type2">
+                        <div class="btnBack"><a href="#none" onclick="history.back()" class="js-scroll-trigger" role="button"><i class="tencon-angle-left"></i></a></div>
+                    </div>					
+                    <!-- floating banner : VIP회원 혜택 보기 등 하단 버튼 노출 시 s2 클래스 추가 -->
+                    <div class="bnrFloating s2">
+                        <!-- to the top trigger -->
+                        <div class="btnScrolltop"><a href="#pageTop" class="js-scroll-trigger" role="button"><i class="tencon-angle-up"></i></a></div>
+                        <!--// -->
+                    </div>
+                    <!--// -->
+                </div>
+                <!--// copyright -->
+            </footer>
+            <!--// ### [FOOTER] ###-->
+        </div>
+		
+        <!--### [LOADING] ###-->
+        <!-- 로딩 활성화될 경우 클래스 show 추가 -->
+		<div class="modal-spinner fade collapse">
+            <div class="spinner-border" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!--// -->
+        
+        <!--### [MODAL] ###-->
+        <!-- modal Shoppingclub -->
+        <div id="modalShoppingclub" class="modal modal-shoppingclub fade" data-backdrop-limit="1" tabindex="-1" role="dialog" aria-labelledby="modalShoppingclubLabel" aria-hidden="true" data-keyboard="false" style=" display:none">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+				
+                <!-- 멤버 정보 : 내보내기, 탈퇴 -->
+                <div class="modal-content" style="display:;">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="tencon-close"></i></span></button>
+					</div>
+                    <div class="modal-body modal-body-centered s2">
+						<div class="state-box">
+							<span class="name">명*용</span>
+							<span class="label s2" style="display:none;">VIP회원</span>
+							<span class="label s4" style="display:;">VIP회원 혜택</span>						
+							<div class="tel">010-8900-****</div>
+						</div>
+						<div style="display:none;">
+							<dd><span class="label-txt">VIP회원 기간 :</span> <span class="content-txt">2020-01-01~2021-01-01</span></dd>
+						</div>
+						<div class="box-info">
+							※ VIP회원 혜택 기간은 VIP회원 혜택 리더의 VIP회원 기간과 동일합니다.
+						</div>
+						<div class="btn-wrap">
+							<!-- 내보내기 버튼 일 경우 -->
+							<a href="#none" class="btn s3" role="button" data-toggle="modal" data-target="#modalShoppingclub" style="display:;">내보내기</a>
+							
+							<!-- 탈퇴 버튼 일 경우 -->
+							<a href="#none" class="btn s3" role="button" data-toggle="modal" data-target="#modalShoppingclub" style="display:none;">탈퇴</a>
+						</div>
+					</div>
+                </div>
+                <!--// -->
+				
+				<!-- VIP회원 혜택에서 멤버 내보내기 -->
+                <div class="modal-content" style="display:none;">
+                    <div class="modal-body modal-body-centered">
+                        <h6>VIP회원 혜택에서 내보내시겠어요?</h6>
+						<p>신*기(0108900****) 님의 <span class="line-break">VIP회원 혜택이 즉시 중단됩니다</span></p>
+                    </div>
+                    <div class="modal-footer modal-footer-centered">
+						<button type="button" data-dismiss="modal" aria-label="Close" class="btn btn-outline btn-orange s2">취소</button>
+						<button type="button" class="btn btn-orange">내보내기</button>
+					</div>
+                </div>
+                <!--// -->
+				
+				<!-- VIP회원 혜택에서 멤버 내보내기 확인 -->
+                <div class="modal-content" style="display:none;">
+                    <div class="modal-body modal-body-centered">
+                        <h6>VIP회원 혜택에서 멤버를 내보냈습니다</h6>
+						<p>새로운 VIP회원 혜택 멤버를 초대하고 <span class="line-break">포인트를 적립하세요</span></p>
+                    </div>
+                    <div class="modal-footer modal-footer-centered">
+						<button type="button" data-dismiss="modal" aria-label="Close" class="btn btn-orange">확인</button>
+					</div>
+                </div>
+                <!--// -->
+				
+				<!-- VIP회원 혜택 탈퇴 : VIP회원 혜택을 받는 VIP회원 혜택 멤버가 탈퇴하는 경우 -->
+                <div class="modal-content" style="display:none;">
+                    <div class="modal-body modal-body-centered">
+                        <h6>VIP회원 혜택에서 탈퇴하시겠어요?</h6>
+						<p>VIP회원 혜택 탈퇴 시 무료 VIP회원 혜택이 <span class="line-break">즉시 중단됩니다</span></p>
+                    </div>
+                    <div class="modal-footer modal-footer-centered">
+						<button type="button" data-dismiss="modal" aria-label="Close" class="btn btn-outline btn-orange s2">취소</button>
+						<button type="button" class="btn btn-orange">탈퇴</button>
+					</div>
+                </div>
+                <!--// -->
+				
+				<!-- VIP회원 혜택 탈퇴 : VIP회원 혜택을 받지 않는 VIP회원 혜택 멤버가 탈퇴하는 경우 -->
+                <div class="modal-content" style="display:none;">
+                    <div class="modal-body modal-body-centered">
+                        <h6>VIP회원 혜택에서 탈퇴하시겠어요?</h6>
+						<p>VIP회원 혜택 탈퇴 후 <span class="line-break">언제든지 재가입할 수 있습니다</span></p>
+                    </div>
+                    <div class="modal-footer modal-footer-centered">
+						<button type="button" data-dismiss="modal" aria-label="Close" class="btn btn-outline btn-orange s2">취소</button>
+						<button type="button" class="btn btn-orange">탈퇴</button>
+					</div>
+                </div>
+                <!--// -->
+				
+				<!-- VIP회원 혜택 탈퇴 확인-->
+                <div class="modal-content" style="display:none;">
+                    <div class="modal-body modal-body-centered">
+                        <h6>VIP회원 혜택에서 탈퇴했습니다</h6>
+						<p>다른 VIP회원 혜택에 가입하고 <span class="line-break">VIP회원 혜택 멤버 활동을 이어가보세요</span></p>
+                    </div>
+                    <div class="modal-footer modal-footer-centered">
+						<button type="button" data-dismiss="modal" aria-label="Close" class="btn btn-orange">확인</button>
+					</div>
+                </div>
+                <!--// -->
+				
+				<!--  VIP회원 혜택 초대 링크로 접속 후 가입(로그인 상태) -->
+                <div class="modal-content" style="display:none;">
+                    <div class="modal-body modal-body-centered">
+                        <h6>홍길동 님의 VIP회원 혜택에 가입하시겠습니까?</h6>
+                    </div>
+                    <div class="modal-footer modal-footer-centered">
+						<button type="button" data-dismiss="modal" aria-label="Close" class="btn btn-outline btn-orange s2">취소</button>
+						<button type="button" class="btn btn-orange">확인</button>
+					</div>
+                </div>
+                <!--// -->
+				
+            </div>
+        </div>
+		
+		<!-- modal shoppingclub join : 쇼핑클럽 로그인 모달 -->
+		<div id="modalShoppingclubJoin" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalShoppingclubJoinLabel" aria-hidden="true" data-keyboard="false" style=" display:none">
+            <div class="modal-dialog modal-dialog-centered modal-shoppingclubJoin" role="document">
+				
+				<div class="modal-content">
+                    <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="tencon-close"></i></span></button>
+					</div>
+					<div class="modal-body modal-body-center">
+                        <div class="coupon-header">
+                            <p><span>VIP 혜택 나눠 받기</span></p>
+                        </div>
+						
+                        <div class="coupon-body">
+							<fieldset class="label-hide">
+								
+								<!-- 혜택 나눠 받은 쿠키 없을 때-->
+								<div class="row" style="display:;">
+									<div class="img-cash">
+										<img src="../../images/img-cash.png" alt="">
+									</div>
+									<div class="grid-col s3">
+										<div class="title-txt">VIP회원의 휴대폰 번호를 입력하고 <span>캐시 5천 원</span> 받으세요</div>
+										<!-- form-group -->
+										<div class="form-group">
+											<label for="txtDestination" class="form-label">휴대폰 번호</label>
+											<div class="controls input-group">
+												<!-- Error 발생할 경우 class="form-control"에 클래스 is-invalid 추가 -->
+												<input type="text" id="" name="" class="form-control" value="" placeholder="VIP회원의 휴대폰 번호 입력">
+												<div class="invalid-tooltip">에러 메시지</div>
+											</div>
+										</div>
+									</div>
+									<div class="form-group">
+										<button type="button" class="btn btn-orange" data-toggle="modal" data-target="#">VIP 비밀할인 혜택 받기</button>
+									</div>
+								</div>
+								<!--// -->
+								
+								<!-- 혜택 나눠 받은 쿠키 있을 때 -->
+								<div class="row" style="display:none;">
+									<div class="img-cash">
+										<img src="../../images/img-cash.png" alt="">
+									</div>
+									<div class="grid-col s3">
+										<div class="title-txt">정*숙 님이 보낸 <span>캐시 5천 원</span> 받고<br>UUU몰 모든 상품을 <span>VIP 비밀할인가</span>로 구매하세요</div>
+									</div>
+									<div class="form-group">
+										<button type="button" class="btn btn-orange" data-toggle="modal" data-target="#">VIP 혜택 나눠 받기</button>
+									</div>
+									<a href="#none" class="title-txt2" data-dismiss="modal" aria-label="Close">다른 VIP회원의 휴대폰 번호 입력하기 &gt;</a>									
+								</div>
+								<!--// -->
+								
+								<!-- 비로그인 상태인 경우 -->
+								<div class="row" style="display:none;">
+									<div class="grid-col" style="display:;">
+										<div class="title-txt">VIP회원의 휴대폰 번호를 입력해주세요</div>
+										<!-- form-group -->
+										<div class="form-group">
+											<label for="txtDestination" class="form-label">휴대폰 번호</label>
+											<div class="controls input-group">
+												<!-- Error 발생할 경우 class="form-control"에 클래스 is-invalid 추가 -->
+												<input type="text" id="" name="" class="form-control" value="" placeholder="VIP회원의 휴대폰 번호 입력">
+												<div class="invalid-tooltip">에러 메시지</div>
+											</div>
+										</div>
+									</div>
+									<div class="grid-col" style="display:;">
+										<div class="line"></div>
+										<div class="title-txt">간단하게 휴대폰 인증하고 VIP회원 혜택 받으세요</div>
+										<!-- form-group -->
+										<div class="form-group">
+											<label for="txtDestination" class="form-label">휴대폰 번호</label>
+											<div class="controls input-group">
+												<!-- Error 발생할 경우 class="form-control"에 클래스 is-invalid 추가 -->
+												<input type="text" id="" name="" class="form-control" value="" placeholder="휴대폰 번호(숫자만 입력)">
+												<div class="input-group-append"><button type="button" class="btn btn-primary btn-append">인증번호 받기</button></div>
+												<small class="form-text text-navy" style="display:none;">휴대폰 인증이 완료되었습니다.</small>
+												<div class="invalid-tooltip">에러 메시지</div>
+											</div>
+										</div>
+										<!-- form-group -->
+										<div class="form-group">
+											<label for="txtCertificationNumber" class="form-label">인증번호</label>
+											<div class="controls input-group">
+												<input type="text" id="" name="" class="form-control" value="" placeholder="인증번호 입력">
+												<div class="invalid-tooltip">에러 메시지</div>
+											</div>
+										</div>
+
+										<div class="form-group form-text-group">
+											<p class="s2">UUU몰 <a href="https://uuumall.kr/Policy/Terms" target="_blank">이용약관</a> 및 <a href="https://uuumall.kr/Policy/Privacy" target="_blank">개인정보처리방침</a>에 동의하고 회원가입 합니다.</p>
+										</div>
+									</div>
+									<div class="form-group">
+										<button type="button" class="btn btn-orange" data-toggle="modal" data-target="#">VIP회원 혜택 나눠 받기</button>
+									</div>
+								</div>
+								<!--// -->
+								
+							</fieldset>
+                        </div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		<!-- modal info reward -->
+		<div id="infoReward" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="infoRewardLabel" aria-hidden="true" data-keyboard="false" style="display:none">
+            <div class="modal-dialog modal-dialog-centered modal-table" role="document">
+				<!-- content -->
+				<div class="modal-content">
+                    <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="tencon-close"></i></span></button>
+					</div>
+					<div class="modal-body modal-body-center">
+						 <p>친구 초대 보상 기준</p>	
+						<div class="row">
+							<!-- grid -->
+							<div class="grid-col">
+								
+								<h2>지금까지 회원님과 초대한 친구의 실 구매 금액에 따라 친구 초대 보상 금액이 산정됩니다.</h2>
+								
+								<div class="txt-info">
+									* 등급 산정 기준 <span>(이번 달 말일까지 적용)</span>:<br>
+									(캐시, 마일리지 제외한 본인+친구 구매액)÷(본인+초대 친구 수) x 10% 
+								</div>
+								<div class="table-wrap">
+									<table border="1">
+									  <tbody>
+										<tr class="title">
+										  <td>등급 점수</td>
+										  <td>친구 초대<br>보상 금액</td>
+										</tr>
+										<tr>
+										  <td>초보</td>
+										  <td>5,000원</td>
+										</tr>
+										<tr>
+										  <td>5,000원 초과</td>
+										  <td>5,000원</td>
+										</tr>
+										<tr>
+										  <td>4,000원 초과~5,000원 이하</td>
+										  <td>4,000원</td>
+										</tr>
+										<tr class="me">
+										  <td>3,000원 초과~4,000원 이하<div><i class="tencon-check-large"></i><span>나의 등급</span></div></td>
+										  <td>3,000원</td>
+										</tr>
+										<tr>
+										  <td>2,000원 초과~5,000원 이하</td>
+										  <td>2,000원</td>
+										</tr>
+										<tr class="real">
+										  <td>1000원 초과~5,000원 이하<div><i class="tencon-check-large"></i><span>실제 나의 등급</span></div></td>
+										  <td>1,000원</td>
+										</tr>
+										<tr>
+										  <td>500원 초과~5,000원 이하</td>
+										  <td>500원</td>
+										</tr>
+										<tr>
+										  <td>500원 이하</td>
+										  <td>0원</td>
+										</tr>
+									  </tbody>
+									</table>
+								</div>
+								
+								<div class="line"></div>
+								
+								<div class="txt-info">
+									※ 나의 등급 산정 기준 <span>(기준시간: YYYY-MM-DD HH:MM)</span> 
+								</div>
+								<div class="table-wrap">
+									<!-- div Table -->
+									<div class="div-table">
+										<div class="div-tbody">
+											<div class="div-tr point">
+												<div class="div-th collapsed-col">나의 등급 점수</div>
+												<div class="div-td"><span class="format-num">560</span>점</div>       
+											</div>
+											<div class="div-tr">
+												<div class="div-th collapsed-col">나의 구매액(캐시, 마일리지 제외)</div>
+												<div class="div-td"><span class="format-num">744016</span>원</div>       
+											</div>
+											<div class="div-tr">
+												<div class="div-th collapsed-col">친구 구매액(캐시, 마일리지 제외)</div>
+												<div class="div-td"><span class="format-num">5763625</span>원</div>       
+											</div>
+											<div class="div-tr">
+												<div class="div-th collapsed-col">본인+초대 친구 수</div>
+												<div class="div-td"><span class="format-num">10</span>명</div>       
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="txt-info s2">
+									1) 등급 산정은 15분마다 반영<br>
+									2) 친구가 가입하는 시점에 해당하는 등급의 보상금액 지급<br>
+									3) 나의 친구가 5명 이하라면, 초대해준 친구와 같은 등급 보장<br>
+									4) 직접 VIP회원으로 가입한 경우에는 ‘초보’ 등급 기준에 따른 보상
+ 								</div>
+								<h2 class="type2">
+									<div class="icon-tip">
+										<img src="../../images/icon_tip.png" alt="">
+									</div>
+									<span>
+										친구들과 함께 더 많은 UUU몰 상품을 구매해 보세요.<br>
+										친구 초대 보상 금액이 올라갑니다.
+									</span>
+								</h2>
+								
+							</div>
+							<!--// grid -->
+						</div>
+						<!--// -->
+
+					</div>
+				</div>
+				<!--// -->
+			</div>
+		</div>
+		
+		<!-- modal shoppingclub join2 : 쇼핑클럽 로그인 모달 -->
+		<div id="modalShoppingclubJoin2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalShoppingclubJoin2Label" aria-hidden="true" data-keyboard="false" style=" display:none">
+            <div class="modal-dialog modal-dialog-centered modal-shoppingclubJoin s2" role="document">
+				
+				<div class="modal-content">
+                    <div class="modal-header">
+					</div>
+					<div class="modal-body modal-body-center">
+						
+                        <div class="coupon-body">
+							<fieldset class="label-hide">
+								
+								<!-- 이미 VIP회원인 경우 -->
+								<div class="row" style="display:;">
+									<div class="grid-col s3">
+										<div class="title">$리더 이름$ 님은 이미 VIP회원입니다.</div>
+										<div class="title-txt s3">친구들에게 VIP회원 혜택을 나눠주고 무료로 VIP회원 기간을 연장하세요</div>
+									</div>
+									<div class="form-group">
+										<button type="button" class="btn btn-orange">VIP회원 혜택 나눠 주기</button>
+									</div>								
+								</div>
+								<!--// -->
+								
+								<!-- 이미 VIP회원 혜택을 받는 경우 -->
+								<div class="row" style="display:none;">
+									<div class="grid-col s3">
+										<div class="title">정*숙 님이 나눠 준<br><span>VIP회원 혜택</span>으로 변경하시겠습니까?</div>
+										<div class="title-txt s3">※ 혜택을 변경할 경우 김*수님에게 나눠 받은 혜택이 종료됩니다.</div>
+									</div>
+									<div class="form-group flex">
+										<a href="#none" class="btn btn-outline btn-navy s2">취소하기</a>
+										<button type="button" class="btn btn-orange">변경하기</button>
+									</div>								
+								</div>
+								<!--// -->
+								
+								<!-- 이미 동일한 리더에게 혜택을 받고있는 경우 -->
+								<div class="row" style="display:none;">
+									<div class="grid-col s3">
+										<div class="title">$이름$ 님은 이미 $리더이름(마스킹)$ 님에게 VIP회원 혜택을 받고있습니다.</div>
+									</div>
+									<div class="form-group">
+										<button type="button" class="btn btn-orange">나눠 받은 혜택 보기</button>
+									</div>								
+								</div>
+								<!--// -->
+
+							</fieldset>
+                        </div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+        <!--// ### [MODAL] ###-->
+	</div>
+	
+	<!-- scrolling navigation js -->
+    <script src="../../Js.Library/scrolling-nav.js"></script>
+    
+    <!-- shrink-header js -- >
+	<script>
+		$(window).scroll(function() {
+			if ($(this).scrollTop() > 50) {
+				$('#headerWrap').addClass('navbar-shrink');
+			} else {
+				$('#headerWrap').removeClass('navbar-shrink');
+			}
+		});
+	</script>
+    
+    <!-- sidebar js -->
+    <script>
+        $(document).ready(function () {
+            $('.navbar-toggler').on('click', function () {
+                $('#pageTop').toggleClass('nav-toggle-open nav-toggle-collapsing');
+                setTimeout(function() {
+                    $("#pageTop").removeClass("nav-toggle-collapsing");
+                }, 120);
+            });
+        });
+    </script>
+
+	<!-- swiper gallery js in modal -->
+    <script>
+        var galleryTop = new Swiper('.gallery-top', {
+            spaceBetween: 0,
+            loop: true,
+            pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+			},
+            navigation: {
+                nextEl:'.swiper-button-next',
+                prevEl:'.swiper-button-prev',
+            },
+        });
+        var galleryThumbs = new Swiper('.gallery-thumbs', {
+            spaceBetween: 4,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            touchRatio: 0.2,
+            slideToClickedSlide: true
+        });
+        galleryTop.params.control = galleryThumbs;
+        galleryThumbs.params.control = galleryTop;
+        
+        $('#modalProductDetail').on('shown.bs.modal', function (event) {
+        	var button = $(event.relatedTarget);
+        	var index = button.data('index');        	
+        	galleryTop.slideTo(index, 0, false);
+            galleryTop.update();
+            //galleryThumbs.update();
+        });
+	</script>
+       
+    <!-- password show/hide js -->
+    <script>
+        $(".toggle-password").click(function() {
+            $(".toggle-password i").toggleClass("tencon-eye-hide tencon-eye-view");
+            var input = $($(this).attr("toggle"));
+            if (input.attr("type") == "password") {
+                input.attr("type", "text");
+            } else {
+                input.attr("type", "password");
+            }
+        });
+    </script>
+    
+    <!-- add comma js -->
+	<script>
+        // 숫자 타입에서 쓸 수 있도록 format() 함수 추가
+        Number.prototype.format = function(){
+            if(this==0) return 0;
+
+            var reg = /(^[+-]?\d+)(\d{3})/;
+            var n = (this + '');
+
+            while (reg.test(n)) n = n.replace(reg, '$1' + ',' + '$2');
+
+            return n;
+        };
+
+        // 문자열 타입에서 쓸 수 있도록 format() 함수 추가
+        String.prototype.format = function(){
+            var num = parseFloat(this);
+            if( isNaN(num) ) return "0";
+
+            return num.format();
+        };
+        
+        jQuery('.format-num').text(function() {
+            jQuery(this).text(
+                jQuery(this).text().format()
+            );
+        });
+	</script>
+    
+    <!-- modal-child in modal js -->
+    <script>
+        $('.modal-child').on('show.bs.modal', function () {
+            var modalParent = $(this).attr('data-modal-parent');
+            $(modalParent).css('opacity', 0);
+        });
+ 
+        $('.modal-child').on('hidden.bs.modal', function () {
+            var modalParent = $(this).attr('data-modal-parent');
+            $(modalParent).css('opacity', 1);
+        });
+    </script>
+    
+    <!-- modal in modal js -->
+    <script>
+        $('body').on('hidden.bs.modal', function () {
+            if($('.modal.in').length > 0)
+            {
+                $('body').addClass('modal-open');
+            }
+        });
+    </script>
+
+	<!-- tooltip js -->
+	<script>
+		$(document).ready(function(){
+			$('[data-tooltip="tooltip"]').tooltip({
+				trigger: "hover"
+			});
+		});
+	</script>
+	<!--// -->
+	
+	<!-- toggle js -->
+	<script>
+		(function () {
+			var sampleClass = 'show';
+
+			$(document).on('click', '#js-toggleClass', function () {
+			  $('#js-block').toggleClass(sampleClass);
+			});
+		})();
+	</script>
+</body>
+</html>

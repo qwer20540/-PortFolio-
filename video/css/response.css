@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+/* 미디어쿼리 - 스크린, 티비, 프린터, 모바일, 테블릿.... */
+/* 창 너비가 1090픽셀에 도달하면 섹션1의 비디오 박스(969px)의 높이를 자동(auto)으로 해준다. */
+@media all and (max-width:1920px){
+	#wrap #main #section1>div { height:auto; }
+}
+
+@media all and (max-width:1090px){
+	#wrap #main #section1>div .section1-video { z-index:1; position:relative; width:100%; height:620px; overflow:hidden; }
+	#wrap #main #section1>div .section1-video>video { width:auto; height:620px; margin-top:0; }
+
+	#wrap #main #section3 .section3-video-gallery>li { width:50%; }
+	
+	/* 화면너비 1090px에 도달하면 float를 해제하고 너비를 100% */
+	#wrap #footer>div .footer-sitemap>ul { width:auto; padding:0 20px; }
+	#wrap #footer>div .footer-sitemap>ul>li { float:none; width:100%; border-top:1px solid rgba(255,255,255,0.2); }
+	#wrap #footer>div .footer-sitemap>ul>li:last-child { border-bottom:1px solid rgba(255,255,255,0.2); }
+	/* 1090px에 도달하면 dd항목을 모두 숨긴다 맨위 데코(장식)을 숨긴다. */
+	#wrap #footer>div .footer-sitemap>ul>li>div>dl>dd { display:none; }
+	#wrap #footer>div .footer-sitemap>ul>li>div>dl>dt:first-child { display:none;  }
+	
+	#wrap #footer>div .footer-sns>ul>li:nth-child(1) { float:none; text-align:center; width:100%; }
+	#wrap #footer>div .footer-sns>ul>li:nth-child(2) { float:none; text-align:center; width:100%; }
+	
+	#wrap #footer>div .footer-sns>ul>li:nth-child(2)>div { padding-right:0;  }
+	/* 모바일에서 화살표 보이게 만들기 */
+	.mobileAngle { opacity:1; }
+}
+
+@media all and (max-width:1024px){
+	#wrap #header { position:fixed; }
+	#wrap #header>div .mobile-nav { display:block; }
+	
+	#wrap #header>div .aside { display:none; }
+	#wrap #header>div .nav { display:none; }
+	
+	#wrap #main #section2 { width:100%; background-image:none; }
+	#wrap #main #section2>div { width:100%; }
+	#wrap #main #section2>div:nth-child(1) { background:#384144; }
+	#wrap #main #section2>div:nth-child(2) { background:#727b77; }
+}
+
+@media all and (max-width:760px){
+	#wrap #main #section3 .section3-video-gallery>li { width:100%; }
+	#wrap #main #section2>div>div { padding:60px 50px; }
+	#wrap #main #section2>div>div .section2-content>p { line-height:200%; }
+	/* 메인 비디오 하단바 아이콘 */
+	#wrap #main #section1>div .section1-footer .section1-footer-left  { left:0; }
+	#wrap #main #section1>div .section1-footer .section1-footer-right { right:0; }
+	
+	#wrap #main #section3 .section3-menu-wrap>ul>li>a {font-size:14px; padding:17px 5px 21px 5px; }
+}
+
+@media all and (max-width:500px){
+	#wrap #main #section2>div>div { padding:40px 30px; }
+	
+	#section2>div>div .section2-title { padding-bottom:0;  }
+	#wrap #main #section2>div>div .section2-title>h2 { font-size:18px; padding-bottom:0; }
+	#wrap #main #section2>div>div .section2-content>p {  letter-spacing:0; line-height:160%; }
+	
+	#wrap #main #section3 .section3-menu-wrap>ul>li>a {font-size:13px; padding:17px 2px 21px 2px; }
+	
+}
+
+@media all and (max-width:400px){
+	#wrap #main #section3 .section3-menu-wrap>ul>li>a {font-size:12px; padding:17px 2px 21px 2px; letter-spacing:-1px; }
+}
+
+
+

@@ -1,0 +1,231 @@
+@charset "utf-8";
+
+/***************************************************************
+	[terms page]
+***************************************************************/
+.terms-segment h4 { margin-top:16px; color:#333; font-size:15px; text-align:left; }
+.terms-segment > h3 { margin-top:32px; }
+.terms-segment p { margin-bottom:8px; color:#666; font-size:14px; text-align:left; }
+.terms-segment ol { margin-bottom:0px; padding-left:24px; position:relative; color:#666; font-size:14px; text-align:left; list-style:none; }
+.terms-segment ol li { margin-bottom:8px; position:relative; }
+.terms-segment ol li em { position:absolute; top:0; left:-24px; font-style:normal; }
+.terms-segment .list-style-dashed { padding-left:14px; }
+.terms-segment .list-style-dashed > li { margin-bottom:0; }
+.terms-segment .list-style-dashed > li::before { width:6px; height:1px; left:-14px; background-color:#666; }
+.terms-segment .list-style-decimal { list-style:decimal !important; }
+.terms-segment .list-style-decimal > li { margin-bottom:0; }
+.terms-segment .table { margin-top:16px; }
+.terms-segment .table th,
+.terms-segment .table td { white-space:normal; }
+.terms-segment .past a { font-size:13px; }	
+/****** responsive & retina specific ******/	
+@media (max-width:374px) {	
+	.terms-segment .past a { letter-spacing:-0.05rem; }	
+}	
+
+
+/***************************************************************
+	[invite page]
+***************************************************************/
+.page-invite .invite-segment { max-width:inherit; padding-top:0; padding-bottom:0; }
+.page-invite .invite-segment .panel-wrap { margin-bottom:0; border-radius:0; }
+.page-invite .invite-segment .panel-invite01 { background-color:#fff7f1; }
+.page-invite .invite-segment .panel-invite02 { background-color:#ebecee; }
+.page-invite .invite-segment .panel-invite03 { padding:12px 0; background-color:#ebecee; }
+.page-invite .invite-segment .panel-invite04 { background-color:#fff; }
+.page-invite .invite-segment .panel-invite05 { background-color:#fff; }
+.page-invite .invite-segment .panel-invite06 { padding-bottom:32px; background-color:#fff; }
+.page-invite .invite-segment .figure-wrap .figure { margin-top:0; margin-bottom:0; position:relative; }
+.page-invite .invite-segment .figure-wrap .figure .figure-img { width:100%; max-width:768px; }
+.page-invite .invite-segment .panel-invite01 .figure { margin-bottom:-32px; }
+.page-invite .invite-segment .panel-invite02 .figure a { width:67.3%; height:9.4%; display:block; position:absolute; top:81.7%; left:16.5%; }
+
+.page-invite .coupon-share { padding:0px 0; text-align:center; }
+.page-invite .coupon-share p { margin-bottom:24px; font-size:16px; font-weight:700; }
+.page-invite .coupon-share .form-group.justify-content-center { margin-bottom:0; }
+.page-invite .coupon-share .form-btn-group { margin-bottom:8px; }
+.page-invite .coupon-share .form-btn-group .btn:last-child { margin-right:0; }
+.page-invite .coupon-share .form-btn-group .btn-icon { margin-right:32px; padding:9px 9px 8px 11px; box-shadow:2px 2px 5px rgba(0,0,0,.07); }
+.page-invite .coupon-share .form-btn-group .btn-icon i { font-size:30px; }
+.page-invite .coupon-share .form-btn-group .btn-kakao i,
+.page-invite .coupon-share .form-btn-group .btn-white i { top:2px !important; }
+.page-invite .coupon-share .form-btn-group .btn-white i.tencon-sms-filled { color:#00a8ff; }
+.page-invite .coupon-share .form-btn-group .btn-white i.tencon-attachment { margin-right:3px; margin-left:2px; left:-1px; color:#888; font-size:25px; }
+.page-invite .coupon-share .form-btn-group .btn-orange { min-width:160px !important; }
+.page-invite .coupon-share a.btn { color:#ff893a; }
+
+.page-invite .invite-segment .guide-group { max-width:768px; margin-bottom:0; padding-right:24px; padding-left:24px; }
+.page-invite .invite-segment .guide-group h4 { font-size:21px; font-weight:400; }
+.page-invite .invite-segment .guide-group h5 { font-size:18px; }
+
+.page-invite .invite-segment .guide-group .list-style-ref { margin-top:32px; }
+/****** responsive & retina specific ******/
+@media (min-width:768px) {
+	.page-invite .invite-segment .panel-invite02 { padding:48px 0; }
+	.page-invite .invite-segment .panel-invite03 { padding:0 0 80px; }
+	.page-invite .invite-segment .panel-invite05 { }
+	.page-invite .invite-segment .panel-invite06 { }
+	.page-invite .coupon-share p { font-size:32px; }
+	.page-invite .coupon-share .form-btn-group .btn-icon { margin-right:48px; padding:23px 24px 24px 25px; border-radius:100%; }
+	.page-invite .coupon-share .form-btn-group .btn-icon:last-child { padding-right:29px; padding-left:30px; }
+	.page-invite .coupon-share .form-btn-group .btn-icon i { font-size:45px; }
+	.page-invite .coupon-share .form-btn-group .btn-white i.tencon-attachment { font-size:30px; }
+	.page-invite .invite-segment .guide-group { padding-top:32px; }
+	.page-invite .invite-segment .guide-group h4 { font-size:32px; }
+	.page-invite .invite-segment .guide-group h5 { font-size:21px; }
+	.page-invite .invite-segment .guide-group li { font-size:16px; }
+}
+
+
+/***************************************************************
+	[ticket page]
+***************************************************************/
+.page-ticket .ticket-segment { max-width:inherit; padding-top:0; padding-bottom:0; }
+.page-ticket .ticket-segment .panel-wrap { margin-bottom:0; border-radius:0; }
+.page-ticket .ticket-segment .panel-ticket01 { background-color:#fffae4; }
+.page-ticket .ticket-segment .panel-ticket02 { background-color:#f3f3f3; }
+.page-ticket .ticket-segment .panel-ticket03 { padding:12px 0; background-color:#f3f3f3; }
+.page-ticket .ticket-segment .panel-ticket04 { background-color:#fff; }
+.page-ticket .ticket-segment .panel-ticket05 { padding-bottom:32px; background-color:#fff; }
+.page-ticket .ticket-segment .figure-wrap .figure { margin-top:0; margin-bottom:0; position:relative; }
+.page-ticket .ticket-segment .figure-wrap .figure .figure-img { width:100%; max-width:768px; }
+.page-ticket .ticket-segment .panel-ticket01 .figure { margin-bottom:-32px; }
+
+.page-ticket .coupon-share { padding:0px 0; text-align:center; }
+.page-ticket .coupon-share p { margin-bottom:24px; font-size:16px; font-weight:700; }
+.page-ticket .coupon-share .form-group.justify-content-center { margin-bottom:0; }
+.page-ticket .coupon-share .form-btn-group { margin-bottom:8px; }
+.page-ticket .coupon-share .form-btn-group .btn-icon { margin-left:16px; margin-right:16px; padding:9px 9px 8px 11px; box-shadow:2px 2px 5px rgba(0,0,0,.07);  border:1px solid #eee; width:60px; height:60px; border-radius:100px; }
+.page-ticket .coupon-share .form-btn-group .btn-icon i { font-size:30px; }
+.page-ticket .coupon-share .form-btn-group .btn-kakao i,
+.page-ticket .coupon-share .form-btn-group .btn-white i { top:1px !important; }
+.page-ticket .coupon-share .form-btn-group .btn-white i.tencon-sms-filled { color:#00a8ff; }
+.page-ticket .coupon-share .form-btn-group .btn-white i.tencon-attachment { margin-right:3px; margin-left:2px; left:0; color:#888; font-size:22px; }
+.page-ticket .coupon-share .form-btn-group .btn-orange { min-width:160px !important; }
+.page-ticket .coupon-share a.btn { color:#ff893a; }
+
+.page-ticket .ticket-segment .guide-group { max-width:768px; margin-bottom:0; padding-right:24px; padding-left:24px; }
+.page-ticket .ticket-segment .guide-group h4 { font-size:21px; font-weight:400; }
+.page-ticket .ticket-segment .guide-group h5 { font-size:18px; }
+
+.page-ticket .ticket-segment .guide-group .list-style-ref { margin-top:32px; }
+/****** responsive & retina specific ******/
+@media (min-width:768px) {
+	.page-ticket .ticket-segment .panel-ticket02 { padding:48px 0; }
+	.page-ticket .ticket-segment .panel-ticket03 { padding:0 0 80px; }
+	.page-ticket .ticket-segment .panel-ticket05 { }
+	.page-ticket .ticket-segment .panel-ticket06 { }
+	.page-ticket .coupon-share p { font-size:32px; }
+	.page-ticket .coupon-share .form-btn-group .btn-icon { margin-left:24px; margin-right:24px; padding:17px 24px 24px 20px; border-radius:100%; width:80px; height:80px; }
+	.page-ticket .coupon-share .form-btn-group .btn-icon:last-child { padding-right:29px; padding-left:30px; }
+	.page-ticket .coupon-share .form-btn-group .btn-icon i { font-size:40px; }
+	.page-ticket .coupon-share .form-btn-group .btn-white i.tencon-attachment { font-size:26px; left:3px; top:4px !important; }
+	.page-ticket .ticket-segment .guide-group { padding-top:32px; }
+	.page-ticket .ticket-segment .guide-group h4 { font-size:32px; }
+	.page-ticket .ticket-segment .guide-group h5 { font-size:21px; }
+	.page-ticket .ticket-segment .guide-group li { font-size:16px; }
+	.page-ticket .ticket-segment .guide-group li { font-size:16px; }
+}
+
+/***************************************************************
+	[share vip]
+***************************************************************/
+.share-vip { max-width:inherit; padding-top:0; padding-bottom:0; }
+.share-vip .panel-wrap { margin-bottom:0; border-radius:0; }
+.share-vip { padding:0px 0; text-align:center; }
+.share-vip .form-group.justify-content-center { margin-bottom:0; }
+.share-vip.form-btn-group { margin-bottom:8px; }
+.share-vip .form-btn-group .btn-icon { margin-left:16px; margin-right:16px; padding:9px 9px 8px 11px; box-shadow:2px 2px 5px rgba(0,0,0,.07);  border:1px solid #eee; width:60px; height:60px; border-radius:100px; }
+.share-vip .form-btn-group .btn-icon i { font-size:30px; }
+.share-vip .form-btn-group .btn-kakao i,
+.share-vip .form-btn-group .btn-white i { top:1px !important; }
+.share-vip .form-btn-group .btn-white i.tencon-sms-filled { color:#00a8ff; }
+.share-vip .form-btn-group .btn-white i.tencon-attachment { margin-right:3px; margin-left:2px; left:0; color:#888; font-size:22px; }
+.share-vip .form-btn-group .btn-orange { min-width:160px !important; }
+.share-vip .btn i.tencon-sms2-filled { color: #00a8ff; }
+.share-vip .form-group .form-btn-group .btn:last-child { margin-right:inherit; }
+.share-vip .modal-footer { padding:35px 24px 32px; }
+/****** responsive & retina specific ******/
+@media (min-width:768px) {
+	.share-vip p { font-size:32px; }
+	.share-vip .form-btn-group .btn-icon { margin-left:24px; margin-right:24px; padding:17px 24px 24px 20px; border-radius:100%; width:80px; height:80px; }
+	.share-vip .form-btn-group .btn-icon i { font-size:40px; }
+	.share-vip .form-btn-group .btn-white i.tencon-attachment { font-size:26px; left:3px; top:4px !important; }
+}
+@media (max-width:767px) {
+	.share-vip .modal-footer { padding:15px 24px 5px; }
+}
+
+
+/***************************************************************
+	[instagram review event page]
+***************************************************************/
+.page-instagram .instagram-segment {max-width:inherit;padding-top:0;padding-bottom:0;}
+.page-instagram .instagram-segment .panel-wrap { margin-bottom:0; border-radius:0; }
+.page-instagram .instagram-segment .panel { }
+.page-instagram .instagram-segment .panel .figure { margin-bottom:-32px; }
+.page-instagram .instagram-segment .figure-wrap .figure { margin-top:0; margin-bottom:0; position:relative; }
+.page-instagram .instagram-segment .figure-wrap { background-color:#ffd2d9; }
+.page-instagram .instagram-segment .figure-wrap .figure .figure-img { width:100%; max-width:768px; }
+.page-instagram .instagram-segment .card-horizontal .card-body h5.card-title { -webkit-line-clamp:1; }
+.page-instagram .instagram-segment .order-list-body { max-width:768px; margin:0 auto; margin-top:10px; overflow:hidden; padding-bottom:100px; }
+
+.page-instagram .instagram-segment .review-body { background-color:#f0f3f4; padding:20px 20px 20px 20px; margin:0 20px; }
+.page-instagram .instagram-segment .review-body p.review-hashtag { font-size:14px; font-weight:400; color:#777d81; }
+.page-instagram .instagram-segment .review-body p.review-text { font-size:16px; }
+.page-instagram .instagram-segment .review-body.s2 { background-color:inherit; padding:50px 20px 50px 20px; text-align:center; }
+.page-instagram .instagram-segment .review-body.s2 p.review-text { font-size:18px; }
+.page-instagram .instagram-segment .card-wrap .row { top:70px; right:22px; position:absolute; display:inline-block; }
+
+.page-instagram .instagram-segment .order-list-body .form-group { position:relative; }
+.page-instagram .instagram-segment .form-group .form-btn-group { width:100%; }
+.page-instagram .instagram-segment .form-group .form-btn-group .btn { width:100% !important; }
+.page-instagram .instagram-segment .form-group .form-btn-group .btn.s2 { padding:15px 16px 17px; font-size:18px; }
+.page-instagram .instagram-segment .form-group .form-btn-group .btn + .btn { margin:0; }
+.page-instagram .instagram-segment .step-box { padding:20px; }
+.page-instagram .instagram-segment .step-box h2 { padding:0 5px; line-height:1.3; }
+.page-instagram .instagram-segment .step-label { display:inline-block; font-size:16px; color:#444; border:1px solid #444; background-color:#fff; border-radius:30px; padding:3px 20px 5px; margin-bottom:10px; }
+.modal-gallery .btn.btn-orange { bottom:50px; width:150px; margin:0 auto; }
+/****** responsive & retina specific ******/
+@media (min-width:768px) {
+	.page-instagram .instagram-segment .order-list-body .card { padding:20px 20px 20px 20px; }
+	.page-instagram .instagram-segment .order-list-body .form-group { display:flex; padding:20px; }
+}
+@media (max-width:767px) {
+	.page-instagram .instagram-segment .review-body { padding:10px 10px 10px 10px; margin:10px 10px 0 10px; }
+	.page-instagram .instagram-segment .review-body p.review-hashtag { font-size:13px; }
+	.page-instagram .instagram-segment .review-body p.review-text { font-size:14px; }
+	.page-instagram .instagram-segment .review-body.s2 { padding:20px 20px 30px 20px; }
+	.page-instagram .instagram-segment .review-body.s2 p.review-text { font-size:15px; }
+	.page-instagram .instagram-segment .card-wrap .row { top:54px; right:12px; }	
+	.page-instagram .instagram-segment .form-group .form-btn-group .btn.s2 { padding:12px 16px 13px; font-size:16px; }
+	.page-instagram .instagram-segment .step-box { padding:10px; }
+	.page-instagram .instagram-segment .step-label { font-size:14px; padding:2px 16px 4px; margin-bottom:10px; }
+	.page-instagram .instagram-segment .step-box h2 { font-size:15px; word-break:keep-all; font-weight:500; }
+	.modal-gallery .btn.btn-orange { bottom:0; width:100%; padding:11px 12px 12px; font-size:14px; }
+}
+@media (max-width:320px) {
+	.page-instagram .instagram-segment .order-list-body .card .card-body .dl-inline .sum-price { font-size:12px; }
+	.page-instagram .instagram-segment .card-horizontal .dl-inline dd { font-size:12px; }
+	.page-instagram .instagram-segment .dl-inline dt { font-size:12px; }
+}
+
+
+/***************************************************************
+	[deny mail page]
+***************************************************************/
+.page-mail h1 { margin-top:40px; }
+.page-mail .container { max-width:800px !important; }
+.mail-segment { margin-top:20px; padding:70px 0; border-top:1px solid #d7d7d7; border-bottom:1px solid #d7d7d7; }
+.mail-segment h3 { text-align:center; line-height:1.5; word-break:keep-all; }
+.mail-segment h4 { text-align:center; line-height:1.5; word-break:keep-all; font-weight:400; margin-top:20px; }
+.mail-segment p { margin-top:60px; margin-bottom:8px; color:#666; font-size:14px; text-align:left; padding-left:10px; }
+.mail-segment .form-btn-group { margin:0 auto; margin-top:30px; text-align:center; }
+.mail-segment .form-btn-group button { width:150px; margin:0 10px; }
+@media (max-width:767px) {
+	.mail-segment { padding:40px 0; }
+	.mail-segment h3 { font-size:15px; }
+	.mail-segment h4 { font-size:14px; }
+	.mail-segment p { margin-top:50px; font-size:13px; }
+	.mail-segment .form-btn-group { margin-top:20px; }
+}

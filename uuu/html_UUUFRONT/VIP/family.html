@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700" rel="stylesheet" />
+	<!-- standard meta -->
+	<meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../images/icon/favicon.ico" />
+    <!-- site properities -->
+	<title>연회원 가입 :: UUU몰</title>
+    <meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="UUU" />
+	<meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta name="format-detection" content="telephone=no, address=no, email=no" />
+    <link rel="canonical" href="http://uuumall.kr" />
+	<!-- facebook meta-->
+	<meta property="og:url" content="http://uuumall.kr" />
+	<meta property="og:title" content="" />
+	<meta property="og:description" content="" />
+    <meta property="og:image" content="https://img.tenping.kr/Content/Upload/Images/icon-opengraph_uuu.png" />
+    <!-- icon meta -->
+	<link rel="apple-touch-icon-precomposed" href="../../images/icon/touch-icon-iphone-retina.png" />
+	<link rel="apple-touch-icon" href="../../images/icon/touch-icon-iphone.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="../../images/icon/touch-icon-ipad.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="../../images/icon/touch-icon-iphone-retina.png" />
+	<link rel="apple-touch-icon" sizes="167x167" href="../../images/icon/touch-icon-ipad-retina.png" />
+	<!--// -->
+	<!--[if lte IE 9]>
+		<script src="../../Js.Library/html5shiv.js"></script>
+		<script src="../../Js.Library/jquery-1.10.2.js"></script>
+		<script src="../../Js.Library/placeholders.js"></script>
+	<![endif]-->
+	<!-- common css -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" />
+	<link rel="stylesheet" href="../../css/base.css" />
+	<link rel="stylesheet" href="../../css/layout.css" />
+	<link rel="stylesheet" href="../../css/common.css" />
+    <link rel="stylesheet" href="../../css/page-common.css" />
+    <link rel="stylesheet" href="../../css/page-order.css" />
+	<link rel="stylesheet" href="../../css/animate.min.css" />
+    <!-- bootstrap core js -->
+	<script src="../../Js.Library/jquery-3.3.1.min.js"></script>
+	<script src="../../Js.Library/jquery-ui-1.12.1.min.js"></script>
+	<script src="../../Js.Library/popper.min.js"></script>
+	<script src="../../Js.Library/bootstrap.min.js"></script>
+	<!-- common plugin js -->
+    <script src="../../Js.Library/scrollreveal.min.js"></script>
+	<script src="../../Js.Library/jquery.easing.min.js"></script>
+	<script src="../../Js.Library/jquery.simpler-sidebar.js"></script> 
+	<script src="../../Js.Library/SmoothScroll.min.js"></script>
+    <script src="../../Js.Library/simplebar.min.js"></script>
+	<script src="../../Js.Library/clipboard.min.js"></script>
+    <!-- custom js -->
+    <script src="../../Js.Library/swiper.min.js"></script>
+</head>
+<body id="pageTop" class="sub">
+	<div id="pageWrap" class="page-wrap page-signin page-signin2">
+		<div class="wrapper">
+            <!--### [HEADER] ###-->
+            <header id="headerWrap" class="header-wrap">
+                <!-- top menu -->
+                <div class="top-navbar">
+                    <div class="container">
+                        <div class="navbar navbar-expand">
+                            <div class="navbar-brand">
+                                <h2>연회원 혜택·관리</h2>
+                            </div>
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a href="#none" class="nav-link btn btn-icon btn-transparent tooltip-template-gray btn-mypage" title="마이페이지"><i class="icon-mypage"></i><span class="badge badge-orange animated bounceIn">N</span></a></li>
+                                <li class="nav-item"><a href="#none" class="nav-link btn btn-icon btn-transparent tooltip-template-gray btn-cart" title="장바구니"><i class="icon-cart"></i><span class="badge badge-orange animated bounceIn">9</span></a></li>
+                                <li class="nav-item"><a href="#none" class="nav-link btn btn-icon btn-transparent tooltip-template-gray btn-login" title="로그인"><i class="icon-login"></i></a></li>
+                                <li class="nav-item"><a href="#none" class="nav-link btn btn-icon btn-transparent tooltip-template-gray btn-signup" title="회원가입"><i class="icon-signup"></i></a></li>
+                                <!-- <li class="nav-item"><a href="#none" class="nav-link btn btn-icon btn-transparent tooltip-template-gray btn-logout" title="로그아웃" role="button"><i class="icon-logout"></i></a></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- navbar -->
+                <div class="container">
+                    <div class="navbar brand-expand">
+                        <!-- brand -->
+                        <div class="navbar-brand">
+                            <h1>
+                                <a href="/" aria-label="UUU mall">
+                                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="114" height="40" viewBox="0 0 114 40" xml:space="preserve">
+                                        <g class="logo">
+                                            <path class="st2" d="M94,40H20C9,40,0,31,0,20v0C0,9,9,0,20,0h74c11,0,20,9,20,20v0C114,31,105,40,94,40z"/>
+                                            <g>
+                                                <path class="st1" d="M28.6,9.7v12.2c0,0.5-0.1,1-0.2,1.4c-0.1,0.5-0.3,0.9-0.6,1.2c-0.3,0.4-0.6,0.6-1.1,0.9
+                                                    c-0.4,0.2-1,0.3-1.6,0.3s-1.2-0.1-1.6-0.3c-0.4-0.2-0.8-0.5-1.1-0.9c-0.3-0.4-0.5-0.8-0.6-1.2c-0.1-0.5-0.2-0.9-0.2-1.4V9.7h-5.1
+                                                    v12.5c0,1.2,0.2,2.3,0.6,3.3c0.4,1,1,1.8,1.7,2.6c0.7,0.7,1.6,1.3,2.7,1.7c1.1,0.4,2.3,0.6,3.6,0.6c1.3,0,2.5-0.2,3.6-0.6
+                                                    c1.1-0.4,2-1,2.7-1.7c0.8-0.7,1.3-1.6,1.7-2.6c0.4-1,0.6-2.1,0.6-3.3V9.7H28.6z"/>
+                                                <path class="st1" d="M49.2,9.7v12.2c0,0.5-0.1,1-0.2,1.4c-0.1,0.5-0.3,0.9-0.6,1.2c-0.3,0.4-0.6,0.6-1.1,0.9
+                                                    c-0.4,0.2-1,0.3-1.6,0.3c-0.6,0-1.2-0.1-1.6-0.3c-0.4-0.2-0.8-0.5-1.1-0.9c-0.3-0.4-0.5-0.8-0.6-1.2c-0.1-0.5-0.2-0.9-0.2-1.4
+                                                    V9.7h-5.1v12.5c0,1.2,0.2,2.3,0.6,3.3c0.4,1,1,1.8,1.7,2.6c0.7,0.7,1.6,1.3,2.7,1.7c1.1,0.4,2.3,0.6,3.6,0.6
+                                                    c1.3,0,2.5-0.2,3.6-0.6c1.1-0.4,2-1,2.7-1.7c0.8-0.7,1.3-1.6,1.7-2.6c0.4-1,0.6-2.1,0.6-3.3V9.7H49.2z"/>
+                                                <path class="st1" d="M69.8,9.7v12.2c0,0.5-0.1,1-0.2,1.4c-0.1,0.5-0.3,0.9-0.6,1.2c-0.3,0.4-0.6,0.6-1.1,0.9
+                                                    c-0.4,0.2-1,0.3-1.6,0.3c-0.6,0-1.2-0.1-1.6-0.3c-0.4-0.2-0.8-0.5-1.1-0.9c-0.3-0.4-0.5-0.8-0.6-1.2c-0.1-0.5-0.2-0.9-0.2-1.4
+                                                    V9.7h-5.1v12.5c0,1.2,0.2,2.3,0.6,3.3c0.4,1,1,1.8,1.7,2.6c0.7,0.7,1.6,1.3,2.7,1.7c1.1,0.4,2.3,0.6,3.6,0.6
+                                                    c1.3,0,2.5-0.2,3.6-0.6c1.1-0.4,2-1,2.7-1.7c0.8-0.7,1.3-1.6,1.7-2.6c0.4-1,0.6-2.1,0.6-3.3V9.7H69.8z"/>
+                                                <path class="st1" d="M78.6,20.1v-2.5H87V16h-5.2V8.3h13.2V16h-5.1v1.7h8.4v2.5H78.6z M81.7,30.6v-5.8h10.5v-1.1H81.7v-2.3H95v5.8
+                                                    H84.6v1.1h11v2.3H81.7z M92.1,10.6h-7.4v3h7.4V10.6z"/>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </a>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <!--// navbar -->
+			</header>
+		    <!--### [MAIN] ###-->
+            <main id="mainWrap" class="main-wrap" role="main">
+                <!-- header -->
+                <header class="main-header" style="display:none;">
+                    <h2>연회원 혜택·관리</h2>
+                </header>
+                <!-- body -->
+                <div class="main-body">
+                    <!-- segment : tab navi -->
+                    <section id="tabNavi" class="segment-wrap tab-segment tab-type1">
+                        <!-- container -->
+                        <div class="container">
+                            <div class="segment-body">
+                                <!-- tab -->
+                                <div id="tabNav" class="tab-wrap" role="navigation">
+                                    <ul class="nav nav-tabs nav-angular item-activebar-under">
+                                        <li class="nav-item"><a href="#none" class="nav-link js-scroll-trigger" role="button">연회원 혜택</a></li>
+                                        <li class="nav-item"><a href="#none" class="nav-link js-scroll-trigger active" role="button">연회원 가족</a></li>
+										<li class="nav-item"><a href="#none" class="nav-link js-scroll-trigger" role="button">연회원 관리</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--// container -->
+                    </section>
+					
+					<!-- segment : membership -->
+                    <section class="segment-wrap membership-segment family">
+						
+						<!-- [연회원] 연회원 가족 메뉴 -->
+						<div class="segment-body" style="display:;">
+							<!-- panel -->
+							<section class="panel-wrap">
+								<div class="panel-body">
+
+									<!-- segment -->
+									<section class="segment-wrap">
+										<!-- container -->
+										<div class="container">
+											<div class="segment-body">
+												<div class="segment-header s2">
+													<h2>연회원이 가족을 등록하면<br>가족은 <span>무료로 연회원 혜택</span>을 누릴 수 있어요</h2>
+												</div>
+
+												<div class="modal-body s2">
+													<div class="table-wrap">
+														<div class="div-title">
+															연회원 가족 혜택을 확인해보세요
+														</div>
+														<div class="div-table">
+															<div class="div-tbody">
+																<div class="div-tr">
+																	<div class="div-th collapsed-col">연회원 혜택</div>
+																	<div class="div-td">
+																		가족 등록 시 포인트 최대 <span class="line-break"><span>15,000원</span> 적립</span>
+																		<span class="line-break s3">(가족 1인 당 5,000원 적립)</span>
+																	</div>
+																</div>
+																<div class="div-tr">
+																	<div class="div-th collapsed-col">가족 혜택</div>
+																	<a href="">
+																		<div class="div-td">
+																			<span>무료 연회원 혜택</span> <span class="line-break">(연회원과 기간 동일)</span>
+																			<span class="s2">연회원 혜택 확인하기 &gt;</span>
+																		</div>
+																	</a>	
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</section>
+									<!--// segment -->
+
+									<div class="modal-sendpoint">
+										<section class="segment-wrap s2">
+											<!-- container -->
+											<div class="container">
+												<div class="row">
+
+													<div class="modal-body">
+														<form action="" method="post">
+															<fieldset class="label-hide">
+																<div class="row">
+																	<!-- grid -->
+																	<div class="grid-col">
+																		<p>연회원 가족 등록</p>
+																		<div class="form-group">
+																			<span class="label-txt">등록할 가족의 휴대폰 번호를 입력해주세요</span> <span class="label-txt s2">(1/3명)</span>
+																			<div class="controls">
+																				<input type="text" id="inputPhone" name="" class="form-control" placeholder="휴대폰 번호(숫자만 입력)">
+																				<div class="invalid-tooltip">에러 메시지</div>
+																			</div>
+																		</div>
+
+																		<div class="form-group">
+																			<div class="custom-control custom-checkbox">
+																				<input type="checkbox" id="checkMemberPoint" class="custom-control-input" name="checkMemberPoint">
+																				<label for="checkMemberPoint" class="custom-control-label">포인트도 같이 보내기</label>
+																			</div>
+																		</div>
+
+																		<!-- 포인트도 같이 보내기 체크 시 display:block 처리 -->
+																		<div class="" style="display:;">
+																			<div class="form-group">
+																				<div class="box-point">
+																					<span class="label-txt s2">보낼 수 있는 포인트</span>
+																					<div id="" class="totalpoint">13,982<span>원</span></div>
+																				</div>
+																				<label for="" class="form-label">보낼 포인트</label>
+																				<div class="controls">
+																					<select id="" name="" class="form-control send-point">
+																						<option value="">보낼 포인트</option>
+																						<option value="">1,000원</option>
+																						<option value="">5,000원</option>
+																						<option value="">10,000원</option>
+																						<option value="">20,000원</option>
+																						<option value="">30,000원</option>
+																						<option value="">100,000원</option>
+																					</select>
+																					<div class="invalid-tooltip">에러 메시지</div>
+																				</div>
+																				<div class="txt-info s3">* 보내는 포인트가 많을수록 유효기간이 길어집니다.</div>
+																			</div>
+
+																			<div class="form-group">
+																				<span class="label-txt">안전한 송금을 위해 비밀번호를 입력해주세요</span>
+																				<div class="controls">
+																					<input type="password" id="" name="" class="form-control" value="" placeholder="UUU몰 비밀번호 입력">
+																					<div class="invalid-tooltip">에러 메시지</div>
+																				</div>
+																				<div class="txt-info s4">비밀번호 찾기</div>
+																			</div>
+
+																			<div class="box-info">
+																				<div class="title">포인트를 보내기 전, 꼭 확인해주세요</div>
+																				- 받은 포인트의 유효기간은 3개월입니다.<br>
+																				- 포인트를 받은 친구가 7일 이내에 수령하지 않으면 자동 취소되며, 포인트는 나에게 되돌아옵니다.
+																			</div>
+
+																			<div class="form-group">
+																				<button type="button" data-toggle="modal" data-target="#modalVipFamily" class="btn btn-orange">가족 등록과 동시에 포인트 보내기</button>
+																			</div>
+																		</div>
+																		<!--// -->
+
+																		<!-- 포인트도 같이 보내기 체크 시 display:none 처리 -->
+																		<div class="form-group" style="display:block;">
+																			<!-- 비활성화 시 disabled 추가 -->
+																			<button type="button" data-toggle="modal" data-target="#modalVipFamily" class="btn btn-orange">가족 등록하기</button>
+																		</div>
+
+																	</div>
+																	<!--// grid -->
+
+																</div>
+															</fieldset>
+														</form>
+													</div>
+
+												</div>
+											</div>
+										</section>
+									</div>
+
+									<div class="modal-sendpoint">
+										<section class="segment-wrap s2">
+											<!-- container -->
+											<div class="container">
+												<div class="row">
+
+													<div class="modal-body">
+														<form action="" method="post">
+															<fieldset class="label-hide">
+																<div class="row">
+																	<!-- grid -->
+																	<div class="grid-col">
+																		<p>나의 가족 목록 <span class="label-txt s2">(0/3명)</span></p> 
+																		<div class="form-group">
+
+																			<!-- 등록한 가족 없음 -->
+																			<div class="row-list">
+																				<div class="col">
+																					<div class="figure"><img src="../../images/img-family.png" alt=""></div>
+																					<span class="txt s3">
+																						등록한 가족이 없습니다<br>가족을 등록하고 포인트 최대 <span>15,000원</span> 적립하세요
+																					</span>
+																				</div>
+																			</div>
+																			<!--// -->
+
+																			<!-- 대기 중 -->
+																			<div class="row-list">
+																				<div class="col state-box">
+																					<span class="state ing">대기 중</span> <span class="txt">2021-03-15 11:00:00</span>
+																					<a href="#none" class="btn-cancel" role="button" data-toggle="modal" data-target="#modalVipFamily">등록 해제</a>
+																					<span class="txt-notice">등록한 가족이 UUU몰 회원 가입을 하면 등록이 완료됩니다</span>
+																				</div>
+																				<div class="col">
+																					<dd><span class="label-txt">내가 등록한 가족 :</span> <span class="content-txt">서찬우 010-1234-1010</span></dd>
+																					<dd><span class="label-txt">연회원 혜택 기간 :</span> <span class="content-txt">2020-01-01~2021-01-01</span></dd>
+																					<dd><span class="label-txt">보낸 포인트 :</span> <span class="content-txt">1,000원</span></dd>
+																				</div>
+																			</div>
+																			<!--// -->
+
+																			<!-- 등록 완료 -->
+																			<div class="row-list">
+																				<div class="col state-box">
+																					<span class="state complete">등록 완료</span> <span class="txt">2021-03-15 11:00:00</span>
+																					<a href="#none" class="btn-cancel" role="button" data-toggle="modal" data-target="#modalVipFamily">등록 해제</a>
+																				</div>
+																				<div class="col">
+																					<dd><span class="label-txt">내가 등록한 가족 :</span> <span class="content-txt">서찬우 010-1234-1010</span></dd>
+																					<dd><span class="label-txt">연회원 혜택 기간 :</span> <span class="content-txt">2020-01-01~2021-01-01</span></dd>
+																					<dd><span class="label-txt">보낸 포인트 :</span> <span class="content-txt">1,000원</span></dd>
+																				</div>
+																			</div>
+																			<!--// -->
+
+																			<!-- 혜택 정지 -->
+																			<div class="row-list">
+																				<div class="col state-box">
+																					<span class="state stop">혜택 정지</span> <span class="txt">2021-03-15 11:00:00</span>
+																					<a href="#none" class="btn-cancel" role="button" data-toggle="modal" data-target="#modalVipFamily">등록 해제</a>
+																					<span class="txt-notice s2">연회원 기간이 만료되어 가족 혜택이 일시 정지 되었습니다</span>
+																				</div>
+																				<div class="col">
+																					<dd><span class="label-txt">내가 등록한 가족 :</span> <span class="content-txt">서찬우 010-1234-1010</span></dd>
+																					<dd><span class="label-txt">연회원 혜택 기간 :</span> <span class="content-txt">2020-01-01~2021-01-01</span></dd>
+																					<dd><span class="label-txt">보낸 포인트 :</span> <span class="content-txt">1,000원</span></dd>
+																				</div>
+																			</div>
+																			<!--// -->
+
+																			<!-- 등록 해제 -->
+																			<div class="row-line"></div>
+																			<div class="row-list">
+																				<div class="col state-box">
+																					<span class="state cancel">등록 해제</span> <span class="txt">2021-03-15 11:00:00</span>
+																					<button type="button" class="close"><i class="tencon-close"></i></button>
+																					<span class="txt-notice">고준성 님이 님이 가족 등록을 해제하였습니다</span>
+																				</div>
+																				<div class="col">
+																					<dd><span class="label-txt">내가 등록한 가족 :</span> <span class="content-txt">서찬우 010-1234-1010</span></dd>
+																					<dd><span class="label-txt">연회원 혜택 기간 :</span> <span class="content-txt">2020-01-01~2021-01-01</span></dd>
+																					<dd><span class="label-txt">보낸 포인트 :</span> <span class="content-txt">1,000원</span></dd>
+																				</div>
+																			</div>
+																			<div class="row-list">
+																				<div class="col state-box">
+																					<span class="state cancel">등록 해제</span> <span class="txt">2021-03-15 11:00:00</span>
+																					<button type="button" class="close"><i class="tencon-close"></i></button>
+																					<span class="txt-notice">명강용 님이 직접 연회원 가입하여 가족 등록이 해제되었습니다</span>
+																				</div>
+																				<div class="col">
+																					<dd><span class="label-txt">내가 등록한 가족 :</span> <span class="content-txt">서찬우 010-1234-1010</span></dd>
+																					<dd><span class="label-txt">연회원 혜택 기간 :</span> <span class="content-txt">2020-01-01~2021-01-01</span></dd>
+																					<dd><span class="label-txt">보낸 포인트 :</span> <span class="content-txt">1,000원</span></dd>
+																				</div>
+																			</div>
+																			<!--// -->
+
+																		</div>
+																	</div>
+																	<!--// grid -->
+																</div>
+															</fieldset>
+														</form>
+													</div>
+
+												</div>
+											</div>
+										</section>
+									</div>	
+
+
+								</div>
+							</section>
+							<!--// panel -->
+						</div>
+						<!--// [연회원] 연회원 가족 메뉴 -->
+						
+						<!-- [가족] 연회원 가족 메뉴 -->
+						<div class="segment-body" style="display:none;">
+							<!-- panel -->
+							<section class="panel-wrap">
+								<div class="panel-body">
+
+									<!-- segment -->
+									<section class="segment-wrap">
+										<!-- container -->
+										<div class="container">
+											<div class="segment-body">
+												<div class="segment-header s2">
+													<h2>연회원이 가족을 등록하면<br>가족은 <span>무료로 연회원 혜택</span>을 누릴 수 있어요</h2>
+												</div>
+
+												<div class="modal-body s2">
+													<div class="table-wrap">
+														<div class="div-title">
+															연회원 가족 혜택을 확인해보세요
+														</div>
+														<div class="div-table">
+															<div class="div-tbody">
+																<div class="div-tr">
+																	<div class="div-th collapsed-col">혜택 1</div>
+																	<div class="div-td s2">
+																		모든 상품 <span>비밀할인</span>
+																	</div>
+																</div>
+																<div class="div-tr">
+																	<div class="div-th collapsed-col">혜택 2</div>
+																	<a href="">
+																		<div class="div-td s2">
+																			쇼핑포인트 <span>추가 할인</span>
+																			<span class="s2">포인트 사용 안내 &gt;</span>
+																		</div>
+																	</a>	
+																</div>
+																<div class="div-tr">
+																	<div class="div-th collapsed-col">혜택 3</div>
+																	<a href="">
+																		<div class="div-td s2">
+																			매일매일 <span>100원 찬스</span>
+																			<span class="s2">자세히 보기 &gt;</span>
+																		</div>
+																	</a>	
+																</div>
+																<div class="div-tr">
+																	<div class="div-th collapsed-col">혜택 2</div>
+																	<a href="">
+																		<div class="div-td s2">
+																			연회원 <span>가족 등록</span>
+																			<span class="s2">연회원 가족 안내 &gt;</span>
+																		</div>
+																	</a>	
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</section>
+									<!--// segment -->
+
+									<div class="modal-sendpoint">
+										<section class="segment-wrap s2">
+											<!-- container -->
+											<div class="container">
+												<div class="row">
+
+													<div class="modal-body">
+														<form action="" method="post">
+															<fieldset class="label-hide">
+																<div class="row">
+																	<!-- grid -->
+																	<div class="grid-col">
+																		
+																		<div class="form-group">
+
+																			<!-- 등록 완료 -->
+																			<div class="row-list">
+																				<div class="col state-box">
+																					<span class="state complete">등록 완료</span> <span class="txt">2021-03-15 11:00:00</span>
+																					<a href="#none" class="btn-cancel" role="button" data-toggle="modal" data-target="#modalVipFamily">등록 해제</a>
+																				</div>
+																				<div class="col">
+																					<dd><span class="label-txt">내가 등록한 가족 :</span> <span class="content-txt">서찬우 010-1234-1010</span></dd>
+																					<dd><span class="label-txt">연회원 혜택 기간 :</span> <span class="content-txt">2020-01-01~2021-01-01</span></dd>
+																					<dd><span class="label-txt">보낸 포인트 :</span> <span class="content-txt">1,000원</span></dd>
+																				</div>
+																			</div>
+																			<!--// -->
+
+																			<!-- 혜택 정지 -->
+																			<div class="row-list">
+																				<div class="col state-box">
+																					<span class="state stop">혜택 정지</span> <span class="txt">2021-03-15 11:00:00</span>
+																					<span class="txt-notice s2">연회원 기간이 만료되어 가족 혜택이 일시 정지 되었습니다</span>
+																				</div>
+																				<div class="col">
+																					<dd><span class="label-txt">내가 등록한 가족 :</span> <span class="content-txt">서찬우 010-1234-1010</span></dd>
+																					<dd><span class="label-txt">연회원 혜택 기간 :</span> <span class="content-txt">2020-01-01~2021-01-01</span></dd>
+																					<dd><span class="label-txt">보낸 포인트 :</span> <span class="content-txt">1,000원</span></dd>
+																				</div>
+																			</div>
+																			<!--// -->
+
+																			<!-- 등록 해제 -->
+																			<div class="row-list">
+																				<div class="col state-box">
+																					<span class="state cancel">등록 해제</span> <span class="txt">2021-03-15 11:00:00</span>
+																					<button type="button" class="close"><i class="tencon-close"></i></button>
+																					<span class="txt-notice">명강용 님이 직접 연회원 가입하여 가족 등록이 해제되었습니다</span>
+																				</div>
+																				<div class="col">
+																					<dd><span class="label-txt">내가 등록한 가족 :</span> <span class="content-txt">서찬우 010-1234-1010</span></dd>
+																					<dd><span class="label-txt">연회원 혜택 기간 :</span> <span class="content-txt">2020-01-01~2021-01-01</span></dd>
+																					<dd><span class="label-txt">보낸 포인트 :</span> <span class="content-txt">1,000원</span></dd>
+																				</div>
+																			</div>
+																			<!--// -->
+																		</div>
+																		
+																		<!-- 화살표 -->
+																		<div class="arrow-ani">
+																			<span></span>
+																			<span></span>
+																		</div>
+																		
+																		<!-- 지금 연회원 가입 하면 1 -->
+																		<div class="segment-header s3" style="display:;">
+																			<h2>
+																				<span class="s2">지금 연회원 가입</span>하면<br>
+																				<span class="s3">쇼핑포인트 10,000원 적립</span>
+																			</h2>
+																		</div>
+																		
+																		<!-- 지금 연회원 가입 하면 2 -->
+																		<div class="segment-header s4" style="display:;">
+																			<h2>																				
+																				<span class="s2">직접 연회원 가입</span>하면<br><span>쇼핑포인트 10,000원</span>에<br>
+																				<span class="s3">포인트 10,000원 추가 적립</span>
+																			</h2>
+																		</div>
+																		
+																		<!-- 혜택 종료 -->
+																		<div class="time-counter">
+																			<h1 id="headline">혜택 종료까지</h1>
+																			<div class="timer">
+																				<span>10일</span> 남았습니다
+																			</div>
+																		</div>
+																		
+																		<!-- 버튼 공통 -->
+																		<div class="form-group">
+																			<button type="button" data-toggle="modal" data-target="#modalVipFamily" class="btn btn-orange">연회원 가입하러 가기 &gt;</button>
+																		</div>
+
+																	</div>
+																	<!--// grid -->
+
+																</div>
+															</fieldset>
+														</form>
+													</div>
+
+												</div>
+											</div>
+										</section>
+									</div>
+
+
+								</div>
+							</section>
+							<!--// panel -->
+						</div>
+						<!--// [연회원] 연회원 가족 메뉴 -->
+
+                    </section>
+					
+                </div>
+                <!--// body -->
+            </main>
+            <!-- bottom navi segment -->
+            <section class="nav-segment">
+                <div class="form-group justify-content-center">
+                    <div class="form-btn-group" role="group" aria-label="First Group">
+                        <button type="button" class="btn btn-icon navbar-toggler" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-drawer">
+                                <span></span><span></span><span></span>
+                            </span> 전체메뉴
+                        </button>
+                        <!-- <a href="#none" class="btn btn-icon"><i class="icon-home"></i> 홈</a> -->
+                        <a href="#none" class="btn btn-icon tooltip-template-orange" data-placement="top" title="1년 내내 반값"><i class="icon-membership"></i> 연회원 혜택</a>
+                        <a href="#none" class="btn btn-icon"><i class="icon-cart"></i> 장바구니<span class="badge badge-red">9</span></a>
+                        <a href="#none" class="btn btn-icon"><i class="icon-shipping"></i> 주문배송</a>
+                        <a href="#none" class="btn btn-icon"><i class="icon-login"></i> 로그인</a>
+                        <!-- <a href="#none" class="btn btn-icon"><i class="icon-user"></i> 회원정보</a> -->
+                    </div>
+                </div>
+            </section>
+		    <!--### [FOOTER] ###-->
+            <footer id="footerWrap" class="footer-wrap mall-style nav-scrollspy">
+                <!-- body -->
+                <div class="footer-body container">
+                    <div class="row">
+                        <!-- grid -->
+                        <div class="grid-col">
+                            <ul class="footer-nav">
+                                <li class="nav-item"><a href="#none" class="nav-link">회사 소개</a></li>
+                                <li class="nav-item"><a href="#none" class="nav-link"><strong>개인정보처리방침</strong></a></li>
+                                <li class="nav-item"><a href="#none" class="nav-link">이용약관</a></li>
+                                <li class="nav-item"><a href="#none" class="nav-link">이용문의</a></li>
+                            </ul>
+                        </div>
+                        <!-- grid -->
+                        <div class="grid-col">
+                            <div class="cs-info">
+                                <p>고객감동센터 : 02-6243-0555 &nbsp;&nbsp; 평일 : 09:00~18:00 (점심시간 : 12:00~13:00) &nbsp;&nbsp; 토요일, 일요일, 공휴일 휴무 &nbsp;&nbsp; / &nbsp;&nbsp; IBK 기업은행 217-075740-01-141 &nbsp; 예금주 : 주식회사 텐핑</p>
+                            </div>
+                            <div class="author-info">
+                                <p>상호 : 주식회사 텐핑 &nbsp;&nbsp; 대표 : 고준성 &nbsp;&nbsp; 사업자등록번호 : 220-88-96563 &nbsp;&nbsp; 통신판매업신고번호 : 2017-서울서초-1187 <a href="http://www.ftc.go.kr/bizCommPop.do?wrkr_no=2208896563" title="사업자정보 확인 새창 열기" target="_blank">[사업자정보확인]</a></p>
+                                <p>전화 : 02-6243-0555 &nbsp;&nbsp; 이메일 : uuu@UUUmall.kr &nbsp;&nbsp; 주소 : 06620 서울 서초구 서초대로78길 5, 대각빌딩 6~7층(서초동) &nbsp;&nbsp; 개인정보 보호책임자 : 이인섭</p>
+                                <p>안전거래를 위해 결제 시 저희 쇼핑몰에서 가입한 한국정보통신(주)의 구매안전서비스를 이용하실 수 있습니다. <a href="https://office.easypay.co.kr/homepage/other_service/EscrowAuthAction.do?memb_id=05542346" title="서비스가입사실확인 새창 열기" target="_blank">[가입사실확인]</a></p>
+                            </div>
+                            <div class="copyright-info"><p>© 2019 Tenping. ALL RIGHTS RESERVED.</p></div>
+                        </div>
+                        <!--// grid -->
+                    </div>
+                    <!-- floating banner -->
+                    <div class="bnrFloating">
+                        <!-- to the top trigger -->
+                        <div class="btnScrolltop"><a href="#pageTop" class="js-scroll-trigger" role="button"><i class="tencon-angle-up"></i></a></div>
+                        <!--// -->
+                    </div>
+                    <!--// -->
+                </div>
+                <!--// copyright -->
+            </footer>
+            <!--// ### [FOOTER] ###-->
+        </div>
+		
+        <!--### [LOADING] ###-->
+        <!-- 로딩 활성화될 경우 클래스 show 추가 -->
+		<div class="modal-spinner fade collapse">
+            <div class="spinner-border" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!--// -->
+        
+        <!--### [MODAL] ###-->
+        <!-- modal VIP Family -->
+        <div id="modalVipFamily" class="modal modal-vipfamily fade" data-backdrop-limit="1" tabindex="-1" role="dialog" aria-labelledby="modalVipFamilyLabel" aria-hidden="true" data-keyboard="false" style=" display:none">
+            <div class="modal-dialog modal-dialog-centered modal-alert" role="document">
+				
+                <!-- 가족 등록 + 포인트 보낸 경우 1-->
+                <div class="modal-content" style="display:;">
+                    <div class="modal-body modal-body-centered">
+                        <h6>가족 등록과 동시에 포인트를 보내시겠어요?</h6>
+						<div class="row-list">
+							<div class="col">
+								<div><span class="label-txt">내가 등록한 가족 :</span> <span class="content-txt">서찬우 010-1234-1010</span></div>
+								<div><span class="label-txt">연회원 혜택 기간 :</span> <span class="content-txt">2020-01-01~2021-01-01</span></div>
+								<div><span class="label-txt">보낸 포인트 :</span> <span class="content-txt">1,000원</span></div>
+							</div>
+						</div>
+                    </div>
+                    <div class="modal-footer modal-footer-centered">
+						<button type="button" data-dismiss="modal" aria-label="Close" class="btn btn-outline btn-orange s2">취소</button>
+						<button type="button" class="btn btn-orange">가족 등록</button>
+					</div>
+                </div>
+                <!--// -->
+				
+				<!-- 가족 등록 + 포인트 보낸 경우 2-->
+                <div class="modal-content" style="display:none;">
+                    <div class="modal-body modal-body-centered">
+                        <h6>가족 등록과 동시에 포인트를 보냈습니다</h6>
+						<div class="row-list">
+							<div class="col">
+								<div><span class="label-txt">내가 등록한 가족 :</span> <span class="content-txt">서찬우 010-1234-1010</span></div>
+								<div><span class="label-txt">연회원 혜택 기간 :</span> <span class="content-txt">2020-01-01~2021-01-01</span></div>
+								<div><span class="label-txt">보낸 포인트 :</span> <span class="content-txt">1,000원</span></div>
+							</div>
+						</div>
+                    </div>
+                    <div class="modal-footer modal-footer-centered">
+						<button type="button" data-dismiss="modal" aria-label="Close" class="btn btn-orange">확인</button>
+					</div>
+                </div>
+                <!--// -->
+				
+				<!-- 등록 해제 1-->
+                <div class="modal-content" style="display:none;">
+                    <div class="modal-body modal-body-centered">
+                        <h6>가족 등록을 해제 하시겠어요?</h6>
+						<p>해제 시 신슬기 님의 <span class="line-break">무료 연회원 혜택이 즉시 중단됩니다</span></p>
+                    </div>
+                    <div class="modal-footer modal-footer-centered">
+						<button type="button" data-dismiss="modal" aria-label="Close" class="btn btn-outline btn-orange s2">취소</button>
+						<button type="button" class="btn btn-orange">등록 해제</button>
+					</div>
+                </div>
+                <!--// -->
+				
+				<!-- 등록 해제 2-->
+                <div class="modal-content" style="display:none;">
+                    <div class="modal-body modal-body-centered">
+                        <h6>가족 등록을 해제했습니다</h6>
+						<p>새로운 가족을 등록하고 무료로 연회원 <span class="line-break">혜택을 나눠보세요</span></p>
+                    </div>
+                    <div class="modal-footer modal-footer-centered">
+						<button type="button" data-dismiss="modal" aria-label="Close" class="btn btn-orange">확인</button>
+					</div>
+                </div>
+                <!--// -->
+				
+				<!-- 가족이 [등록 해제] 1-->
+                <div class="modal-content" style="display:none;">
+                    <div class="modal-body modal-body-centered">
+                        <h6>가족 등록을 해제 하시겠어요?</h6>
+						<p>가족 등록 해제 시 무료 연회원 혜택이 <span class="line-break">즉시 중단됩니다</span></p>
+                    </div>
+                    <div class="modal-footer modal-footer-centered">
+						<button type="button" data-dismiss="modal" aria-label="Close" class="btn btn-outline btn-orange s2">취소</button>
+						<button type="button" class="btn btn-orange">등록 해제</button>
+					</div>
+                </div>
+                <!--// -->
+				
+				<!-- 가족이 [등록 해제] 2-->
+                <div class="modal-content" style="display:none;">
+                    <div class="modal-body modal-body-centered">
+                        <h6>가족 등록을 해제했습니다</h6>
+						<p>직접 연회원 가입하고 <span class="line-break">연회원 혜택을 누리세요</span></p>
+                    </div>
+                    <div class="modal-footer modal-footer-centered">
+						<button type="button" data-dismiss="modal" aria-label="Close" class="btn btn-orange">확인</button>
+					</div>
+                </div>
+                <!--// -->
+				
+            </div>
+        </div>	
+        <!--// ### [MODAL] ###-->
+	</div>
+	
+	<!-- scrolling navigation js -->
+    <script src="../../Js.Library/scrolling-nav.js"></script>
+    
+    <!-- shrink-header js -- >
+	<script>
+		$(window).scroll(function() {
+			if ($(this).scrollTop() > 50) {
+				$('#headerWrap').addClass('navbar-shrink');
+			} else {
+				$('#headerWrap').removeClass('navbar-shrink');
+			}
+		});
+	</script>
+    
+    <!-- sidebar js -->
+    <script>
+        $(document).ready(function () {
+            $('.navbar-toggler').on('click', function () {
+                $('#pageTop').toggleClass('nav-toggle-open nav-toggle-collapsing');
+                setTimeout(function() {
+                    $("#pageTop").removeClass("nav-toggle-collapsing");
+                }, 120);
+            });
+        });
+    </script>
+
+	<!-- swiper gallery js in modal -->
+    <script>
+        var galleryTop = new Swiper('.gallery-top', {
+            spaceBetween: 0,
+            loop: true,
+            pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+			},
+            navigation: {
+                nextEl:'.swiper-button-next',
+                prevEl:'.swiper-button-prev',
+            },
+        });
+        var galleryThumbs = new Swiper('.gallery-thumbs', {
+            spaceBetween: 4,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            touchRatio: 0.2,
+            slideToClickedSlide: true
+        });
+        galleryTop.params.control = galleryThumbs;
+        galleryThumbs.params.control = galleryTop;
+        
+        $('#modalProductDetail').on('shown.bs.modal', function (event) {
+        	var button = $(event.relatedTarget);
+        	var index = button.data('index');        	
+        	galleryTop.slideTo(index, 0, false);
+            galleryTop.update();
+            //galleryThumbs.update();
+        });
+	</script>
+    
+    <!-- sticky bar js -->
+    <script>
+        $(window).scroll(function (event) {
+            function bnr() {
+                var scrolltop = $(window).scrollTop();
+                if (scrolltop >= $("#formMembership").offset().top) {
+                    $(".stickybar-top").removeClass("show");
+                }
+                else {
+                    $(".stickybar-top").addClass("show");
+                }
+            }
+            bnr();
+        });
+	</script>
+    
+    <!-- password show/hide js -->
+    <script>
+        $(".toggle-password").click(function() {
+            $(".toggle-password i").toggleClass("tencon-eye-hide tencon-eye-view");
+            var input = $($(this).attr("toggle"));
+            if (input.attr("type") == "password") {
+                input.attr("type", "text");
+            } else {
+                input.attr("type", "password");
+            }
+        });
+    </script>
+    
+    <!-- add comma js -->
+	<script>
+        // 숫자 타입에서 쓸 수 있도록 format() 함수 추가
+        Number.prototype.format = function(){
+            if(this==0) return 0;
+
+            var reg = /(^[+-]?\d+)(\d{3})/;
+            var n = (this + '');
+
+            while (reg.test(n)) n = n.replace(reg, '$1' + ',' + '$2');
+
+            return n;
+        };
+
+        // 문자열 타입에서 쓸 수 있도록 format() 함수 추가
+        String.prototype.format = function(){
+            var num = parseFloat(this);
+            if( isNaN(num) ) return "0";
+
+            return num.format();
+        };
+        
+        jQuery('.format-num').text(function() {
+            jQuery(this).text(
+                jQuery(this).text().format()
+            );
+        });
+	</script>
+    
+    <!-- modal-child in modal js -->
+    <script>
+        $('.modal-child').on('show.bs.modal', function () {
+            var modalParent = $(this).attr('data-modal-parent');
+            $(modalParent).css('opacity', 0);
+        });
+ 
+        $('.modal-child').on('hidden.bs.modal', function () {
+            var modalParent = $(this).attr('data-modal-parent');
+            $(modalParent).css('opacity', 1);
+        });
+    </script>
+    
+    <!-- modal in modal js -->
+    <script>
+        $('body').on('hidden.bs.modal', function () {
+            if($('.modal.in').length > 0)
+            {
+                $('body').addClass('modal-open');
+            }
+        });
+    </script>
+
+	<!-- tooltip js -->
+	<script>
+		$(document).ready(function(){
+			$('[data-tooltip="tooltip"]').tooltip({
+				trigger: "hover"
+			});
+		});
+	</script>
+	<!--// -->
+</body>
+</html>

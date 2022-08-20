@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+#special { width:100%; padding:130px 0; background:url(../img/restaurant-img24.jpg) no-repeat 0 0 fixed; background-size:cover;  }
+#special>div { width:61.48187073043%; margin:0 auto; text-align:center;  }
+
+/* 타이틀 */
+#special>div>h2 { padding-bottom:70px;  }
+#special>div>h2>img { width:auto; }
+
+/* 스페셜 요리 이미지 */
+#special>div>ul { width:100%; }
+#special>div>ul>li { float:left; width:33.333%; }
+#special>div>ul>li>div { width:100%; position:relative; }
+#special>div>ul>li>div>img { width:auto; transform:scale(1); transition:all 0.3s; }
+#special>div>ul>li:hover>div>img { transform:scale(1.1); }
+
+/* 스페셜 요리 내용 */
+#special>div>ul>li>div>div { padding-top:40px;  }
+#special>div>ul>li>div>div>h3 { padding-bottom:7px; color:#fff; font-size:18px; font-weight:600; }
+#special>div>ul>li>div>div>h4 { color:#ababab; font-size:11px;  }
+
+
+/* 스페셜 요리 가격표 */
+#special>div>ul>li>div>span { background:#dc3535; position:absolute; top:5px; right:5px; text-align:center; padding:25px 15px; border-radius:50%; }
+#special>div>ul>li>div>span>small { display:block; color:#fff; font-size:11px; font-weight:600; }
+#special>div>ul>li>div>span>strong { color:#fff; font-size:18px; font-weight:600; }
+
+
+
+/* 쉐프 */
+#chef { width:100%; padding-top:130px; background:url(../img/restaurant-img7.jpg) repeat 0 0; overflow:hidden; }
+#chef>div {}
+
+/* 쉐프 타이틀 */
+#chef>div .chef-title { text-align:center; }
+#chef>div .chef-title>h2 { font-size:28px; color:#614c45; font-weight:600; }
+#chef>div .chef-title>h3 { padding-top:20px;  padding-bottom:100px; }
+#chef>div .chef-title>h3>img { width:auto; }
+
+
+/* 쉐프 이미지 */
+#chef>div .chef-image { width:100%; }
+#chef>div .chef-image>ul { width:100%; }
+#chef>div .chef-image>ul>li { float:left; width:25%; }
+#chef>div .chef-image>ul>li>div { width:100%; text-align:center; position:relative;  }
+#chef>div .chef-image>ul>li>div>img { width:90%; -webkit-filter:blur(0); filter:blur(0); transform:scale(1); }
+#chef>div .chef-image>ul>li:hover>div>img { -webkit-filter:blur(3px); filter:blur(3px); transition:all 0.5s; transform:scale(1.2);  }
+
+
+/* 쉐프 디테일 상자 */
+#chef>div .chef-image>ul>li>div .chef-details { position:absolute; bottom:-300px; left:50%; margin-left:-170px; width:340px; height:240px; background-color:#614c45; }
+#chef>div .chef-image>ul>li:hover>div .chef-details { bottom:50px; transition:all 0.5s;   }
+#chef>div .chef-image>ul>li>div .chef-details>div { padding:40px 30px; text-align:center; }
+#chef>div .chef-image>ul>li>div .chef-details>div>h6 { display:inline-block; }
+#chef>div .chef-image>ul>li>div .chef-details>div>h6>i { display:block; width:30px; height:4px; background:#c8a64b; }
+#chef>div .chef-image>ul>li>div .chef-details>div>h4 { text-transform:uppercase; color: #c8a64b; font-size: 20px; padding-top:10px; padding-bottom:5px; font-weight:500; }
+#chef>div .chef-image>ul>li>div .chef-details>div>h5 { text-transform:uppercase; color:#ababab; font-size: 11px; padding-bottom:10px; }
+#chef>div .chef-image>ul>li>div .chef-details>div>p { line-height:140%; color:#ababab; font-size: 14px; }
+
+
+/* LATEST BLOG */
+#blog { position:relative; width:100%; padding:130px 0; background:url(../img/slider-img6.jpg) no-repeat 0 0 fixed; background-size:cover; }
+#blog:before { content:''; display:block; z-index:1; position:absolute; top:0; left:0; width:100%; height:100%; background:#252525; opacity:0.85;}
+
+#blog>div { z-index:2; position:relative; width:61.48187073043%; margin:0 auto; }
+
+/* blog 제목 */
+#blog>div .blog-title { text-align:center; }
+#blog>div .blog-title>h2 {  font-size:28px; color:#fff; font-weight:700; }
+#blog>div .blog-title>h3 { padding:10px 0 50px 0; }
+#blog>div .blog-title>h3>img { width:9.27083333333; }
+
+
+
+
+/* blog-gallery 박스 */
+#blog>div .blog-gallery { width:100%; }
+#blog>div .blog-gallery>ul { width:100%; }
+#blog>div .blog-gallery>ul>li { float:left; width:50%; }
+#blog>div .blog-gallery>ul>li>div { margin:15px; height:277.5px; background:#fff;  }
+
+/* blog-gallery 이미지 */
+#blog>div .blog-gallery>ul>li>div>ul { width:100%; }
+#blog>div .blog-gallery>ul>li>div>ul>li { float:left; width:50%;   }
+#blog>div .blog-gallery>ul>li>div>ul>li:nth-child(1) { overflow:hidden; }
+#blog>div .blog-gallery>ul>li>div>ul>li>div { height:277.5px; }
+#blog>div .blog-gallery>ul>li>div>ul>li>div>img { width:100%; cursor:pointer; transform:scale(1); transition:all 0.3s; }
+#blog>div .blog-gallery>ul>li>div>ul>li:hover>div>img { transform:scale(1.12); }
+
+
+
+/* blog-gallery 텍스트 */
+#blog>div .blog-gallery>ul>li>div>ul>li>div>div { position:relative; padding:70px 50px; text-align:center; }
+#blog>div .blog-gallery>ul>li>div>ul>li>div>div:before { content:''; position:absolute; top:45%; left:-30px; margin-top:-15px; border-top:15px solid transparent; border-bottom:15px solid transparent; border-left:15px solid transparent; border-right:15px solid #fff; }
+#blog>div .blog-gallery>ul>li>div>ul>li>div>div>h5 { font-size:11px; color:#ababab; }
+#blog>div .blog-gallery>ul>li>div>ul>li>div>div>h4 { font-size:18px; line-height:150%; padding:20px 0 25px 0; font-weight:500; }
+#blog>div .blog-gallery>ul>li>div>ul>li>div>div>h4>a { color:#626262; }
+#blog>div .blog-gallery>ul>li>div>ul>li>div>div>h6 {   }
+#blog>div .blog-gallery>ul>li>div>ul>li>div>div>h6>i { display:inline-block;  width:30px; height:3px; background:#c8a64b;  }
+
+
+
+
+
+
+/* 폼 제작 */
+#contact { width:100%; padding:130px 0; border-top:1px soild #ddd; background:url(../img/restaurant-img7.jpg); }
+#contact>div { width:61.48187073043%; margin:0 auto; }
+
+/* 폼 타이틀 */
+#contact>div .contact-title { text-align:center; }
+#contact>div .contact-title>h2 { font-size:28px; color:#614c45; font-weight:700; }
+#contact>div .contact-title>h3 { padding:15px 0 100px 0; }
+#contact>div .contact-title>h3>img { width:auto; }
+
+
+/* 콘텐츠 */
+#contact>div .contact-content { width:100%; }
+
+/* 콘텐츠 좌측 */
+#contact>div .contact-content .contact-content-left { width:42%; height:400px; float:left; }
+#contact>div .contact-content .contact-content-left>div { padding-bottom:60px; }
+#contact>div .contact-content .contact-content-left>div>div { margin:0 15px; }
+#contact>div .contact-content .contact-content-left>div>div>div:nth-child(1) { display:inline-block; width:70px;  }
+#contact>div .contact-content .contact-content-left>div>div>div:nth-child(1)>span { display:block;}
+#contact>div .contact-content .contact-content-left>div>div>div:nth-child(1)>span>i { font-size:40px; color:#c8a64b;  }
+#contact>div .contact-content .contact-content-left>div>div>div:nth-child(2) { display:inline-block; }
+#contact>div .contact-content .contact-content-left>div>div>div:nth-child(2)>h4 { font-size:15px; font-weight:700; color:#000; }
+#contact>div .contact-content .contact-content-left>div>div>div:nth-child(2)>h5 { font-size:14px; color:#626262; line-height:160%; }
+
+/* 콘텐츠 우측 */
+#contact>div .contact-content .contact-content-right { width:58%; height:400px; float:left; }
+#contact>div .contact-content .contact-content-right>div { padding:0 15px; }
+#contact>div .contact-content .contact-content-right>div>ul {  }
+#contact>div .contact-content .contact-content-right>div>ul>li {  }
+#contact>div .contact-content .contact-content-right>div>ul>li>div { padding-bottom:20px; }
+#contact>div .contact-content .contact-content-right>div>ul>li>div>input { -webkit-appearance:none; border-radius:0; color:#999; outline:2px solid transparent; outline-offset:-2px; display:block; width:100%; height:47px; background:#fff; border:1px solid #ddd; padding:12px 18px; box-sizing:border-box; transition:all 0.3s; }
+#contact>div .contact-content .contact-content-right>div>ul>li>div>input:focus { outline:2px solid #999; }
+#contact>div .contact-content .contact-content-right>div>ul>li>div>input::placeholder { color:#999;  }
+#contact>div .contact-content .contact-content-right>div>ul>li>div>select {  border-radius:0; outline:0; background:#fff url(../img/select-arrow.png) no-repeat 100% 50%; -webkit-appearance:none; appearance:none; color:#999; display:block; width:100%; height:47px;  border:1px solid #ddd; padding:12px 18px; box-sizing:border-box;  }
+#contact>div .contact-content .contact-content-right>div>ul>li>div>textarea { -webkit-appearance:none; border-radius:0; outline:2px solid transparent; outline-offset:-2px; color:#999; resize:none; display:block; width:100%; height:100px; background:#fff; border:1px solid #ddd; padding:12px 18px; box-sizing:border-box; transition:all 0.3s; }
+#contact>div .contact-content .contact-content-right>div>ul>li>div>textarea:focus { outline:2px solid #999; }
+#contact>div .contact-content .contact-content-right>div>ul>li>div>textarea::placeholder { color:#999; }
+#contact>div .contact-content .contact-content-right>div>ul>li>div>a { display:inline-block; border:2px solid #000; padding:15px 20px; color:#fff; background:#000; transition:all 0.3s; }
+#contact>div .contact-content .contact-content-right>div>ul>li>div>a:hover {  color:#000; background:transparent;  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

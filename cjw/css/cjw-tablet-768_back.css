@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+/* header */
+@media all and (min-width:768px){
+    .navWrap {height:80px;}
+    .navWrap h1 {width:107px; height:38px; top:24px; margin-left:-54px;}
+    .searchWrap form>button {height:30px; width:30px; height:30px; left:5.338%; top:28px;}
+    .searchOn .close {font-size:2.083rem;}
+    .searchOn input {width:71.6%; height:40px; }
+    .searchOn button {width:70px; height:40px; background-size:20px;}
+    .navBtn {top:32px; right:5.2%; width:42px; height:26px;}
+    .navBtn span {height:6px; border-radius:3px;}
+    .navBtn span:nth-child(2) {margin:4px 0;}
+    .navWrap nav .navInner {width:66.4%;}
+    .navWrap nav .navInner strong span {width:100px; height:35px;}
+    .navWrap nav .navInner strong>a {font-size:2.083rem; line-height:35px;}
+    header .navInner ul>li>a {height:91px; font-size:2.5rem; line-height:89px; font-weight:normal;}
+    header .navInner ul .left ol li {height:70px; line-height:68px;}
+    header .navInner>a {height:100px; font-size:2.5rem; line-height:100px; border-bottom:2px solid #81daeb;}
+    header .navInner>a span {width:40px; height:40px;}
+}
+
+
+/*  visual  */
+@media all and (min-width:768px){
+    .visual {height:750px; margin-top:80px; padding:180px 0 0;}
+    .visual div i {font-size:3.3rem;}
+    .visual div b {font-size:7.5rem; padding:23px 0 32px 0;}
+    .visual div p {font-size:2.4rem; margin:0 auto 34px; line-height:1.2083;}
+    .visual div a {width:39%; height:70px; font-size:2.083rem; line-height:64px;}
+}
+
+
+/* 섹션 바로가기 */
+@media all and (min-width:768px){
+    .section {height:70px;}
+    .section.on {top:80px;}
+    .section li {width:15.36%; position:relative;}
+    .section li a {line-height:70px; font-size:1.67rem;}
+    .section li a:before {content:'|';  width:2px; height:17px; color:#959595; position:absolute; left:0; top:0;}
+    .section li:nth-child(4) a:before {margin-left:-5%;}
+    .section li:first-child a:before {display:none;}
+}
+
+/* 브랜드 스토리 */
+@media all and (min-width:768px){
+    #story {padding:27px 0 64px 9.63%;}
+    #story .storyInner div {width:44.8%; height:375px; border:2px solid #f47933; padding:25px 22px; background-size:274px 313px; float:left;}
+    #story .storyInner div:nth-child(2) {background-size:293px 464px; float:left; margin-left:6px; border:2px solid #01b5d6; display:block;}
+    #story .storyInner div:nth-child(3) {display:none;}
+    #story .storyInner div:nth-child(4) {display:none;}
+    #story .storyInner div p {font-size:1.667rem; line-height:1.26;}
+    #story .storyInner div a {width:61%; height:45px; font-size:1.5rem; line-height:40px;}
+    #story .storyInner div a span {width:16px; height:16px; background-size:14px; vertical-align:middle;}
+}
+
+/* 푸드캐스트 */
+@media all and (min-width:768px){
+    #cast {padding-bottom:106px;}
+    #cast .castInner .title {height:295px; padding-top:82px; margin-bottom:38px;}
+    #cast .castInner .title h3 {font-size:5.83rem;}
+    #cast .castInner .title a {width:45.5%; height:70px; font-size:2.08rem; line-height:64px;
+	margin:30px 0 0 27.21%;}
+    #cast .castInner .title a span {width:20px; height:20px; background-size:20px 20px; margin-left:36px;}
+    #cast .castInner .slider {width:84.375%; padding:3px; margin:0 auto 122px;}
+    #cast .castInner .slider div>span {height:429px;}
+    #cast .castInner .slider div a {padding:30px 0 36px;}
+    #cast .castInner .slider div a h4 {font-size:2.4rem; line-height:1.25;}
+    #cast .castInner .banner {width:84.375%; margin:0 auto 20px; background:url(../img/cjw-icon-foodLab.png) 28px 50% no-repeat #02b5d6; background-size:100px auto; padding:55px 93px 54px 157px;}
+    #cast .castInner .banner:last-child {width:84.375%; margin:0 auto 106px; background:url(../img/cjw-icon-bottleRecipe.png) 28px 50% no-repeat #76d9c5;
+	background-size:100px auto; padding:55px 93px 54px 157px;}
+    #cast .castInner .banner h4 {font-size:3.33em; margin-bottom:21px;}
+    #cast .castInner .banner p {font-size:2rem; line-height:1.3;}
+    #cast .castInner .banner>span {right:35px; margin-top:-27.5px; width:29px; height:55px;}
+}
+
+
+/* 푸드노하우 */
+@media all and (min-width:768px){
+    #knowhow {padding-bottom:109px;}
+    #knowhow .knowhowInner .title {height:295px; padding-top:82px; margin-bottom:38px;}
+    #knowhow .knowhowInner .title h3 {font-size:5.83rem;}
+    #knowhow .knowhowInner .title a {width:45.5%; height:70px; font-size:2.08rem; line-height:64px; margin:30px 0 0 27.21%;}
+    #knowhow .knowhowInner .title a span {width:20px; height:20px; background-size:20px 20px; margin-left:36px;}
+    #knowhow .knowhowInner .slider {width:84.375%; padding:3px; margin:0 auto 90px;}
+    #knowhow .knowhowInner .slider div>span {height:397px;}
+    #knowhow .knowhowInner .slider div a {padding:31px 0 34px;}
+    #knowhow .knowhowInner .slider div a p {font-size:2.4rem; line-height:1.25;}
+    #knowhow .knowhowInner .banner {width:84.375%; margin:0 auto 20px; background:url(../img/cjw-icon-cjwRecipe.png) 41px 50% no-repeat #72dac5;
+	background-size:110px auto; padding:41px 93px 41px 211px;}
+    #knowhow .knowhowInner .bannerWrap .banner {width:84.375%; display:block; margin:0 auto 109px; background:url(../img/cjw-icon-eShop.png) 46px 50% no-repeat #f5cc3f;
+	background-size:110px auto; padding:41px 93px 41px 211px;}
+    #knowhow .knowhowInner .banner h4 {font-size:3.33em; margin-bottom:21px;}
+    #knowhow .knowhowInner .banner p {font-size:2rem; line-height:1.3;}
+    #knowhow .knowhowInner .banner>span {right:35px; margin-top:-27.5px; width:29px; height:55px;}
+}
+
+
+/* 청정원 프렌즈 */
+@media all and (min-width:768px){
+    #friends {padding-bottom:62px;}
+    #friends .friendsInner .title {height:295px; padding-top:82px; margin-bottom:38px;}
+    #friends .friendsInner .title h3 {font-size:5.83rem;}
+    #friends .friendsInner .title a {width:45.5%; height:70px; font-size:2.08rem; line-height:64px; margin:30px 0 0 27.21%;}
+    #friends .friendsInner .title a span {width:20px; height:20px; background-size:20px 20px; margin-left:36px;}
+    #friends .friendsInner .banner {width:84.375%; height:430px; background:url(../img/cjw-icon-foodBox.png) 120% 130px no-repeat #f4cb4d; background-size:45%; padding:53px 0 0 45px;}
+    #friends .friendsInner .banner b {font-size:3.3rem;}
+    #friends .friendsInner .banner .line {width:420px; height:3px; margin:31px 0 31px;}
+    #friends .friendsInner .banner p {font-size:2rem;}
+    #friends .friendsInner .banner:first-of-type>span:last-of-type {height:70px; line-height:66px; margin-top:46px; font-size:2.083rem;}
+    #friends .friendsInner .banner:nth-last-child(2) {width:84.375%; height: 180px; margin:0 auto 40px; background:url(../img/cjw-icon-friendsPanel.png) 60px 50% no-repeat #00b5d8;
+	background-size:110px auto; padding:42px 93px 56px 211px;}
+    #friends .friendsInner .banner:nth-last-child(2) span {right:33px; margin-top:-31px; width:29px; height:55px;}
+    #friends .friendsInner .banner:nth-last-child(2) h4 {font-size:1.8rem; margin-bottom:21px;}
+    #friends .friendsInner .banner:nth-last-child(2) p {font-size:2rem; line-height:1.3;}
+    #friends .friendsInner .box {width:84.375%; margin-left:7.55%;}
+    #friends .friendsInner .box .bannerBox {height:225px; border:2px solid #cfcfcf;
+    line-height:358px; background-size:123px;}
+    #friends .friendsInner .box .bannerBox:nth-child(2) {margin-left:-2px; background-size:106px;}
+    #friends .friendsInner .box .bannerBox h4 {font-size:2.083rem;}
+}
+
+
+/* 청정원 SNS */
+@media all and (min-width:768px){
+    #sns {padding-bottom:86px; height:1000px;}
+    #sns .snsInner .title h3 {font-size:5.83rem; padding:76px 0 24px;}
+    #sns .snsInner .title p {font-size:2.083rem; padding-bottom:50px;}
+    #sns .snsInner .sns a {width:70px; height:70px; margin-right:40px;}
+    #sns .snsInner .box {width:84.375%;}
+    #sns .snsInner .box a:first-child span {height:278px; border:2px solid #f8f7f7;}
+    #sns .snsInner .box a:first-child .text {height:278px; border:2px solid #f8f7f7;}
+    #sns .snsInner .box a .text h4 {font-size:1.8rem; margin:41px 14px 0 20px;}
+    #sns .snsInner .box a .text p {margin:92px 18px 0 21px; font-size:2rem; line-height:1.2;}
+    #sns .snsInner .box a:last-child span {top:278px; height:278px; border:2px solid #f8f7f7;}
+    #sns .snsInner .box a:last-child .text {top:278px; height:160px; border:1px solid #f8f7f7;}
+}
+
+/* footer */
+@media all and (min-width:768px){
+    footer .snsWrap>a {font-size:2rem; padding-left:59px; height:100px; line-height:100px;}
+    footer .snsWrap ul li {height:80px; line-height:80px; padding-left:59px;}
+    footer .snsWrap ul li a {font-size:2rem;}
+    footer .copyWrap>span {height:80px;}
+    footer .copyWrap>span a {padding-left:101px; line-height:80px; font-size:2rem; background:url(../img/cjw-logo-ccm.png) 59px 50% no-repeat; background-size:33px;}
+    footer .copyWrap>span a:nth-child(2) {background-size:32px 42px;}
+    footer .copyWrap .copy {padding-top:43px;}
+    footer .copyWrap .copy img {width:80px; height:119px; margin-bottom:49px;}
+    footer .copyWrap .copy p i span {font-size:2.2rem;}
+    footer .copyWrap .copy p i span:nth-child(1) span {width:2px; height:22px; margin:0 10px;}
+    footer .copyWrap .copy p i span:last-child {padding:11px 0 58px;}
+    footer .copyWrap .copy small {line-height:88px; height:88px; font-size:1.8rem;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+/* ====================================================================================================
+[ADMIN TYPE]
+==================================================================================================== */
+/***************************************************************
+	[LAYOUT]
+***************************************************************/
+/*  --- GRID TYPE --- * /
+.wrapper { height:100vh; display:grid; grid-template-areas:"nav header" "nav main" "nav footer";  grid-template-rows:48px 1fr; grid-template-columns:240px 1fr; }
+.nav-wrap { width:240px; height:100vh; position:fixed; top:0; left:0; background-color:#212529; }
+.aside-container { background-color:#e5e9ec; }
+.header-wrap {  }
+.main-wrap { background-color:#e8ebf0; position:relative; }
+.footer-wrap { background-color:#dfe4ea; }
+/* Stack the layout on small devices/viewports. * /
+@media all and (max-width: 575px) {
+    .wrapper { grid-template-areas:"header" "main" "aside" "nav" "footer"; grid-template-rows:48px 1fr 3rem 1fr; grid-template-columns:1fr; }
+}
+*/
+
+.wrapper { width:100%; height:100%; min-width:320px; margin:0 auto; padding-left:240px; display:-ms-flexbox; display:flex; -ms-flex-wrap:wrap; flex-wrap:wrap; }
+.nav-wrap { width:240px; height:100%; position:fixed; top:0; bottom:0; left:0; background-color:#212529; -webkit-transform:translateX(0) translateY(0) translateZ(0); transform:translateX(0) translateY(0) translateZ(0); transition:-webkit-transform .28s ease-out; transition:transform .28s ease-out; transition:transform .28s ease-out,-webkit-transform .28s ease-out; -webkit-overflow-scrolling:touch; will-change:transform; overflow-y:hidden; z-index:1032; }
+.header-wrap { width:auto; max-width:100%; min-width:320px; margin:0 auto; padding-left:240px; position:fixed; top:0; right:0; left:0; background-color:#fff; z-index:1030; }
+.main-wrap { width:100%; padding-top:60px; padding-right:30px; padding-left:30px; display:-ms-flexbox; display:flex; -ms-flex-direction:column; flex-direction:column; -ms-flex:1 0 auto; flex:1 0 auto; max-width:100%; background-color:#e8ebf0; }
+
+.aside-container { background-color:#e5e9ec; }
+.footer-wrap { background-color:#dfe4ea; }
+
+
+/***************************************************************
+	[NAVIGATION]
+***************************************************************/
+.nav-toggle-type .nav-body { height:calc(100% - 144px); }
+
+
+/***************************************************************
+	[SECTION CONTAINER]
+***************************************************************/
+/************ [Section Header] ************/
+.segment-header { display:-webkit-box; display:-ms-flexbox; display:flex; -webkit-box-align:stretch; -ms-flex-align:stretch; align-items:stretch; -webkit-box-pack:justify; -ms-flex-pack:justify; justify-content:space-between; border-bottom:1px solid #dcdde1; }
+.segment-header h2 { display:-webkit-box; display:-ms-flexbox; display:flex; -webkit-box-align:center; -ms-flex-align:center; align-items:center; -ms-flex-line-pack:flex-first; align-content:flex-first; }
+
+
+
+/***************************************************************
+	[MAIN]
+***************************************************************/
+/*	--------- Jumbotron --------- */
+#jumbotronIntro_01.jumbotron-segment { background-image:url(../images/img-slide01.jpg); }
+#jumbotronIntro_02.jumbotron-segment { background-color:#6f42c1; }
+#jumbotronIntro_03.jumbotron-segment { background-image:url(../images/img-slide01.jpg); }
+#jumbotronIntro_04.jumbotron-segment { background-image:url(../images/img-slide01.jpg); }
+
+/*	--------- Carousel --------- */
+#carouselBGImage.carousel.slide .carousel-item { height:20rem; }
+#carouselBGImage.carousel.slide .carousel-item1 { background-image:url(../images/img-slide01.jpg); }
+#carouselBGImage.carousel.slide .carousel-item2 { background-image:url(../images/img-slide02.jpg); }
+#carouselBGImage.carousel.slide .carousel-item3 { background-image:url(../images/img-slide03.jpg); }
+#carouselBGImage2.carousel.slide .carousel-item { height:20rem; }
+#carouselBGImage2.carousel.slide .carousel-item1 { background-image:url(../images/img-slide01.jpg); }
+#carouselBGImage2.carousel.slide .carousel-item2 { background-image:url(../images/img-slide02.jpg); }
+#carouselBGImage2.carousel.slide .carousel-item3 { background-image:url(../images/img-slide03.jpg); }
+
+/*	--------- Swiper --------- */
+#swiperBGImage.swiper-wrap { height:20rem; }
+#swiperBGImage.swiper-wrap .swiper-slide1 { background-image:url(../images/img-slide01.jpg); }
+#swiperBGImage.swiper-wrap .swiper-slide2 { background-image:url(../images/img-slide02.jpg); }
+#swiperBGImage.swiper-wrap .swiper-slide3 { background-image:url(../images/img-slide03.jpg); }
+#swiperBGImage2.swiper-wrap { height:20rem; }
+#swiperBGImage2.swiper-wrap .swiper-slide1 { background-image:url(../images/img-slide01.jpg); }
+#swiperBGImage2.swiper-wrap .swiper-slide2 { background-image:url(../images/img-slide02.jpg); }
+#swiperBGImage2.swiper-wrap .swiper-slide3 { background-image:url(../images/img-slide03.jpg); }
+
+/*	--------- Card --------- */
+#serviceFeatureBG .grid-col:nth-child(1) .feature-wrap { background-color:#6f42c1; }
+#serviceFeatureBG .grid-col:nth-child(2) .feature-wrap { background-color:#e83e8c; }
+#serviceFeatureBG .grid-col:nth-child(3) .feature-wrap { background-color:#663db2; }
+#serviceFeatureBG .grid-col:nth-child(4) .feature-wrap { background-color:#6f42c1; }
+
+
+
+
+
+
+/***************************************************************
+	[MODAL]
+***************************************************************/
+#modalBGHeaderType .modal-header { background-image:url(../images/img-modal01.png); }

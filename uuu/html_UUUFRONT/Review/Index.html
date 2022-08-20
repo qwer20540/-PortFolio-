@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700" rel="stylesheet" />
+	<!-- standard meta -->
+	<meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../images/icon/favicon.ico" />
+    <!-- site properities -->
+	<title>구매 후기 목록 :: UUU몰</title>
+    <meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="UUU" />
+	<meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta name="format-detection" content="telephone=no, address=no, email=no" />
+    <link rel="canonical" href="http://uuumall.kr" />
+	<!-- facebook meta-->
+	<meta property="og:url" content="http://uuumall.kr" />
+	<meta property="og:title" content="" />
+	<meta property="og:description" content="" />
+    <meta property="og:image" content="https://img.tenping.kr/Content/Upload/Images/icon-opengraph_uuu.png" />
+    <!-- icon meta -->
+	<link rel="apple-touch-icon-precomposed" href="../../images/icon/touch-icon-iphone-retina.png" />
+	<link rel="apple-touch-icon" href="../../images/icon/touch-icon-iphone.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="../../images/icon/touch-icon-ipad.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="../../images/icon/touch-icon-iphone-retina.png" />
+	<link rel="apple-touch-icon" sizes="167x167" href="../../images/icon/touch-icon-ipad-retina.png" />
+	<!--// -->
+	<!--[if lte IE 9]>
+		<script src="../../Js.Library/html5shiv.js"></script>
+		<script src="../../Js.Library/jquery-1.10.2.js"></script>
+		<script src="../../Js.Library/placeholders.js"></script>
+	<![endif]-->
+	<!-- common css -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" />
+	<link rel="stylesheet" href="../../css/base.css" />
+	<link rel="stylesheet" href="../../css/layout.css" />
+	<link rel="stylesheet" href="../../css/common.css" />
+    <link rel="stylesheet" href="../../css/page-common.css" />
+    <link rel="stylesheet" href="../../css/page-mypage.css" />
+	<link rel="stylesheet" href="../../css/animate.min.css" />
+    <!-- bootstrap core js -->
+	<script src="../../Js.Library/jquery-3.3.1.min.js"></script>
+	<script src="../../Js.Library/jquery-ui-1.12.1.min.js"></script>
+	<script src="../../Js.Library/popper.min.js"></script>
+	<script src="../../Js.Library/bootstrap.min.js"></script>
+	<!-- common plugin js -->
+    <script src="../../Js.Library/scrollreveal.min.js"></script>
+	<script src="../../Js.Library/jquery.easing.min.js"></script>
+	<script src="../../Js.Library/jquery.simpler-sidebar.js"></script> 
+	<script src="../../Js.Library/SmoothScroll.min.js"></script>
+    <script src="../../Js.Library/simplebar.min.js"></script>
+	<script src="../../Js.Library/clipboard.min.js"></script>
+    <!-- custom js -->
+    <script src="../../Js.Library/swiper.min.js"></script>
+</head>
+<body id="pageTop" class="sub">
+	<div id="pageWrap" class="page-wrap page-mypage">
+		<div class="wrapper">
+            <!--### [SIDE BAR] ###-->
+            <div id="sidebarWrap" class="sidebar">
+                <nav id="navWrap" class="nav-wrap nav-toggle-type" aria-label="Main Navigation">
+                    <div class="nav-header">
+                        <h1>
+                            <a href="/" aria-label="UUU mall">
+                                <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="91" height="32" viewBox="0 0 114 40" xml:space="preserve">
+                                    <g class="logo">
+                                        <path class="st2" d="M94,40H20C9,40,0,31,0,20v0C0,9,9,0,20,0h74c11,0,20,9,20,20v0C114,31,105,40,94,40z"/>
+                                        <g>
+                                            <path class="st1" d="M28.6,9.7v12.2c0,0.5-0.1,1-0.2,1.4c-0.1,0.5-0.3,0.9-0.6,1.2c-0.3,0.4-0.6,0.6-1.1,0.9
+                                                c-0.4,0.2-1,0.3-1.6,0.3s-1.2-0.1-1.6-0.3c-0.4-0.2-0.8-0.5-1.1-0.9c-0.3-0.4-0.5-0.8-0.6-1.2c-0.1-0.5-0.2-0.9-0.2-1.4V9.7h-5.1
+                                                v12.5c0,1.2,0.2,2.3,0.6,3.3c0.4,1,1,1.8,1.7,2.6c0.7,0.7,1.6,1.3,2.7,1.7c1.1,0.4,2.3,0.6,3.6,0.6c1.3,0,2.5-0.2,3.6-0.6
+                                                c1.1-0.4,2-1,2.7-1.7c0.8-0.7,1.3-1.6,1.7-2.6c0.4-1,0.6-2.1,0.6-3.3V9.7H28.6z"/>
+                                            <path class="st1" d="M49.2,9.7v12.2c0,0.5-0.1,1-0.2,1.4c-0.1,0.5-0.3,0.9-0.6,1.2c-0.3,0.4-0.6,0.6-1.1,0.9
+                                                c-0.4,0.2-1,0.3-1.6,0.3c-0.6,0-1.2-0.1-1.6-0.3c-0.4-0.2-0.8-0.5-1.1-0.9c-0.3-0.4-0.5-0.8-0.6-1.2c-0.1-0.5-0.2-0.9-0.2-1.4
+                                                V9.7h-5.1v12.5c0,1.2,0.2,2.3,0.6,3.3c0.4,1,1,1.8,1.7,2.6c0.7,0.7,1.6,1.3,2.7,1.7c1.1,0.4,2.3,0.6,3.6,0.6
+                                                c1.3,0,2.5-0.2,3.6-0.6c1.1-0.4,2-1,2.7-1.7c0.8-0.7,1.3-1.6,1.7-2.6c0.4-1,0.6-2.1,0.6-3.3V9.7H49.2z"/>
+                                            <path class="st1" d="M69.8,9.7v12.2c0,0.5-0.1,1-0.2,1.4c-0.1,0.5-0.3,0.9-0.6,1.2c-0.3,0.4-0.6,0.6-1.1,0.9
+                                                c-0.4,0.2-1,0.3-1.6,0.3c-0.6,0-1.2-0.1-1.6-0.3c-0.4-0.2-0.8-0.5-1.1-0.9c-0.3-0.4-0.5-0.8-0.6-1.2c-0.1-0.5-0.2-0.9-0.2-1.4
+                                                V9.7h-5.1v12.5c0,1.2,0.2,2.3,0.6,3.3c0.4,1,1,1.8,1.7,2.6c0.7,0.7,1.6,1.3,2.7,1.7c1.1,0.4,2.3,0.6,3.6,0.6
+                                                c1.3,0,2.5-0.2,3.6-0.6c1.1-0.4,2-1,2.7-1.7c0.8-0.7,1.3-1.6,1.7-2.6c0.4-1,0.6-2.1,0.6-3.3V9.7H69.8z"/>
+                                            <path class="st1" d="M78.6,20.1v-2.5H87V16h-5.2V8.3h13.2V16h-5.1v1.7h8.4v2.5H78.6z M81.7,30.6v-5.8h10.5v-1.1H81.7v-2.3H95v5.8
+                                                H84.6v1.1h11v2.3H81.7z M92.1,10.6h-7.4v3h7.4V10.6z"/>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </a>
+                        </h1>
+                        <div class="nav-inner">
+                            <a href="#none" class="btn btn-icon btn-transparent btn-close navbar-toggler" aria-label="Toggle navigation"><i class="icon-close"></i></a>
+                        </div>
+                    </div>
+                    <div class="nav-body">
+                        <!-- Product/List_v3.html 참조 -->
+                    </div>
+                </nav>
+            </div>
+            <div id="overlayWrap" class="overlay-wrap"></div>
+            <!--### [HEADER] ###-->
+            <header id="headerWrap" class="header-wrap">
+                <!-- top menu -->
+                <div class="top-navbar">
+                    <div class="container">
+                        <div class="navbar navbar-expand">
+                            <div class="navbar-brand">
+                                <h2>구매 후기</h2>
+                            </div>
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a href="#none" class="nav-link btn btn-icon btn-transparent tooltip-template-gray btn-mypage" title="마이페이지"><i class="icon-mypage"></i><span class="badge badge-orange animated bounceIn">N</span></a></li>
+                                <li class="nav-item"><a href="#none" class="nav-link btn btn-icon btn-transparent tooltip-template-gray btn-cart" title="장바구니"><i class="icon-cart"></i><span class="badge badge-orange animated bounceIn">9</span></a></li>
+                                <li class="nav-item"><a href="#none" class="nav-link btn btn-icon btn-transparent tooltip-template-gray btn-login" title="로그인"><i class="icon-login"></i></a></li>
+                                <li class="nav-item"><a href="#none" class="nav-link btn btn-icon btn-transparent tooltip-template-gray btn-signup" title="회원가입"><i class="icon-signup"></i></a></li>
+                                <!-- <li class="nav-item"><a href="#none" class="nav-link btn btn-icon btn-transparent tooltip-template-gray btn-logout" title="로그아웃" role="button"><i class="icon-logout"></i></a></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- navbar -->
+                <div class="container">
+                    <div class="navbar brand-expand">
+                        <!-- brand -->
+                        <div class="navbar-brand">
+                            <h1>
+                                <a href="/" aria-label="UUU mall">
+                                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="114" height="40" viewBox="0 0 114 40" xml:space="preserve">
+                                        <g class="logo">
+                                            <path class="st2" d="M94,40H20C9,40,0,31,0,20v0C0,9,9,0,20,0h74c11,0,20,9,20,20v0C114,31,105,40,94,40z"/>
+                                            <g>
+                                                <path class="st1" d="M28.6,9.7v12.2c0,0.5-0.1,1-0.2,1.4c-0.1,0.5-0.3,0.9-0.6,1.2c-0.3,0.4-0.6,0.6-1.1,0.9
+                                                    c-0.4,0.2-1,0.3-1.6,0.3s-1.2-0.1-1.6-0.3c-0.4-0.2-0.8-0.5-1.1-0.9c-0.3-0.4-0.5-0.8-0.6-1.2c-0.1-0.5-0.2-0.9-0.2-1.4V9.7h-5.1
+                                                    v12.5c0,1.2,0.2,2.3,0.6,3.3c0.4,1,1,1.8,1.7,2.6c0.7,0.7,1.6,1.3,2.7,1.7c1.1,0.4,2.3,0.6,3.6,0.6c1.3,0,2.5-0.2,3.6-0.6
+                                                    c1.1-0.4,2-1,2.7-1.7c0.8-0.7,1.3-1.6,1.7-2.6c0.4-1,0.6-2.1,0.6-3.3V9.7H28.6z"/>
+                                                <path class="st1" d="M49.2,9.7v12.2c0,0.5-0.1,1-0.2,1.4c-0.1,0.5-0.3,0.9-0.6,1.2c-0.3,0.4-0.6,0.6-1.1,0.9
+                                                    c-0.4,0.2-1,0.3-1.6,0.3c-0.6,0-1.2-0.1-1.6-0.3c-0.4-0.2-0.8-0.5-1.1-0.9c-0.3-0.4-0.5-0.8-0.6-1.2c-0.1-0.5-0.2-0.9-0.2-1.4
+                                                    V9.7h-5.1v12.5c0,1.2,0.2,2.3,0.6,3.3c0.4,1,1,1.8,1.7,2.6c0.7,0.7,1.6,1.3,2.7,1.7c1.1,0.4,2.3,0.6,3.6,0.6
+                                                    c1.3,0,2.5-0.2,3.6-0.6c1.1-0.4,2-1,2.7-1.7c0.8-0.7,1.3-1.6,1.7-2.6c0.4-1,0.6-2.1,0.6-3.3V9.7H49.2z"/>
+                                                <path class="st1" d="M69.8,9.7v12.2c0,0.5-0.1,1-0.2,1.4c-0.1,0.5-0.3,0.9-0.6,1.2c-0.3,0.4-0.6,0.6-1.1,0.9
+                                                    c-0.4,0.2-1,0.3-1.6,0.3c-0.6,0-1.2-0.1-1.6-0.3c-0.4-0.2-0.8-0.5-1.1-0.9c-0.3-0.4-0.5-0.8-0.6-1.2c-0.1-0.5-0.2-0.9-0.2-1.4
+                                                    V9.7h-5.1v12.5c0,1.2,0.2,2.3,0.6,3.3c0.4,1,1,1.8,1.7,2.6c0.7,0.7,1.6,1.3,2.7,1.7c1.1,0.4,2.3,0.6,3.6,0.6
+                                                    c1.3,0,2.5-0.2,3.6-0.6c1.1-0.4,2-1,2.7-1.7c0.8-0.7,1.3-1.6,1.7-2.6c0.4-1,0.6-2.1,0.6-3.3V9.7H69.8z"/>
+                                                <path class="st1" d="M78.6,20.1v-2.5H87V16h-5.2V8.3h13.2V16h-5.1v1.7h8.4v2.5H78.6z M81.7,30.6v-5.8h10.5v-1.1H81.7v-2.3H95v5.8
+                                                    H84.6v1.1h11v2.3H81.7z M92.1,10.6h-7.4v3h7.4V10.6z"/>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </a>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <!--// navbar -->
+			</header>
+		    <!--### [MAIN] ###-->
+            <main id="mainWrap" class="main-wrap" role="main">
+                <!-- header -->
+                <header class="main-header">
+                    <h2>구매 후기</h2>
+                </header>
+                <!-- body -->
+                <div class="main-body">
+                    <form action="" method="post">
+                        <!-- segment : review list -->
+                        <section class="segment-wrap reviewlist-segment">
+                            <!-- container -->
+                            <div class="container">
+                                <header class="segment-header sr-only">
+                                    <h2>구매 후기 목록</h2>
+                                </header>
+                                <div class="segment-body">
+                                    <!-- panel -->
+                                    <section class="panel-wrap">
+                                        <header class="panel-header">
+                                            <h3>구매 후기</h3>
+                                        </header>
+										<a href="https://uuumall.kr/ShareBenefits ">
+											<div class="instagram-event image">
+												<!-- pc 이미지 -->
+												<img src="../../images/banner_benefit_pc.png" alt="" class="item-d">
+
+												<!-- mobile 이미지 -->
+												<img src="../../images/banner_benefit_m.png" alt="" class="item-m">
+											</div>											
+										</a>	
+                                        <div class="panel-body">
+                                            <div class="row">
+                                                <!-- grid -->
+                                                <div class="col-12">
+                                                    <!-- order list wrap -->
+                                                    <div class="order-list-wrap">
+                                                        <!-- list -->
+                                                        <div class="order-list-body">
+															
+                                                            <!-- order list -->
+                                                            <div class="row">
+                                                                <!-- grid -->
+                                                                <div class="col">
+                                                                    <!-- card -->
+                                                                    <div class="card-wrap card-horizontal card">
+                                                                        <div class="card-img-group">
+                                                                            <figure><img src="../../images/img-product-list01.jpg" class="card-img" alt="..." /></figure>
+                                                                        </div>
+                                                                        <!-- body -->
+                                                                        <div class="card-body">
+                                                                            <h5 class="card-title">UUU 산소살균 발포클리너 1박스 30정 유아용품 살균 텀블러 세척 세정</h5>
+                                                                            <div class="option-title">고구마맛</div>
+                                                                            <dl class="dl-inline">
+                                                                                <dt class="sr-only">금액</dt>
+                                                                                <dd class="sum-price"><span class="format-num">13900</span>원</dd>
+                                                                                <dt class="sr-only">개수</dt>
+                                                                                <dd>1개</dd>
+                                                                            </dl>
+                                                                            <dl class="dl-inline">
+                                                                                <dt>구매일</dt>
+                                                                                <dd><time class="time" datetime="2019-06-18T00:00:00.000Z" title="2019년 6월 18일">2019-06-18</time></dd>
+                                                                            </dl>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!--// card -->
+                                                                </div>
+                                                                <!-- grid -->
+                                                                <div class="col-12 col-md-auto">
+                                                                    <!-- form-group -->
+                                                                    <div class="form-group">
+                                                                        <!-- 구매 후기 쓰기 -- >
+                                                                        <a href="#none" class="btn btn-navy">구매 후기 쓰기</a>
+																		<!--// -->
+																		
+																		<!-- 한 달 사용 후기 쓰기 -->
+                                                                        <a href="#none" class="btn btn-azure">한 달 사용 후기 쓰기</a>
+																		<!--// -->
+																		
+                                                                        <!-- 수정하기 -- >
+																		<a href="#none" class="btn btn-outline btn-navy">수정하기</a> 
+                                                                        <!--// -->
+																		
+                                                                        <div class="btn state text-red">후기 작성 시 마일리지 최대 2,000점 지급</div>
+																		
+																		<!-- alert -->
+																		<div class="tooltip-custom s3 type2">
+																			<span>함께 구매한 상품을 구매 확정 한 뒤에 사은품 후기를 작성할 수 있습니다.</span>
+																		</div>
+																		
+                                                                    </div>
+                                                                    <!--// form-group -->
+                                                                </div>
+                                                                <!--// grid -->
+                                                            </div>
+															
+															<!-- order list -->
+                                                            <div class="row s2">
+                                                                <!-- grid -->
+                                                                <div class="col">
+                                                                    <!-- card -->
+                                                                    <div class="card-wrap card-horizontal card">
+                                                                        <div class="card-img-group">
+                                                                            <figure><img src="../../images/img-product-list01.jpg" class="card-img" alt="..." /></figure>
+                                                                        </div>
+                                                                        <!-- body -->
+                                                                        <div class="card-body">
+                                                                            <span class="badge badge-pill badge-pink">사은품</span><h5 class="card-title">UUU 프로폴리스 30일분</h5>
+                                                                            <dl class="dl-inline s2">
+                                                                                <dt class="sr-only">금액</dt>
+                                                                                <dd class="sum-price"><span class="format-num">0</span>원</dd>
+                                                                                <dt class="sr-only">개수</dt>
+                                                                                <dd>1개</dd>
+                                                                            </dl>
+                                                                            <dl class="dl-inline">
+                                                                                <dt>구매 확정</dt>
+                                                                                <dd><time class="time" datetime="2019-06-18T00:00:00.000Z" title="2019년 6월 18일">2019-06-18</time></dd>
+                                                                            </dl>
+																			<dl class="dl-inline">
+                                                                                <dt>작성 일자</dt>
+                                                                                <dd><time class="time" datetime="2019-06-18T00:00:00.000Z" title="2019년 6월 18일">2022-01-03</time></dd>
+                                                                            </dl>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!--// card -->
+                                                                </div>
+                                                                <!-- grid -->
+                                                                <div class="col-12 col-md-auto">
+                                                                    <!-- form-group -->
+                                                                    <div class="form-group">
+                                                                        <!-- button -->
+                                                                        <a href="#none" class="btn btn-navy">구매 후기 쓰기</a>
+                                                                        <!-- <a href="#none" class="btn btn-outline btn-navy">수정하기</a> -->
+                                                                        <!--// -->
+                                                                    </div>
+                                                                    <!--// form-group -->
+                                                                </div>
+                                                                <!--// grid -->
+                                                            </div>
+															
+                                                            <!-- order list -->
+                                                            <div class="row">
+                                                                <!-- grid -->
+                                                                <div class="col">
+                                                                    <!-- card -->
+                                                                    <div class="card-wrap card-horizontal card">
+                                                                        <div class="card-img-group">
+                                                                            <figure><img src="../../images/img-product-list06.jpg" class="card-img" alt="..." /></figure>
+                                                                        </div>
+                                                                        <!-- body -->
+                                                                        <div class="card-body">
+                                                                            <h5 class="card-title">UUU 남성 폼클렌징 소프트 고마쥬 150ml 1개 얼굴 각질제거 올인원 폼클렌저</h5>                             
+                                                                            <dl class="dl-inline">
+                                                                                <dt class="sr-only">금액</dt>
+                                                                                <dd class="sum-price"><span class="format-num">13900</span>원</dd>
+                                                                                <dt class="sr-only">개수</dt>
+                                                                                <dd>1개</dd>
+                                                                            </dl>
+                                                                            <dl class="dl-inline">
+                                                                                <dt>구매일</dt>
+                                                                                <dd><time class="time" datetime="2019-06-18T00:00:00.000Z" title="2019년 6월 18일">2019-06-18</time></dd>
+                                                                            </dl>
+																			<dl class="dl-inline">
+                                                                                <dt>구매 확정</dt>
+                                                                                <dd><time class="time" datetime="2019-06-18T00:00:00.000Z" title="2019년 6월 18일">2019-06-18</time></dd>
+                                                                            </dl>
+																			<dl class="dl-inline">
+                                                                                <dt>작성 일자</dt>
+                                                                                <dd><time class="time" datetime="2019-06-18T00:00:00.000Z" title="2019년 6월 18일">2022-01-03</time></dd>
+                                                                            </dl>
+                                                                            <!-- review wrap -->
+                                                                            <div class="review-wrap">
+                                                                                <div class="review-row">
+                                                                                    <!-- header -->
+                                                                                    <div class="review-header">
+                                                                                        <!-- top -->
+                                                                                        <dl class="dl-inline separator-dot">
+                                                                                            <dt class="sr-only">별점</dt>
+                                                                                            <dd>
+                                                                                                <span class="rating-star" data-rating="3" data-max-rating="5">
+                                                                                                    <i class="tencon-star-filled checked"></i> 
+                                                                                                    <i class="tencon-star-filled checked"></i> 
+                                                                                                    <i class="tencon-star-filled checked"></i> 
+                                                                                                    <i class="tencon-star-filled"></i> 
+                                                                                                    <i class="tencon-star-filled"></i> 
+                                                                                                </span>
+                                                                                            </dd>
+																							<span class="review">한달 사용 후기</span>
+																							<!--
+                                                                                            <dt class="sr-only">작성일</dt>
+                                                                                            <dd class="date">
+																								작성 일자 <time class="time" datetime="2019-06-18T00:00:00.000Z" title="2019년 6월 18일">2019-06-18</time
+																							</dd> -->
+                                                                                        </dl>
+                                                                                    </div>
+                                                                                    <!-- body -->
+                                                                                    <div class="review-body">
+                                                                                        <div class="review-thumbnail-group">
+                                                                                            <a href="#none" role="button" data-toggle="modal" data-target="#modalThumbnail">
+                                                                                                <div class="thumbnail-img" style="background-image:url(../../images/sample/sample800x1920.png);"></div>
+                                                                                                <!-- <img src="../../images/img-product-list01.jpg" class="thumbnail-img" alt="" /> -->
+                                                                                                <span class="icon-video"><i class="tencon-play-filled"></i></span>
+                                                                                            </a>
+                                                                                            <!--
+                                                                                            <a href="#none" role="button" data-toggle="modal" data-target="#modalThumbnail"><img src="../../images/img-product-list02.jpg" class="thumbnail-img" alt="" /></a>
+                                                                                            -->
+                                                                                            <a href="#none" role="button" data-toggle="modal" data-target="#modalThumbnail"><div class="thumbnail-img" style="background-image:url(../../images/sample/sample800x1920.png);"></div></a>
+                                                                                            <a href="#none" role="button" data-toggle="modal" data-target="#modalThumbnail"><div class="thumbnail-img" style="background-image:url(../../images/sample/sample1200x800.png);"></div></a>
+                                                                                            <a href="#none" role="button" data-toggle="modal" data-target="#modalThumbnail"><div class="thumbnail-img" style="background-image:url(../../images/sample/sample800x1920.png);"></div></a>
+                                                                                            <a href="#none" role="button" data-toggle="modal" data-target="#modalThumbnail"><div class="thumbnail-img" style="background-image:url(../../images/sample/sample800x1920.png);"></div></a>
+                                                                                            <a href="#none" role="button" data-toggle="modal" data-target="#modalThumbnail"><div class="thumbnail-img" style="background-image:url(../../images/sample/sample800x1920.png);"></div></a>
+                                                                                            <a href="#none" role="button" data-toggle="modal" data-target="#modalThumbnail"><div class="thumbnail-img" style="background-image:url(../../images/sample/sample800x1920.png);"></div></a>
+                                                                                        </div>
+                                                                                        <div class="review-text-group">
+                                                                                            <p class="review-text">일단 처음 사용한 느낌은 향이 너무 좋고 거품이 너무 잘생기고 완전 쫀쫀하다고 해야하나 일반 폼 클렌징이랑은 먼가 틀리다는 느낌을 받았는데 역시나 세척을 해보니 피지가 많은 편이라 얼굴 전체에 번들거림 심한데 세척 후 피부가 너무 뽀송뽀송하네요 ㅋㅋ
+                                                                                                코에 피지도 깨끗이 없어져서 너무 좋아요 ㅋㅋ 각질도 제거가 되고 ㅋㅋ 진짜 올인원이네요 ㅋㅋ 피부톤까지 밝아진다고 하니 열심히 써야 겠네요 기대하겠습니다 ㅋㅋ 다만 주문량이 많은지 배송이 조금 늦져서 아쉽네요 ㅋㅋ</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <!--// body -->
+                                                                                </div>
+                                                                                <!-- admin comment -->
+                                                                                <div class="comment-row">
+                                                                                    <!-- header -->
+                                                                                    <div class="review-header">
+                                                                                        <!-- top -->
+                                                                                        <dl class="dl-inline separator-dot">
+                                                                                            <dt class="sr-only">작성자</dt>
+                                                                                            <dd class="text-primary">일상의 감동 UUU</dd>
+                                                                                            <dt class="sr-only">작성일</dt>
+                                                                                            <dd><time class="time" datetime="2019-06-18T00:00:00.000Z" title="2019년 6월 18일">2019-06-18</time></dd>
+                                                                                        </dl>
+                                                                                    </div>
+                                                                                    <!-- body -->
+                                                                                    <div class="review-body">
+                                                                                        <div class="review-text-group">
+                                                                                            <p class="review-text">안녕하세요, 고객님 일상의 감동 UUU입니다. UUU 남성 폼클렌징 소프트 고마쥬 제품을 구매해 주셔서 감사합니다. 저도 일주일에 2~3번 정도 사용하고 있는데 확실히 사용 전과 후가 다른걸 느꼈어요^^ 또한, 사용 전 용기를 충분히 흔들어주시는 것 잊지 마세요~ 혹, 사용 중 불편하거나 궁금한 부분 생기시면 언제든 톡톡 문의 부탁드립니다:) 감사합니다!</p>
+                                                                                        </div>
+																						<!-- 이미지 답변 추가 -->
+																						<div class="author-image">                                                                           
+																							<figure class="figure">
+																								<a href="#" target="_blank">
+																									<img src="https://phinf.pstatic.net/checkout.phinf/20201009_206/1602237168707QtbtV_JPEG/review-attachment-08aa5ed0-7e64-4963-96a4-e89de23a6c37.jpeg?type=w640" class="review-img" alt="">
+																								</a>
+																							</figure>                                                                                                    
+																							<figure class="figure">
+																								<a href="#" target="_blank">
+																									<img src="https://phinf.pstatic.net/checkout.phinf/20201009_206/1602237168707QtbtV_JPEG/review-attachment-08aa5ed0-7e64-4963-96a4-e89de23a6c37.jpeg?type=w640" class="review-img" alt="">
+																								</a>
+																							</figure>                                                                       
+																						</div>
+																						<!--// 이미지 답변 추가 -->
+                                                                                    </div>
+                                                                                    <!--// body -->
+                                                                                </div>
+                                                                                <!--// -->
+                                                                            </div>
+                                                                            <!-- review wrap -->
+                                                                        </div>
+                                                                    </div>
+                                                                    <!--// card -->
+                                                                </div>
+                                                                <!-- grid -->
+                                                                <div class="col-12 col-md-auto">
+                                                                    <!-- form-group -->
+                                                                    <div class="form-group">
+                                                                        <div class="btn state">포인트 지급 완료</div>
+                                                                    </div>
+                                                                    <!--// form-group -->
+                                                                </div>
+                                                                <!--// grid -->
+                                                            </div>
+                                                            <!-- order list -->
+                                                            <!-- data empty -->
+                                                            <div class="row">
+                                                                <!-- body -->
+                                                                <div class="col-12">
+                                                                    <div class="row data-empty">
+                                                                        <div class="col"><span>작성된 구매 후기가 없습니다.</span></div>
+                                                                    </div>
+                                                                </div>
+                                                                <!--// body -->
+                                                            </div>
+                                                            <!-- data empty -->
+                                                            <!--// order list -->
+                                                        </div>
+                                                        <!--// list -->
+                                                    </div>
+                                                    <!--// order list wrap -->
+                                                </div>
+                                                <!-- grid -->
+                                                <div class="col-12">
+                                                    <!-- form-group -->
+                                                    <div class="form-group">
+                                                        <button type="button" class="btn btn-block btn-gray btn-more"><span class="btn-text">더 보기 <i class="tencon-triangle-down"></i></span> <span class="spinner-border" role="status" aria-hidden="true"></span></button>
+                                                    </div>
+                                                </div>
+                                                <!--// grid -->
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <!--// panel -->
+                                </div>
+                            </div>
+                            <!--// container -->
+                        </section>
+                        <!--// segment -->
+                    </form>
+                </div>
+                <!--// body -->
+            </main>
+            <!-- bottom navi segment -->
+            <section class="nav-segment">
+                <div class="form-group justify-content-center">
+                    <div class="form-btn-group" role="group" aria-label="First Group">
+                        <button type="button" class="btn btn-icon navbar-toggler" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-drawer">
+                                <span></span><span></span><span></span>
+                            </span> 전체메뉴
+                        </button>
+                        <a href="#none" class="btn btn-icon tooltip-template-orange" data-placement="top" title="1년 내내 반값"><i class="icon-membership"></i> 연회원 혜택</a>
+                        <a href="#none" class="btn btn-icon"><i class="icon-100won"></i> 100원 찬스<span class="badge badge-orange">N</span></a>
+                        <a href="#none" class="btn btn-icon"><i class="icon-cart"></i> 장바구니<span class="badge badge-orange">9</span></a>
+                        <!-- 로그인 전 -- >
+                        <a href="#none" class="btn btn-icon"><i class="icon-login"></i> 로그인</a>
+                        <!-- 로그인 후 -->
+                        <a href="#none" class="btn btn-icon"><i class="icon-user"></i> 100,000원</a>
+                        <!-- 로그인 -->
+                        
+                        <!-- 삭제 -->
+                        <!-- <a href="#none" class="btn btn-icon"><i class="icon-shipping"></i> 주문배송</a> -->                        
+                        <!-- <a href="#none" class="btn btn-icon"><i class="icon-user"></i> 회원정보</a> -->
+                        <!--// 삭제 -->
+                    </div>
+                </div>
+            </section>
+			
+			<!-- 연회원 가입 레이어 -->
+			<section class="layer-popup-segment" style="display:;">
+				<div class="modal-header">
+					<!-- 클릭 시 해당 섹션 style="display:none;"-->
+					<button type="button" class="close"><span aria-hidden="true"><i class="tencon-close"></i></span></button>
+				</div>
+                <div class="form-group justify-content-center">
+					<div class="modal-content">
+						<div class="modal-body alert">
+							<h2>																				
+								<span class="s2">가족이 직접 연회원 가입</span>하면<br><span>쇼핑포인트 10,000원</span>에<br>
+								<span class="s3">포인트 10,000원 추가 적립</span>
+							</h2>
+						</div>
+						<div class="modal-footer modal-footer-centered s3">
+							<button type="button" class="btn btn-orange">연회원 가입하러 가기 &gt;</button>
+						</div>
+					</div>
+				</div>	
+			</section>
+			
+		    <!--### [FOOTER] ###-->
+            <footer id="footerWrap" class="footer-wrap mall-style nav-scrollspy">
+                <!-- body -->
+                <div class="footer-body container">
+                    <div class="row">
+                        <!-- grid -->
+                        <div class="grid-col">
+                            <ul class="footer-nav">
+                                <li class="nav-item"><a href="#none" class="nav-link">회사 소개</a></li>
+                                <li class="nav-item"><a href="#none" class="nav-link"><strong>개인정보처리방침</strong></a></li>
+                                <li class="nav-item"><a href="#none" class="nav-link">이용약관</a></li>
+                                <li class="nav-item"><a href="#none" class="nav-link">이용문의</a></li>
+                            </ul>
+                        </div>
+                        <!-- grid -->
+                        <div class="grid-col">
+                            <div class="cs-info">
+                                <p>고객감동센터 : 02-6243-0555 &nbsp;&nbsp; 평일 : 09:00~18:00 (점심시간 : 12:00~13:00) &nbsp;&nbsp; 토요일, 일요일, 공휴일 휴무 &nbsp;&nbsp; / &nbsp;&nbsp; IBK 기업은행 217-075740-01-141 &nbsp; 예금주 : 주식회사 텐핑</p>
+                            </div>
+                            <div class="author-info">
+                                <p>상호 : 주식회사 텐핑 &nbsp;&nbsp; 대표 : 고준성 &nbsp;&nbsp; 사업자등록번호 : 220-88-96563 &nbsp;&nbsp; 통신판매업신고번호 : 2017-서울서초-1187 <a href="http://www.ftc.go.kr/bizCommPop.do?wrkr_no=2208896563" title="사업자정보 확인 새창 열기" target="_blank">[사업자정보확인]</a></p>
+                                <p>전화 : 02-6243-0555 &nbsp;&nbsp; 이메일 : uuu@UUUmall.kr &nbsp;&nbsp; 주소 : 06620 서울 서초구 서초대로78길 5, 대각빌딩 6~7층(서초동) &nbsp;&nbsp; 개인정보 보호책임자 : 이인섭</p>
+                                <p>안전거래를 위해 결제 시 저희 쇼핑몰에서 가입한 한국정보통신(주)의 구매안전서비스를 이용하실 수 있습니다. <a href="https://office.easypay.co.kr/homepage/other_service/EscrowAuthAction.do?memb_id=05542346" title="서비스가입사실확인 새창 열기" target="_blank">[가입사실확인]</a></p>
+                            </div>
+                            <div class="copyright-info"><p>© 2019 Tenping. ALL RIGHTS RESERVED.</p></div>
+                        </div>
+                        <!--// grid -->
+                    </div>
+                    <!-- floating banner -->
+                    <div class="bnrFloating">
+                        <!-- to the top trigger -->
+                        <div class="btnScrolltop"><a href="#pageTop" class="js-scroll-trigger" role="button"><i class="tencon-angle-up"></i></a></div>
+                        <!--// -->
+                    </div>
+                    <!--// -->
+                </div>
+                <!--// copyright -->
+            </footer>
+            <!--// ### [FOOTER] ###-->
+        </div>
+        
+        <!--### [MODAL] ###-->
+        <!-- modal thumbnail -->
+		<div id="modalThumbnail" class="modal fade modal-fullscreen" tabindex="-1" role="dialog" aria-labelledby="modalThumbnailLabel" aria-hidden="true" data-keyboard="false">
+            <div class="modal-dialog modal-dialog-centered modal-gallery" role="document">
+                <!-- content -->
+                <div class="modal-content">
+                    <div class="modal-header">
+						<h5 id="modalThumbnailLabel" class="modal-title sr-only">구매 후기 이미지</h5>
+                        <div class="btn-group btn-group-lg" role="group" aria-label="Button Group">
+                            <button type="button" class="btn btn-icon btn-angular btn-transparent close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="tencon-close"></i></span></button>
+						</div>
+					</div>
+                    <div class="modal-body modal-body-centered">
+                        <figure class="figure"><img src="../../images/img-product-lg01.jpg" class="thumbnail-img" alt="" /></figure>
+                        <!-- <video id="thumbVDO" src="http://stgimg.uuumall.kr/Content/Upload/Review/2019061817270001/h4pq2spa.izu.mp4" controls=""></video> -->
+                    </div>
+                </div>
+                <!--// -->
+            </div>
+        </div>
+		
+		<!-- modal confirm -->
+        <div id="modalConfirm" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalConfirmLabel" aria-hidden="true" data-keyboard="false" style="display:block; opacity:1;">
+            <div class="modal-dialog modal-dialog-centered modal-confirm" role="document">
+                <!-- content -->
+                <div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="tencon-close"></i></span></button>
+					</div>
+                    <div class="modal-body modal-body-centered">
+                        <p>구매 후기를 등록했어요</p>
+
+						<div class="row">
+							
+							<!-- VIP/VIP 혜택회원 -->
+							<div class="grid-col" style="display:;">
+								<span class="title s4">친구 초대하고<br><strong>자동으로 캐시 쌓으세요</strong></span>
+								<div class="content-wrap">
+
+									<!-- case1 -->
+									<div class="case1" style="display:;">
+										<div class="list">
+											<span class="main">
+												친구 초대할 때마다<br>
+												<!-- 웰컴캐시만 0원인 경우 style="display:none;"-->
+												<span style="display:;">친구에게 1천원,</span> 나는 무제한 <strong>캐시 1만원</strong>
+											</span>
+											<img src="../../images/icon_benefit_01.png" class="icon_benefit" alt="" />
+										</div>
+										<div class="list and">
+											<span class="main">
+												친구들이 구매할 때마다<br>
+												나도 친구도 <strong>자동 캐시</strong> 적립
+											</span>
+											<img src="../../images/icon_benefit_04.png" class="icon_benefit" alt="" />
+										</div>
+									</div>
+
+									<!-- case2 -->
+									<div class="case1" style="display:none;">
+										<div class="list">
+											<span class="main">
+												친구들이 구매할 때마다<br>
+												나도 친구도 <strong>자동 캐시</strong> 적립
+											</span>
+											<img src="../../images/icon_benefit_04.png" class="icon_benefit" alt="" />
+										</div>
+									</div>
+
+								</div>
+
+								<div class="form-btn-group">
+									<a href="/VIP" class="btn-link">캐시 쌓는 방법 자세히 보기<i class="tencon-angle-right-next"></i></a>
+								</div>
+							</div>
+							
+							<!-- 일반/준회원 -->
+							<div class="grid-col" style="display:none;">
+								<span class="title s4">VIP회원이 되면<br><strong>자동으로 캐시 쌓으세요</strong></span>
+								<div class="content-wrap">
+
+									<!-- case1 -->
+									<div class="case1" style="display:;">
+										<div class="list">
+											<span class="main">
+												VIP회원 가입하면<br>
+												<strong>캐시 15,000원 지급</strong><span class="date">(~6월 30일까지)</span>
+											</span>
+											<img src="../../images/icon_benefit_01.png" class="icon_benefit" alt="" />
+										</div>
+										<div class="list and">
+											<span class="main">
+												내가 구매할 때마다<br>
+												<strong>최대 6% 캐시 적립</strong>
+											</span>
+											<img src="../../images/icon_benefit_02.png" class="icon_benefit" alt="" />
+										</div>
+										<div class="list third">
+											<span class="main">
+												친구 초대할 때마다<br>
+												<!-- 웰컴캐시만 0원인 경우 style="display:none;"-->
+												<span style="display:;">친구에게 1천원,</span> 나는 무제한 <strong>캐시 1만원</strong>
+											</span>
+											<img src="../../images/icon_benefit_03.png" class="icon_benefit" alt="" />
+										</div>
+										<div class="list fourth">
+											<span class="main">
+												친구들이 구매할 때마다<br>
+												나도 친구도 <strong>자동 캐시</strong> 적립
+											</span>
+											<img src="../../images/icon_benefit_04.png" class="icon_benefit" alt="" />
+										</div>
+									</div>
+
+									<!-- case2 -->
+									<div class="case1" style="display:none;">
+										<div class="list">
+											<span class="main">
+												VIP회원 가입하면<br>
+												<strong>캐시 15,000원 지급</strong><span class="date">(~6월 30일까지)</span>
+											</span>
+											<img src="../../images/icon_benefit_01.png" class="icon_benefit" alt="" />
+										</div>
+										<div class="list and">
+											<span class="main">
+												내가 구매할 때마다<br>
+												<strong>최대 6% 캐시 적립</strong>
+											</span>
+											<img src="../../images/icon_benefit_02.png" class="icon_benefit" alt="" />
+										</div>
+										<div class="list third">
+											<span class="main">
+												친구들이 구매할 때마다<br>
+												나도 친구도 <strong>자동 캐시</strong> 적립
+											</span>
+											<img src="../../images/icon_benefit_04.png" class="icon_benefit" alt="" />
+										</div>
+									</div>
+
+								</div>
+								
+								<div class="form-btn-group">
+									<a href="/VIP" class="btn-link">캐시 쌓는 방법 자세히 보기<i class="tencon-angle-right-next"></i></a>
+								</div>
+							</div>
+						</div>	
+						
+                    </div>
+                </div>
+                <!--// -->
+            </div>
+        </div>
+		
+		<!-- modal instareview -->
+        <div id="modalInstargramReview" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalInstargramReviewLabel" aria-hidden="true" data-keyboard="false" style="display:none; opacity:1;">
+            <div class="modal-dialog modal-dialog-centered modal-alert modal-instareview" role="document">
+                <!-- content -->
+                <div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="tencon-close"></i></span></button>
+					</div>
+                    <div class="modal-body modal-body-centered">
+                        <p>구매 후기를 등록했어요</p>
+
+                    </div>
+					<figure>
+						<!-- VIP회원 -->
+						<a href="https://uuumall.kr/ShareBenefits" style="display:;">
+							<img src="../../images/img_benefit_type1.png" class="figure-img" alt="" />
+							<div class="copy type2">
+								친구에게 5천원, <strong>나는 무제한 캐시 1만원</strong>
+							</div>
+						</a>
+
+						<!-- VIP혜택/일반/준회원 -->
+						<a href="https://uuumall.kr/ShareBenefits" style="display:none;">
+							<img src="../../images/img_benefit_type2.png" class="figure-img" alt="" />
+							<div class="won">
+								캐시 <span class="format-num">15000</span>원 즉시 지급
+							</div>
+							<div class="txt">
+								<span>(~4월 30일까지)</span>
+							</div>
+							<div class="copy type1">
+								친구에게 5천원, <strong>나는 무제한 캐시 1만원</strong>
+							</div>
+						</a>
+					</figure>
+					<figure>
+						<a href="/ReviewEvent">
+							<img src="../../images/img_instareview_banner.png" alt="인스타그램 후기 공유">
+						</a>
+					</figure>
+					<div class="modal-footer modal-footer-centered">
+						<a href="/ReviewEvent" class="btn btn-orange">이벤트 참여하기</a>
+					</div>	
+                </div>
+                <!--// -->
+            </div>
+        </div>
+		
+        <!--### [MODAL] ###-->
+	</div>
+	
+	<!-- scrolling navigation js -->
+    <script src="../../Js.Library/scrolling-nav.js"></script>
+        
+    <!-- shrink-header js -- >
+	<script>
+		$(window).scroll(function() {
+			if ($(this).scrollTop() > 50) {
+				$('#headerWrap').addClass('navbar-shrink');
+			} else {
+				$('#headerWrap').removeClass('navbar-shrink');
+			}
+		});
+	</script>
+    
+    <!-- sidebar js -->
+    <script>
+        $(document).ready(function () {
+            $('.navbar-toggler').on('click', function () {
+                $('#pageTop').toggleClass('nav-toggle-open nav-toggle-collapsing');
+                setTimeout(function() {
+                    $("#pageTop").removeClass("nav-toggle-collapsing");
+                }, 120);
+            });
+        });
+    </script>
+    
+    <!-- datepicker js -->
+    <script>
+        $(function (){
+            $(".datepicker").datepicker({
+                showOtherMonths: true,
+                selectOtherMonths: true,
+                showMonthAfterYear: true,
+                dateFormat: 'yy.mm.dd',
+                prevText: '이전 달',
+                nextText: '다음 달',
+                monthNames: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
+                monthNamesShort: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
+                dayNames: ['일', '월', '화', '수', '목', '금', '토'],
+                dayNamesShort: ['일', '월', '화', '수', '목', '금', '토'],
+                dayNamesMin: ['일', '월', '화', '수', '목', '금', '토'],
+                yearSuffix: '년'
+            });
+        });
+    </script>
+    
+    <!-- toggle btn js -->
+    <script>                                            
+        $(".btn-group > .btn").click(function(){
+            $(".btn-group > .btn").removeClass("active");
+            $(this).addClass("active");
+        });
+    </script>
+    
+    <!-- btn more js -->
+    <script>
+        $(document).ready(function() {
+            $(".btn-more").on("click", function() {
+                var progressBtn = $(this);
+                if (!progressBtn.hasClass("active")) {
+                    progressBtn.addClass("active");
+                    setTimeout(function() {
+                        progressBtn.removeClass("active");
+                    }, 3000);
+                }
+            })
+        });
+    </script>
+    
+    <!-- add comma js -->
+	<script>
+        // 숫자 타입에서 쓸 수 있도록 format() 함수 추가
+        Number.prototype.format = function(){
+            if(this==0) return 0;
+
+            var reg = /(^[+-]?\d+)(\d{3})/;
+            var n = (this + '');
+
+            while (reg.test(n)) n = n.replace(reg, '$1' + ',' + '$2');
+
+            return n;
+        };
+
+        // 문자열 타입에서 쓸 수 있도록 format() 함수 추가
+        String.prototype.format = function(){
+            var num = parseFloat(this);
+            if( isNaN(num) ) return "0";
+
+            return num.format();
+        };
+        
+        jQuery('.format-num').text(function() {
+            jQuery(this).text(
+                jQuery(this).text().format()
+            );
+        });
+	</script>
+    
+    <!-- input add comma js -->
+    <script>
+		function inputNumberForamt(obj) { 
+			obj.value = comma(uncomma(obj.value)); 
+		}
+		function comma(x) {
+			return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ','); 
+		}
+		function uncomma(str) {
+			return str.toString().replace(/[^\d]+/g, ''); 
+		}
+	</script>
+
+	<!-- tooltip js -->
+	<script>
+		$(document).ready(function(){
+			$('[data-tooltip="tooltip"]').tooltip({
+				trigger: "hover"
+			});
+		});
+	</script>
+	<!--// -->
+</body>
+</html>

@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/***************************************************************
+	[fonts]
+***************************************************************/
+/* noto-sans-kr-regular - korean_latin */
+@font-face {
+	font-family:'Noto Sans KR';
+	font-style:normal;
+	font-weight:normal;
+	src:url('../fonts/noto-sans-kr-v8-korean_latin-regular.eot'); /* IE9 Compat Modes */
+	src:local('Noto Sans KR Regular'), local('NotoSansKR-Regular'),
+		url('../fonts/noto-sans-kr-v8-korean_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		/*url('../fonts/noto-sans-kr-v8-korean_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/noto-sans-kr-v8-korean_latin-regular.woff') format('woff'), /* Modern Browsers */
+		url('../fonts/noto-sans-kr-v8-korean_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/noto-sans-kr-v8-korean_latin-regular.svg#NotoSansKR') format('svg'); /* Legacy iOS */
+}
+
+/***************************************************************
+	[css reset]
+***************************************************************/
+caption, legend { width:0; height:0; margin:0; padding:0; line-height:0; font-size:0; overflow:hidden; visibility:hidden; }
+abbr[title], abbr[data-original-title] { text-decoration:none; cursor:pointer; }
+hr { width:100%; }
+
+/***************************************************************
+	[common]
+***************************************************************/
+a { color:#26356f; outline:none; }
+a:hover { color:#293e90; outline:none; text-decoration:none; transition:all 0.12s ease-out; }
+a.disabled, a[disabled] { pointer-events:none; }
+body { padding:0; font-family:-apple-system, BlinkMacSystemFont, "Noto Sans KR", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Malgun Gothic", Gulim, Dotum, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+/****** responsive & retina specific ******/
+@media (max-width:768px) {
+	img { width:100%; }
+}

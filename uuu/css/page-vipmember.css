@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/***************************************************************
+	[coach]
+***************************************************************/
+.page-signin.company-coach .membership-segment { background-position:top center; }
+.page-signin.company-coach .membership-segment .figure-wrap .member-info { background-color:#000; }
+.page-signin.company-coach .membership-segment .member-bar { width:100%; text-align:center; background-color:#ffdd00; }
+.page-signin.company-coach .membership-segment .member-bar img { width:170px; }
+
+.page-signin.company-coach .membership-segment .figure-membership01 { background-color:inherit; }
+.page-signin.company-coach .membership-segment .figure-membership01 .figure .img-fluid { width:inherit; }
+.page-signin.company-coach .membership-segment .figure-membership01 .figure a.link-2 { width:32%; height:8%; left:33.5%; top:56.7%; }
+.page-signin.company-coach .membership-segment .figure-membership01 .figure a.link-3 { width:32%; height:8%; left:67.5%; top:56.7%; }
+.page-signin.company-coach .membership-segment .figure-membership01 .figure a.link-4 { width:32%; height:8%; left:14%; top:77%; }
+.page-signin.company-coach .membership-segment .figure-membership01 .figure a.link-5 { width:32%; height:8%; left:57%; top:77%; }
+
+.page-signin.company-coach .event-segment .notice-panel .box::before { display:none; }
+.page-signin.company-coach .event-segment .notice-panel .box::after { display:none; }
+.page-signin.company-coach .event-segment .notice-panel .box p span::before { display:none; }
+.page-signin.company-coach .event-segment .notice-panel { background-color:#f2f2f2; }
+.page-signin.company-coach .event-segment .notice-panel .box { box-shadow:5px 5px 10px rgba(0,0,0,0.1); }
+.page-signin.company-coach .event-segment .data-panel { background-color:#eaeaea; }
+.page-signin.company-coach .event-segment .data-panel p.s2:not(.date) { margin-bottom:0; }
+.page-signin.company-coach .event-segment .data-panel p:not(.date) { max-width:inherit; }
+
+.page-signin.company-coach .membership-form-segment .custom-control-txt { padding-top:3px; padding-bottom:3px; color:#2f3640; font-size:14px; }
+.page-signin.company-coach .membership-form-segment .custom-control-txt span { color:#fe6e03; }
+
+.page-signin.company-coach .event-segment.company-banner .data-panel { background-color:#f2f2f2; }
+.page-signin.company-coach .event-segment.company-banner .data-panel p { line-height:1.4; }
+.page-signin.company-coach .event-segment.company-banner .banner { padding:40px 0 40px; width:100%; height:100%; display:block; }
+.page-signin.company-coach .event-segment.company-banner .banner img { width:280px; position:relative; }
+.page-signin.company-coach .event-segment.company-banner .btn-member:after { content:""; width:0; height:0; margin-left:4px; display:inline-block; position:relative; top:-2px; border:4px solid transparent; border-left:5px solid #26356f; }
+/****** responsive & retina specific ******/
+@media (min-width:576px) {
+	.page-signin.company-coach .event-segment.company-banner .btn-member { font-size:18px; }
+}
+@media (max-width:575px) {
+	.page-signin.company-coach .membership-segment .member-bar { display:none; }
+	
+	.page-signin.company-coach .membership-segment .figure-membership01 .figure a.link-2 { width:56%; height:8%; left:30%; top:50.8%; }
+	.page-signin.company-coach .membership-segment .figure-membership01 .figure a.link-3 { width:56%; height:8%; left:30%; top:61.1%; }
+	.page-signin.company-coach .membership-segment .figure-membership01 .figure a.link-4 { width:56%; height:8%; left:30%; top:71.5%; }
+	.page-signin.company-coach .membership-segment .figure-membership01 .figure a.link-5 { width:56%; height:8%; left:30%; top:87.5%; }
+	
+	.page-signin.company-coach .event-segment.company-banner .banner { padding:20px 0 20px; }
+	.page-signin.company-coach .event-segment.company-banner .banner img { width:32%; }
+	.page-signin.company-coach .event-segment.company-banner .btn-member { width:100%; display:block; text-align:right; font-size:14px; }
+}

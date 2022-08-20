@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>folio</title>
+
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/response.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+    
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jcanvas.min.js"></script>
+    <script src="js/anime.min.js"></script>
+
+
+    <script src="js/jquery-1.11.3.js"></script>
+    <link rel='shortcut icon' href='img/Licon.png'>
+    <link rel='apple-touch-icon' href='../img/Licon.png'>
+</head>
+
+<body>
+    <header id="header">
+        <div class="headerInner clear">
+            <div class="headerTop clear">
+                <div class="bg kk"></div>
+                <a href="#">
+                    <img src="img/Logo.png" alt="logo">
+                </a>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <p>Hello,</p>
+            <span>My portfolio, <br> Thank you..</span>
+        </div>
+        <div class="nav">
+            <div class="navInner">
+                <div class="bg1"></div>
+                <div class="box1">
+                    <div></div>
+                    <p>Hello, i'm <strong>LEE JAE HUN</strong></p>
+                    <span>nec ullamcorper augue sagittis. Proin faucibus lorem nisl, Donec commodo leo est,<br> quis eleifend urna pellentesque eget. </span>
+                    <h4>Proin scelerisque odio eu nisi viverra, nec ullamcorper gue <a href="#">contact me</a></h4>
+                </div>
+                <div class="box2 clear">
+                    <div class="phto">
+                        <p>PHOTOSHOP</p>
+                        <span><span></span></span>
+                        <h4>70%</h4>
+                    </div>
+                    <div class="illust">
+                        <p>ILLUSTRATOR</p>
+                        <span><span></span></span>
+                        <h4>90%</h4>
+                    </div>
+                    <div class="html">
+                        <p>HTML/CSS</p>
+                        <span><span></span></span>
+                        <h4>70%</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script type="text/javascript">
+        $('.hamburger').click(function() {
+            $(this).toggleClass('active');
+            $('.nav').animate({
+                width: "toggle"
+            }, 500);
+        });
+
+    </script>
+
+
+
+
+    <section class="work clear">
+        <div>
+            <div><a href="http://wognsko94.dothome.co.kr/cjw/cjw.html" target="_blank"><p>portfolio 1</p></a></div>
+            
+        </div>
+        <div>
+            <div><a href="http://wognsko94.dothome.co.kr/folio/html/index.html" target="_blank"><p>portfolio 2</p></a></div>
+            
+        </div>
+        <div>
+            <div><a href="http://wognsko94.dothome.co.kr/folio/video/video.html" target="_blank"><p>portfolio 3</p></a></div>
+            
+        </div>
+        <div>
+            <div><a href="http://wognsko94.dothome.co.kr/folio/java/index.html" target="_blank"><p>portfolio 4</p></a></div>
+            
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="foot clear">
+            <div class="footerInner">
+                <h1>L O A D I N G</h1>
+                <div class="svg">
+                    <svg>
+                        <path class="line1 path4" d="M150,100 H250 V200"/>
+                        <path class="line1 path4" d="M200,150 H400 V250 H200 Z"/>
+                        <path class="line1 path4" d="M350,100 V200 H450"/>
+                    </svg>
+                    <script>
+                        anime({
+                            targets:'.path4',
+                            strokeDashoffset:[anime.setDashoffset,0],
+                            easing:'easeInOutSine',
+                            duration:2000,
+                            delay: function(el, i) { return i * 250 },
+                            direction:'alternate',
+                            loop:true
+                        })
+                    </script>
+               
+                </div>
+                <h2>010.2937.7841</h2>
+                <span>
+                    Donec commodo leo est, quis eleifend urna pellentesque eget. Proin scelerisque odio eu nisi viverra,<br>
+                    nec ullamcorper augue sagittis. Proin faucibus lor or
+                    <address><a href="mailto:wognsko94@naver.com">wognsko94@naver.com</a></address>
+                </span>
+            </div>
+            <div class="sns clear">
+                <div>
+                    <a href="#">FACEBOOK</a>
+                </div>
+                <div>
+                    <a href="#">INSTAGRAM</a>
+                </div>
+                <div>
+                    <a href="#">KAKAOTALK</a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <div class='goTop'>
+        <span><a href='#' class='smoothBt'><i class='fas fa-angle-up'></i></a></span>
+    </div>
+    <script type="text/javascript">
+        $('.goTop').click(function() {
+            $("html").stop().animate({
+                scrollTop: 20
+            },400);
+            $("html").focus();
+            return false;
+        });
+
+    </script>
+</body>
+
+</html>
