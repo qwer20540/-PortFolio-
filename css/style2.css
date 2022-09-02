@@ -5,7 +5,14 @@
 body {background-color:#333;}
 
 
-@keyframes anime_textup { 0% { top: 0; } 20% { top: -0.2rem; } 40% { top: 0 } 60% { top: 0 } 80% { top: 0 } 100% { top: 0 } }
+@keyframes anime_textup { 
+    0% { top: 0; } 
+    20% { top: -0.2rem; } 
+    40% { top: 0 } 
+    60% { top: 0 } 
+    80% { top: 0 } 
+    100% { top: 0 } 
+}
  
 .test_obj {
     letter-spacing:-2px;
