@@ -94,6 +94,9 @@ footer {margin:0 auto; text-align:center; position:relative;}
 .footerInner h1 {font-size:20px; font-weight:600; letter-spacing:10px; margin-bottom:20px;}
 .footerInner svg {width:100%; height:400px;}
 .footerInner h2 {font-size:60px; font-weight:700; margin-bottom:20px; text-align:center;}
+@media (max-width:768px){
+    .footerInner h2 {font-size:30px;}
+}
 .footerInner span {font-size:13px; color:#777; line-height:2.3;}
 .footerInner span address {display:inline-block;}
 .footerInner span address a {color:#47cace; font-style: normal;}
