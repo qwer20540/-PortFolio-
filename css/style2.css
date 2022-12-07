@@ -100,8 +100,4 @@ footer {margin:0 auto; text-align:center; position:relative;}
 .footerInner span {font-size:13px; color:#777; line-height:2.3;}
 .footerInner span address {display:inline-block;}
 .footerInner span address a {color:#47cace; font-style: normal;}
-@media (max-width:768px){
-    .footerInner h2 {
-        font-size:30px;
-    }
-}
+
